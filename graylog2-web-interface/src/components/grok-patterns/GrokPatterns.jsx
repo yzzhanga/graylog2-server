@@ -2,6 +2,7 @@ import React from 'react';
 import createReactClass from 'create-react-class';
 import styled from 'styled-components';
 
+import { PaginatedList, SearchForm } from 'components/common';
 import { Row, Col, Button } from 'components/graylog';
 import PageHeader from 'components/common/PageHeader';
 import EditPatternModal from 'components/grok-patterns/EditPatternModal';
@@ -28,6 +29,13 @@ const GrokPatterns = createReactClass({
   getInitialState() {
     return {
       patterns: [],
+      pagination: {
+        page: 1,
+        perPage: 10,
+        count: 0,
+        total: 0,
+        query: '',
+      },
     };
   },
 
@@ -41,15 +49,22 @@ const GrokPatterns = createReactClass({
     }
   },
 
-  loadData() {
-    this.loadPromise = GrokPatternsStore.loadPatterns((patterns) => {
-      if (!this.loadPromise.isCancelled()) {
-        this.loadPromise = undefined;
-        this.setState({
-          patterns: patterns,
-        });
-      }
-    });
+  loadData(callback) {
+    const { page, perPage, query } = this.state.pagination;
+    this.loadPromise = GrokPatternsStore.searchPaginated(page, perPage, query)
+      .then(({ patterns, pagination }) => {
+        if (callback) {
+          callback();
+        }
+
+        if (!this.loadPromise.isCancelled()) {
+          this.loadPromise = undefined;
+          this.setState({
+            patterns: patterns,
+            pagination,
+          });
+        }
+      });
   },
 
   validPatternName(name) {
@@ -66,6 +81,27 @@ const GrokPatterns = createReactClass({
 
   testPattern(pattern, callback, errCallback) {
     GrokPatternsStore.testPattern(pattern, callback, errCallback);
+  },
+
+  _onPageChange(newPage, newPerPage) {
+    const pagination = this.state.pagination;
+    const newPagination = Object.assign(pagination, {
+      page: newPage,
+      perPage: newPerPage,
+    });
+    this.setState({ pagination, newPagination }, this.loadData);
+  },
+
+  _onSearch(query, resetLoadingCallback) {
+    const pagination = this.state.pagination;
+    const newPagination = Object.assign(pagination, { query: query });
+    this.setState({ pagination, newPagination }, () => this.loadData(resetLoadingCallback));
+  },
+
+  _onReset() {
+    const pagination = this.state.pagination;
+    const newPagination = Object.assign(pagination, { query: '' });
+    this.setState({ pagination, newPagination }, this.loadData);
   },
 
   confirmedRemove(pattern) {
@@ -122,7 +158,6 @@ const GrokPatterns = createReactClass({
 
   render() {
     const headers = ['Name', 'Pattern', 'Actions'];
-    const filterKeys = ['name'];
 
     return (
       <div>
@@ -151,15 +186,29 @@ const GrokPatterns = createReactClass({
         <Row className="content">
           <Col md={12}>
             <IfPermitted permissions="inputs:read">
-              <GrokPatternsList id="grok-pattern-list"
-                                className="table-striped table-hover"
-                                headers={headers}
-                                headerCellFormatter={this._headerCellFormatter}
-                                sortByKey="name"
-                                rows={this.state.patterns}
-                                dataRowFormatter={this._patternFormatter}
-                                filterLabel="Filter patterns"
-                                filterKeys={filterKeys} />
+              <Row className="row-sm">
+                <Col md={8}>
+                  <SearchForm onSearch={this._onSearch} onReset={this._onReset} useLoadingState />
+                </Col>
+              </Row>
+              <Row>
+                <Col md={12}>
+                  <PaginatedList onChange={this._onPageChange}
+                                 totalItems={this.state.pagination.total}>
+                    <br />
+                    <br />
+                    <GrokPatternsList id="grok-pattern-list"
+                                      className="table-striped table-hover"
+                                      headers={headers}
+                                      headerCellFormatter={this._headerCellFormatter}
+                                      sortByKey="name"
+                                      rows={this.state.patterns}
+                                      dataRowFormatter={this._patternFormatter}
+                                      filterLabel="Filter patterns"
+                                      filterKeys={filterKeys} />
+                  </PaginatedList>
+                </Col>
+              </Row>
             </IfPermitted>
           </Col>
         </Row>
