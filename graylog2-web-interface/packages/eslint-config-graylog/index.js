@@ -44,6 +44,9 @@ module.exports = {
     'react/prefer-stateless-function': 'warn',
     'react/static-property-placement': 'off',
 
+    'react-hooks/rules-of-hooks': 'error',
+    'react-hooks/exhaustive-deps': 'warn',
+
     // eslint-plugin-flowtype configs, `recommended` is too weak in a couple of places:
     'flowtype/delimiter-dangle': [1, 'always-multiline'],
     'flowtype/no-weak-types': [
