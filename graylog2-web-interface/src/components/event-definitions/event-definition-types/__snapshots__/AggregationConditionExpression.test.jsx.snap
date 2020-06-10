@@ -544,6 +544,72 @@ exports[`AggregationConditionExpression rendering conditions should render a boo
                                       "closeMenuOnScroll": false,
                                       "closeMenuOnSelect": true,
                                       "components": Object {
+<<<<<<< HEAD
+=======
+                                        "button": Array [
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                        ],
+                                      },
+                                      "fonts": Object {
+                                        "family": Object {
+                                          "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                          "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                        },
+                                        "size": Object {
+                                          "body": "1rem",
+                                          "h1": "1.802rem",
+                                          "h2": "1.602rem",
+                                          "h3": "1.424rem",
+                                          "h4": "1.266rem",
+                                          "h5": "1.125rem",
+                                          "h6": "1rem",
+                                          "huge": "2.027rem",
+                                          "large": "1.125rem",
+                                          "root": "87.5%",
+                                          "small": "0.889rem",
+                                          "tiny": "0.79rem",
+                                        },
+                                      },
+                                      "mode": "teinte",
+                                      "updateThemeMode": [Function],
+                                      "utils": Object {
+                                        "colorLevel": [Function],
+                                        "contrastingColor": [Function],
+                                        "opacify": [Function],
+                                        "readableColor": [Function],
+                                      },
+                                    }
+                                  }
+                                  value="&&"
+                                  valueKey="value"
+                                >
+                                  <StateManager
+                                    allowCreate={false}
+                                    autoFocus={false}
+                                    className="boolean-operator"
+                                    components={
+                                      Object {
+>>>>>>> 12d5225973... snapshots
                                         "DropdownIndicator": [Function],
                                         "IndicatorSeparator": [Function],
                                         "MultiValueRemove": [Function],
@@ -2200,6 +2266,186 @@ exports[`AggregationConditionExpression rendering conditions should render a boo
                                               onChange={[Function]}
                                               options={Array []}
                                               placeholder="Select Function"
+<<<<<<< HEAD
+=======
+                                              size="normal"
+                                              theme={
+                                                Object {
+                                                  "breakpoints": Object {
+                                                    "max": Object {
+                                                      "lg": "1199px",
+                                                      "md": "991px",
+                                                      "sm": "767px",
+                                                      "xs": "479px",
+                                                    },
+                                                    "min": Object {
+                                                      "lg": "1200px",
+                                                      "md": "992px",
+                                                      "sm": "768px",
+                                                      "xs": "480px",
+                                                    },
+                                                  },
+                                                  "colors": Object {
+                                                    "brand": Object {
+                                                      "primary": "#ff3633",
+                                                      "secondary": "#fff",
+                                                      "tertiary": "#1f1f1f",
+                                                    },
+                                                    "global": Object {
+                                                      "background": "#e8e8e8",
+                                                      "contentBackground": "#fff",
+                                                      "inputBackground": "#fff",
+                                                      "link": "#702785",
+                                                      "linkHover": "#410057",
+                                                      "textAlt": "#fff",
+                                                      "textDefault": "#1f1f1f",
+                                                    },
+                                                    "gray": Object {
+                                                      "10": "#1f1f1f",
+                                                      "100": "#ffffff",
+                                                      "20": "#383838",
+                                                      "30": "#515151",
+                                                      "40": "#6a6a6a",
+                                                      "50": "#838383",
+                                                      "60": "#9b9b9b",
+                                                      "70": "#b4b4b4",
+                                                      "80": "#cdcdcd",
+                                                      "90": "#e6e6e6",
+                                                    },
+                                                    "table": Object {
+                                                      "background": "#fafafa",
+                                                      "backgroundAlt": "#f0f0f0",
+                                                      "backgroundHover": "#f5f5f5",
+                                                      "variant": Object {
+                                                        "active": "#e6e6e6",
+                                                        "danger": "#eddddd",
+                                                        "info": "#dde2f0",
+                                                        "primary": "#e4dee7",
+                                                        "success": "#ddeddf",
+                                                        "warning": "#fff5dd",
+                                                      },
+                                                      "variantHover": Object {
+                                                        "active": "#d0d0d0",
+                                                        "danger": "#debdbd",
+                                                        "info": "#bdc8e4",
+                                                        "primary": "#cbbfd1",
+                                                        "success": "#bddec2",
+                                                        "warning": "#ffecbd",
+                                                      },
+                                                    },
+                                                    "variant": Object {
+                                                      "danger": "#ad0707",
+                                                      "dark": Object {
+                                                        "danger": "#990606",
+                                                        "default": "#737373",
+                                                        "info": "#0057a8",
+                                                        "primary": "#632275",
+                                                        "success": "#009a3a",
+                                                        "warning": "#e1b900",
+                                                      },
+                                                      "darker": Object {
+                                                        "danger": "#740505",
+                                                        "default": "#575757",
+                                                        "info": "#00427f",
+                                                        "primary": "#4b1a59",
+                                                        "success": "#00752c",
+                                                        "warning": "#ab8d00",
+                                                      },
+                                                      "darkest": Object {
+                                                        "danger": "#3c0202",
+                                                        "default": "#2d2d2d",
+                                                        "info": "#002242",
+                                                        "primary": "#270e2e",
+                                                        "success": "#003c17",
+                                                        "warning": "#584900",
+                                                      },
+                                                      "default": "#828282",
+                                                      "info": "#0063be",
+                                                      "light": Object {
+                                                        "danger": "#c27878",
+                                                        "default": "#a6a6a6",
+                                                        "info": "#7894ce",
+                                                        "primary": "#9b7ca8",
+                                                        "success": "#78c385",
+                                                        "warning": "#ffdd78",
+                                                      },
+                                                      "lighter": Object {
+                                                        "danger": "#debdbd",
+                                                        "default": "#d0d0d0",
+                                                        "info": "#bdc8e4",
+                                                        "primary": "#cbbfd1",
+                                                        "success": "#bddec2",
+                                                        "warning": "#ffecbd",
+                                                      },
+                                                      "lightest": Object {
+                                                        "danger": "#f7efef",
+                                                        "default": "#f3f3f3",
+                                                        "info": "#eff2f8",
+                                                        "primary": "#f2f0f4",
+                                                        "success": "#eff7f0",
+                                                        "warning": "#fffaef",
+                                                      },
+                                                      "primary": "#702785",
+                                                      "success": "#00ae42",
+                                                      "warning": "#ffd200",
+                                                    },
+                                                  },
+                                                  "components": Object {
+                                                    "button": Array [
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                    ],
+                                                  },
+                                                  "fonts": Object {
+                                                    "family": Object {
+                                                      "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                                      "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                                    },
+                                                    "size": Object {
+                                                      "body": "1rem",
+                                                      "h1": "1.802rem",
+                                                      "h2": "1.602rem",
+                                                      "h3": "1.424rem",
+                                                      "h4": "1.266rem",
+                                                      "h5": "1.125rem",
+                                                      "h6": "1rem",
+                                                      "huge": "2.027rem",
+                                                      "large": "1.125rem",
+                                                      "root": "87.5%",
+                                                      "small": "0.889rem",
+                                                      "tiny": "0.79rem",
+                                                    },
+                                                  },
+                                                  "mode": "teinte",
+                                                  "updateThemeMode": [Function],
+                                                  "utils": Object {
+                                                    "colorLevel": [Function],
+                                                    "contrastingColor": [Function],
+                                                    "opacify": [Function],
+                                                    "readableColor": [Function],
+                                                  },
+                                                }
+                                              }
+>>>>>>> 12d5225973... snapshots
                                               value="count"
                                             >
                                               <Select
@@ -3672,6 +3918,186 @@ exports[`AggregationConditionExpression rendering conditions should render a boo
                                               onChange={[Function]}
                                               options={Array []}
                                               placeholder="Select Field (Optional)"
+<<<<<<< HEAD
+=======
+                                              size="normal"
+                                              theme={
+                                                Object {
+                                                  "breakpoints": Object {
+                                                    "max": Object {
+                                                      "lg": "1199px",
+                                                      "md": "991px",
+                                                      "sm": "767px",
+                                                      "xs": "479px",
+                                                    },
+                                                    "min": Object {
+                                                      "lg": "1200px",
+                                                      "md": "992px",
+                                                      "sm": "768px",
+                                                      "xs": "480px",
+                                                    },
+                                                  },
+                                                  "colors": Object {
+                                                    "brand": Object {
+                                                      "primary": "#ff3633",
+                                                      "secondary": "#fff",
+                                                      "tertiary": "#1f1f1f",
+                                                    },
+                                                    "global": Object {
+                                                      "background": "#e8e8e8",
+                                                      "contentBackground": "#fff",
+                                                      "inputBackground": "#fff",
+                                                      "link": "#702785",
+                                                      "linkHover": "#410057",
+                                                      "textAlt": "#fff",
+                                                      "textDefault": "#1f1f1f",
+                                                    },
+                                                    "gray": Object {
+                                                      "10": "#1f1f1f",
+                                                      "100": "#ffffff",
+                                                      "20": "#383838",
+                                                      "30": "#515151",
+                                                      "40": "#6a6a6a",
+                                                      "50": "#838383",
+                                                      "60": "#9b9b9b",
+                                                      "70": "#b4b4b4",
+                                                      "80": "#cdcdcd",
+                                                      "90": "#e6e6e6",
+                                                    },
+                                                    "table": Object {
+                                                      "background": "#fafafa",
+                                                      "backgroundAlt": "#f0f0f0",
+                                                      "backgroundHover": "#f5f5f5",
+                                                      "variant": Object {
+                                                        "active": "#e6e6e6",
+                                                        "danger": "#eddddd",
+                                                        "info": "#dde2f0",
+                                                        "primary": "#e4dee7",
+                                                        "success": "#ddeddf",
+                                                        "warning": "#fff5dd",
+                                                      },
+                                                      "variantHover": Object {
+                                                        "active": "#d0d0d0",
+                                                        "danger": "#debdbd",
+                                                        "info": "#bdc8e4",
+                                                        "primary": "#cbbfd1",
+                                                        "success": "#bddec2",
+                                                        "warning": "#ffecbd",
+                                                      },
+                                                    },
+                                                    "variant": Object {
+                                                      "danger": "#ad0707",
+                                                      "dark": Object {
+                                                        "danger": "#990606",
+                                                        "default": "#737373",
+                                                        "info": "#0057a8",
+                                                        "primary": "#632275",
+                                                        "success": "#009a3a",
+                                                        "warning": "#e1b900",
+                                                      },
+                                                      "darker": Object {
+                                                        "danger": "#740505",
+                                                        "default": "#575757",
+                                                        "info": "#00427f",
+                                                        "primary": "#4b1a59",
+                                                        "success": "#00752c",
+                                                        "warning": "#ab8d00",
+                                                      },
+                                                      "darkest": Object {
+                                                        "danger": "#3c0202",
+                                                        "default": "#2d2d2d",
+                                                        "info": "#002242",
+                                                        "primary": "#270e2e",
+                                                        "success": "#003c17",
+                                                        "warning": "#584900",
+                                                      },
+                                                      "default": "#828282",
+                                                      "info": "#0063be",
+                                                      "light": Object {
+                                                        "danger": "#c27878",
+                                                        "default": "#a6a6a6",
+                                                        "info": "#7894ce",
+                                                        "primary": "#9b7ca8",
+                                                        "success": "#78c385",
+                                                        "warning": "#ffdd78",
+                                                      },
+                                                      "lighter": Object {
+                                                        "danger": "#debdbd",
+                                                        "default": "#d0d0d0",
+                                                        "info": "#bdc8e4",
+                                                        "primary": "#cbbfd1",
+                                                        "success": "#bddec2",
+                                                        "warning": "#ffecbd",
+                                                      },
+                                                      "lightest": Object {
+                                                        "danger": "#f7efef",
+                                                        "default": "#f3f3f3",
+                                                        "info": "#eff2f8",
+                                                        "primary": "#f2f0f4",
+                                                        "success": "#eff7f0",
+                                                        "warning": "#fffaef",
+                                                      },
+                                                      "primary": "#702785",
+                                                      "success": "#00ae42",
+                                                      "warning": "#ffd200",
+                                                    },
+                                                  },
+                                                  "components": Object {
+                                                    "button": Array [
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                    ],
+                                                  },
+                                                  "fonts": Object {
+                                                    "family": Object {
+                                                      "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                                      "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                                    },
+                                                    "size": Object {
+                                                      "body": "1rem",
+                                                      "h1": "1.802rem",
+                                                      "h2": "1.602rem",
+                                                      "h3": "1.424rem",
+                                                      "h4": "1.266rem",
+                                                      "h5": "1.125rem",
+                                                      "h6": "1rem",
+                                                      "huge": "2.027rem",
+                                                      "large": "1.125rem",
+                                                      "root": "87.5%",
+                                                      "small": "0.889rem",
+                                                      "tiny": "0.79rem",
+                                                    },
+                                                  },
+                                                  "mode": "teinte",
+                                                  "updateThemeMode": [Function],
+                                                  "utils": Object {
+                                                    "colorLevel": [Function],
+                                                    "contrastingColor": [Function],
+                                                    "opacify": [Function],
+                                                    "readableColor": [Function],
+                                                  },
+                                                }
+                                              }
+>>>>>>> 12d5225973... snapshots
                                               value="timestamp"
                                             >
                                               <Select
@@ -5713,6 +6139,7 @@ exports[`AggregationConditionExpression rendering conditions should render a boo
                                         },
                                       },
                                       "mode": "teinte",
+                                      "updateThemeMode": [Function],
                                       "utils": Object {
                                         "colorLevel": [Function],
                                         "contrastingColor": [Function],
@@ -7998,6 +8425,186 @@ exports[`AggregationConditionExpression rendering conditions should render a boo
                                               onChange={[Function]}
                                               options={Array []}
                                               placeholder="Select Function"
+<<<<<<< HEAD
+=======
+                                              size="normal"
+                                              theme={
+                                                Object {
+                                                  "breakpoints": Object {
+                                                    "max": Object {
+                                                      "lg": "1199px",
+                                                      "md": "991px",
+                                                      "sm": "767px",
+                                                      "xs": "479px",
+                                                    },
+                                                    "min": Object {
+                                                      "lg": "1200px",
+                                                      "md": "992px",
+                                                      "sm": "768px",
+                                                      "xs": "480px",
+                                                    },
+                                                  },
+                                                  "colors": Object {
+                                                    "brand": Object {
+                                                      "primary": "#ff3633",
+                                                      "secondary": "#fff",
+                                                      "tertiary": "#1f1f1f",
+                                                    },
+                                                    "global": Object {
+                                                      "background": "#e8e8e8",
+                                                      "contentBackground": "#fff",
+                                                      "inputBackground": "#fff",
+                                                      "link": "#702785",
+                                                      "linkHover": "#410057",
+                                                      "textAlt": "#fff",
+                                                      "textDefault": "#1f1f1f",
+                                                    },
+                                                    "gray": Object {
+                                                      "10": "#1f1f1f",
+                                                      "100": "#ffffff",
+                                                      "20": "#383838",
+                                                      "30": "#515151",
+                                                      "40": "#6a6a6a",
+                                                      "50": "#838383",
+                                                      "60": "#9b9b9b",
+                                                      "70": "#b4b4b4",
+                                                      "80": "#cdcdcd",
+                                                      "90": "#e6e6e6",
+                                                    },
+                                                    "table": Object {
+                                                      "background": "#fafafa",
+                                                      "backgroundAlt": "#f0f0f0",
+                                                      "backgroundHover": "#f5f5f5",
+                                                      "variant": Object {
+                                                        "active": "#e6e6e6",
+                                                        "danger": "#eddddd",
+                                                        "info": "#dde2f0",
+                                                        "primary": "#e4dee7",
+                                                        "success": "#ddeddf",
+                                                        "warning": "#fff5dd",
+                                                      },
+                                                      "variantHover": Object {
+                                                        "active": "#d0d0d0",
+                                                        "danger": "#debdbd",
+                                                        "info": "#bdc8e4",
+                                                        "primary": "#cbbfd1",
+                                                        "success": "#bddec2",
+                                                        "warning": "#ffecbd",
+                                                      },
+                                                    },
+                                                    "variant": Object {
+                                                      "danger": "#ad0707",
+                                                      "dark": Object {
+                                                        "danger": "#990606",
+                                                        "default": "#737373",
+                                                        "info": "#0057a8",
+                                                        "primary": "#632275",
+                                                        "success": "#009a3a",
+                                                        "warning": "#e1b900",
+                                                      },
+                                                      "darker": Object {
+                                                        "danger": "#740505",
+                                                        "default": "#575757",
+                                                        "info": "#00427f",
+                                                        "primary": "#4b1a59",
+                                                        "success": "#00752c",
+                                                        "warning": "#ab8d00",
+                                                      },
+                                                      "darkest": Object {
+                                                        "danger": "#3c0202",
+                                                        "default": "#2d2d2d",
+                                                        "info": "#002242",
+                                                        "primary": "#270e2e",
+                                                        "success": "#003c17",
+                                                        "warning": "#584900",
+                                                      },
+                                                      "default": "#828282",
+                                                      "info": "#0063be",
+                                                      "light": Object {
+                                                        "danger": "#c27878",
+                                                        "default": "#a6a6a6",
+                                                        "info": "#7894ce",
+                                                        "primary": "#9b7ca8",
+                                                        "success": "#78c385",
+                                                        "warning": "#ffdd78",
+                                                      },
+                                                      "lighter": Object {
+                                                        "danger": "#debdbd",
+                                                        "default": "#d0d0d0",
+                                                        "info": "#bdc8e4",
+                                                        "primary": "#cbbfd1",
+                                                        "success": "#bddec2",
+                                                        "warning": "#ffecbd",
+                                                      },
+                                                      "lightest": Object {
+                                                        "danger": "#f7efef",
+                                                        "default": "#f3f3f3",
+                                                        "info": "#eff2f8",
+                                                        "primary": "#f2f0f4",
+                                                        "success": "#eff7f0",
+                                                        "warning": "#fffaef",
+                                                      },
+                                                      "primary": "#702785",
+                                                      "success": "#00ae42",
+                                                      "warning": "#ffd200",
+                                                    },
+                                                  },
+                                                  "components": Object {
+                                                    "button": Array [
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                    ],
+                                                  },
+                                                  "fonts": Object {
+                                                    "family": Object {
+                                                      "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                                      "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                                    },
+                                                    "size": Object {
+                                                      "body": "1rem",
+                                                      "h1": "1.802rem",
+                                                      "h2": "1.602rem",
+                                                      "h3": "1.424rem",
+                                                      "h4": "1.266rem",
+                                                      "h5": "1.125rem",
+                                                      "h6": "1rem",
+                                                      "huge": "2.027rem",
+                                                      "large": "1.125rem",
+                                                      "root": "87.5%",
+                                                      "small": "0.889rem",
+                                                      "tiny": "0.79rem",
+                                                    },
+                                                  },
+                                                  "mode": "teinte",
+                                                  "updateThemeMode": [Function],
+                                                  "utils": Object {
+                                                    "colorLevel": [Function],
+                                                    "contrastingColor": [Function],
+                                                    "opacify": [Function],
+                                                    "readableColor": [Function],
+                                                  },
+                                                }
+                                              }
+>>>>>>> 12d5225973... snapshots
                                               value="count"
                                             >
                                               <Select
@@ -8983,6 +9590,7 @@ exports[`AggregationConditionExpression rendering conditions should render a boo
                                                                       type="text"
                                                                       value=""
                                                                     >
+<<<<<<< HEAD
                                                                       <div
                                                                         className=""
                                                                         style={
@@ -9470,6 +10078,237 @@ exports[`AggregationConditionExpression rendering conditions should render a boo
                                               onChange={[Function]}
                                               options={Array []}
                                               placeholder="Select Field (Optional)"
+=======
+                                                                      <svg
+                                                                        className="svg-inline--fa fa-caret-down"
+                                                                      />
+                                                                    </FontAwesomeIcon>
+                                                                  </Icon>
+                                                                </div>
+                                                              </DropdownIndicator>
+                                                            </div>
+                                                          </IndicatorsContainer>
+                                                        </div>
+                                                      </Control>
+                                                    </div>
+                                                  </SelectContainer>
+                                                </Select>
+                                              </StateManager>
+                                            </Select>
+                                          </WithTheme(Select)>
+                                        </div>
+                                      </Col>
+                                      <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={6}
+                                      >
+                                        <div
+                                          className="col-md-6"
+                                        >
+                                          <WithTheme(Select)
+                                            allowCreate={true}
+                                            className="aggregation-function-field"
+                                            ignoreAccents={false}
+                                            matchProp="label"
+                                            onChange={[Function]}
+                                            options={Array []}
+                                            placeholder="Select Field (Optional)"
+                                            value="timestamp"
+                                          >
+                                            <Select
+                                              allowCreate={true}
+                                              autoFocus={false}
+                                              className="aggregation-function-field"
+                                              clearable={true}
+                                              components={null}
+                                              delimiter=","
+                                              disabled={false}
+                                              displayKey="label"
+                                              ignoreAccents={false}
+                                              matchProp="label"
+                                              multi={false}
+                                              onChange={[Function]}
+                                              options={Array []}
+                                              placeholder="Select Field (Optional)"
+                                              size="normal"
+                                              theme={
+                                                Object {
+                                                  "breakpoints": Object {
+                                                    "max": Object {
+                                                      "lg": "1199px",
+                                                      "md": "991px",
+                                                      "sm": "767px",
+                                                      "xs": "479px",
+                                                    },
+                                                    "min": Object {
+                                                      "lg": "1200px",
+                                                      "md": "992px",
+                                                      "sm": "768px",
+                                                      "xs": "480px",
+                                                    },
+                                                  },
+                                                  "colors": Object {
+                                                    "brand": Object {
+                                                      "primary": "#ff3633",
+                                                      "secondary": "#fff",
+                                                      "tertiary": "#1f1f1f",
+                                                    },
+                                                    "global": Object {
+                                                      "background": "#e8e8e8",
+                                                      "contentBackground": "#fff",
+                                                      "inputBackground": "#fff",
+                                                      "link": "#702785",
+                                                      "linkHover": "#410057",
+                                                      "textAlt": "#fff",
+                                                      "textDefault": "#1f1f1f",
+                                                    },
+                                                    "gray": Object {
+                                                      "10": "#1f1f1f",
+                                                      "100": "#ffffff",
+                                                      "20": "#383838",
+                                                      "30": "#515151",
+                                                      "40": "#6a6a6a",
+                                                      "50": "#838383",
+                                                      "60": "#9b9b9b",
+                                                      "70": "#b4b4b4",
+                                                      "80": "#cdcdcd",
+                                                      "90": "#e6e6e6",
+                                                    },
+                                                    "table": Object {
+                                                      "background": "#fafafa",
+                                                      "backgroundAlt": "#f0f0f0",
+                                                      "backgroundHover": "#f5f5f5",
+                                                      "variant": Object {
+                                                        "active": "#e6e6e6",
+                                                        "danger": "#eddddd",
+                                                        "info": "#dde2f0",
+                                                        "primary": "#e4dee7",
+                                                        "success": "#ddeddf",
+                                                        "warning": "#fff5dd",
+                                                      },
+                                                      "variantHover": Object {
+                                                        "active": "#d0d0d0",
+                                                        "danger": "#debdbd",
+                                                        "info": "#bdc8e4",
+                                                        "primary": "#cbbfd1",
+                                                        "success": "#bddec2",
+                                                        "warning": "#ffecbd",
+                                                      },
+                                                    },
+                                                    "variant": Object {
+                                                      "danger": "#ad0707",
+                                                      "dark": Object {
+                                                        "danger": "#990606",
+                                                        "default": "#737373",
+                                                        "info": "#0057a8",
+                                                        "primary": "#632275",
+                                                        "success": "#009a3a",
+                                                        "warning": "#e1b900",
+                                                      },
+                                                      "darker": Object {
+                                                        "danger": "#740505",
+                                                        "default": "#575757",
+                                                        "info": "#00427f",
+                                                        "primary": "#4b1a59",
+                                                        "success": "#00752c",
+                                                        "warning": "#ab8d00",
+                                                      },
+                                                      "darkest": Object {
+                                                        "danger": "#3c0202",
+                                                        "default": "#2d2d2d",
+                                                        "info": "#002242",
+                                                        "primary": "#270e2e",
+                                                        "success": "#003c17",
+                                                        "warning": "#584900",
+                                                      },
+                                                      "default": "#828282",
+                                                      "info": "#0063be",
+                                                      "light": Object {
+                                                        "danger": "#c27878",
+                                                        "default": "#a6a6a6",
+                                                        "info": "#7894ce",
+                                                        "primary": "#9b7ca8",
+                                                        "success": "#78c385",
+                                                        "warning": "#ffdd78",
+                                                      },
+                                                      "lighter": Object {
+                                                        "danger": "#debdbd",
+                                                        "default": "#d0d0d0",
+                                                        "info": "#bdc8e4",
+                                                        "primary": "#cbbfd1",
+                                                        "success": "#bddec2",
+                                                        "warning": "#ffecbd",
+                                                      },
+                                                      "lightest": Object {
+                                                        "danger": "#f7efef",
+                                                        "default": "#f3f3f3",
+                                                        "info": "#eff2f8",
+                                                        "primary": "#f2f0f4",
+                                                        "success": "#eff7f0",
+                                                        "warning": "#fffaef",
+                                                      },
+                                                      "primary": "#702785",
+                                                      "success": "#00ae42",
+                                                      "warning": "#ffd200",
+                                                    },
+                                                  },
+                                                  "components": Object {
+                                                    "button": Array [
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                    ],
+                                                  },
+                                                  "fonts": Object {
+                                                    "family": Object {
+                                                      "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                                      "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                                    },
+                                                    "size": Object {
+                                                      "body": "1rem",
+                                                      "h1": "1.802rem",
+                                                      "h2": "1.602rem",
+                                                      "h3": "1.424rem",
+                                                      "h4": "1.266rem",
+                                                      "h5": "1.125rem",
+                                                      "h6": "1rem",
+                                                      "huge": "2.027rem",
+                                                      "large": "1.125rem",
+                                                      "root": "87.5%",
+                                                      "small": "0.889rem",
+                                                      "tiny": "0.79rem",
+                                                    },
+                                                  },
+                                                  "mode": "teinte",
+                                                  "updateThemeMode": [Function],
+                                                  "utils": Object {
+                                                    "colorLevel": [Function],
+                                                    "contrastingColor": [Function],
+                                                    "opacify": [Function],
+                                                    "readableColor": [Function],
+                                                  },
+                                                }
+                                              }
+>>>>>>> 12d5225973... snapshots
                                               value="timestamp"
                                             >
                                               <Select
@@ -11497,6 +12336,7 @@ exports[`AggregationConditionExpression rendering conditions should render a boo
                                         },
                                       },
                                       "mode": "teinte",
+                                      "updateThemeMode": [Function],
                                       "utils": Object {
                                         "colorLevel": [Function],
                                         "contrastingColor": [Function],
@@ -14034,6 +14874,72 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                       "closeMenuOnScroll": false,
                                       "closeMenuOnSelect": true,
                                       "components": Object {
+<<<<<<< HEAD
+=======
+                                        "button": Array [
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                        ],
+                                      },
+                                      "fonts": Object {
+                                        "family": Object {
+                                          "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                          "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                        },
+                                        "size": Object {
+                                          "body": "1rem",
+                                          "h1": "1.802rem",
+                                          "h2": "1.602rem",
+                                          "h3": "1.424rem",
+                                          "h4": "1.266rem",
+                                          "h5": "1.125rem",
+                                          "h6": "1rem",
+                                          "huge": "2.027rem",
+                                          "large": "1.125rem",
+                                          "root": "87.5%",
+                                          "small": "0.889rem",
+                                          "tiny": "0.79rem",
+                                        },
+                                      },
+                                      "mode": "teinte",
+                                      "updateThemeMode": [Function],
+                                      "utils": Object {
+                                        "colorLevel": [Function],
+                                        "contrastingColor": [Function],
+                                        "opacify": [Function],
+                                        "readableColor": [Function],
+                                      },
+                                    }
+                                  }
+                                  value="&&"
+                                  valueKey="value"
+                                >
+                                  <StateManager
+                                    allowCreate={false}
+                                    autoFocus={false}
+                                    className="boolean-operator"
+                                    components={
+                                      Object {
+>>>>>>> 12d5225973... snapshots
                                         "DropdownIndicator": [Function],
                                         "IndicatorSeparator": [Function],
                                         "MultiValueRemove": [Function],
@@ -15702,6 +16608,186 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                               onChange={[Function]}
                                               options={Array []}
                                               placeholder="Select Function"
+<<<<<<< HEAD
+=======
+                                              size="normal"
+                                              theme={
+                                                Object {
+                                                  "breakpoints": Object {
+                                                    "max": Object {
+                                                      "lg": "1199px",
+                                                      "md": "991px",
+                                                      "sm": "767px",
+                                                      "xs": "479px",
+                                                    },
+                                                    "min": Object {
+                                                      "lg": "1200px",
+                                                      "md": "992px",
+                                                      "sm": "768px",
+                                                      "xs": "480px",
+                                                    },
+                                                  },
+                                                  "colors": Object {
+                                                    "brand": Object {
+                                                      "primary": "#ff3633",
+                                                      "secondary": "#fff",
+                                                      "tertiary": "#1f1f1f",
+                                                    },
+                                                    "global": Object {
+                                                      "background": "#e8e8e8",
+                                                      "contentBackground": "#fff",
+                                                      "inputBackground": "#fff",
+                                                      "link": "#702785",
+                                                      "linkHover": "#410057",
+                                                      "textAlt": "#fff",
+                                                      "textDefault": "#1f1f1f",
+                                                    },
+                                                    "gray": Object {
+                                                      "10": "#1f1f1f",
+                                                      "100": "#ffffff",
+                                                      "20": "#383838",
+                                                      "30": "#515151",
+                                                      "40": "#6a6a6a",
+                                                      "50": "#838383",
+                                                      "60": "#9b9b9b",
+                                                      "70": "#b4b4b4",
+                                                      "80": "#cdcdcd",
+                                                      "90": "#e6e6e6",
+                                                    },
+                                                    "table": Object {
+                                                      "background": "#fafafa",
+                                                      "backgroundAlt": "#f0f0f0",
+                                                      "backgroundHover": "#f5f5f5",
+                                                      "variant": Object {
+                                                        "active": "#e6e6e6",
+                                                        "danger": "#eddddd",
+                                                        "info": "#dde2f0",
+                                                        "primary": "#e4dee7",
+                                                        "success": "#ddeddf",
+                                                        "warning": "#fff5dd",
+                                                      },
+                                                      "variantHover": Object {
+                                                        "active": "#d0d0d0",
+                                                        "danger": "#debdbd",
+                                                        "info": "#bdc8e4",
+                                                        "primary": "#cbbfd1",
+                                                        "success": "#bddec2",
+                                                        "warning": "#ffecbd",
+                                                      },
+                                                    },
+                                                    "variant": Object {
+                                                      "danger": "#ad0707",
+                                                      "dark": Object {
+                                                        "danger": "#990606",
+                                                        "default": "#737373",
+                                                        "info": "#0057a8",
+                                                        "primary": "#632275",
+                                                        "success": "#009a3a",
+                                                        "warning": "#e1b900",
+                                                      },
+                                                      "darker": Object {
+                                                        "danger": "#740505",
+                                                        "default": "#575757",
+                                                        "info": "#00427f",
+                                                        "primary": "#4b1a59",
+                                                        "success": "#00752c",
+                                                        "warning": "#ab8d00",
+                                                      },
+                                                      "darkest": Object {
+                                                        "danger": "#3c0202",
+                                                        "default": "#2d2d2d",
+                                                        "info": "#002242",
+                                                        "primary": "#270e2e",
+                                                        "success": "#003c17",
+                                                        "warning": "#584900",
+                                                      },
+                                                      "default": "#828282",
+                                                      "info": "#0063be",
+                                                      "light": Object {
+                                                        "danger": "#c27878",
+                                                        "default": "#a6a6a6",
+                                                        "info": "#7894ce",
+                                                        "primary": "#9b7ca8",
+                                                        "success": "#78c385",
+                                                        "warning": "#ffdd78",
+                                                      },
+                                                      "lighter": Object {
+                                                        "danger": "#debdbd",
+                                                        "default": "#d0d0d0",
+                                                        "info": "#bdc8e4",
+                                                        "primary": "#cbbfd1",
+                                                        "success": "#bddec2",
+                                                        "warning": "#ffecbd",
+                                                      },
+                                                      "lightest": Object {
+                                                        "danger": "#f7efef",
+                                                        "default": "#f3f3f3",
+                                                        "info": "#eff2f8",
+                                                        "primary": "#f2f0f4",
+                                                        "success": "#eff7f0",
+                                                        "warning": "#fffaef",
+                                                      },
+                                                      "primary": "#702785",
+                                                      "success": "#00ae42",
+                                                      "warning": "#ffd200",
+                                                    },
+                                                  },
+                                                  "components": Object {
+                                                    "button": Array [
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                    ],
+                                                  },
+                                                  "fonts": Object {
+                                                    "family": Object {
+                                                      "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                                      "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                                    },
+                                                    "size": Object {
+                                                      "body": "1rem",
+                                                      "h1": "1.802rem",
+                                                      "h2": "1.602rem",
+                                                      "h3": "1.424rem",
+                                                      "h4": "1.266rem",
+                                                      "h5": "1.125rem",
+                                                      "h6": "1rem",
+                                                      "huge": "2.027rem",
+                                                      "large": "1.125rem",
+                                                      "root": "87.5%",
+                                                      "small": "0.889rem",
+                                                      "tiny": "0.79rem",
+                                                    },
+                                                  },
+                                                  "mode": "teinte",
+                                                  "updateThemeMode": [Function],
+                                                  "utils": Object {
+                                                    "colorLevel": [Function],
+                                                    "contrastingColor": [Function],
+                                                    "opacify": [Function],
+                                                    "readableColor": [Function],
+                                                  },
+                                                }
+                                              }
+>>>>>>> 12d5225973... snapshots
                                               value="count"
                                             >
                                               <Select
@@ -16687,6 +17773,7 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                                                       type="text"
                                                                       value=""
                                                                     >
+<<<<<<< HEAD
                                                                       <div
                                                                         className=""
                                                                         style={
@@ -17174,6 +18261,237 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                               onChange={[Function]}
                                               options={Array []}
                                               placeholder="Select Field (Optional)"
+=======
+                                                                      <svg
+                                                                        className="svg-inline--fa fa-caret-down"
+                                                                      />
+                                                                    </FontAwesomeIcon>
+                                                                  </Icon>
+                                                                </div>
+                                                              </DropdownIndicator>
+                                                            </div>
+                                                          </IndicatorsContainer>
+                                                        </div>
+                                                      </Control>
+                                                    </div>
+                                                  </SelectContainer>
+                                                </Select>
+                                              </StateManager>
+                                            </Select>
+                                          </WithTheme(Select)>
+                                        </div>
+                                      </Col>
+                                      <Col
+                                        bsClass="col"
+                                        componentClass="div"
+                                        md={6}
+                                      >
+                                        <div
+                                          className="col-md-6"
+                                        >
+                                          <WithTheme(Select)
+                                            allowCreate={true}
+                                            className="aggregation-function-field"
+                                            ignoreAccents={false}
+                                            matchProp="label"
+                                            onChange={[Function]}
+                                            options={Array []}
+                                            placeholder="Select Field (Optional)"
+                                            value="timestamp"
+                                          >
+                                            <Select
+                                              allowCreate={true}
+                                              autoFocus={false}
+                                              className="aggregation-function-field"
+                                              clearable={true}
+                                              components={null}
+                                              delimiter=","
+                                              disabled={false}
+                                              displayKey="label"
+                                              ignoreAccents={false}
+                                              matchProp="label"
+                                              multi={false}
+                                              onChange={[Function]}
+                                              options={Array []}
+                                              placeholder="Select Field (Optional)"
+                                              size="normal"
+                                              theme={
+                                                Object {
+                                                  "breakpoints": Object {
+                                                    "max": Object {
+                                                      "lg": "1199px",
+                                                      "md": "991px",
+                                                      "sm": "767px",
+                                                      "xs": "479px",
+                                                    },
+                                                    "min": Object {
+                                                      "lg": "1200px",
+                                                      "md": "992px",
+                                                      "sm": "768px",
+                                                      "xs": "480px",
+                                                    },
+                                                  },
+                                                  "colors": Object {
+                                                    "brand": Object {
+                                                      "primary": "#ff3633",
+                                                      "secondary": "#fff",
+                                                      "tertiary": "#1f1f1f",
+                                                    },
+                                                    "global": Object {
+                                                      "background": "#e8e8e8",
+                                                      "contentBackground": "#fff",
+                                                      "inputBackground": "#fff",
+                                                      "link": "#702785",
+                                                      "linkHover": "#410057",
+                                                      "textAlt": "#fff",
+                                                      "textDefault": "#1f1f1f",
+                                                    },
+                                                    "gray": Object {
+                                                      "10": "#1f1f1f",
+                                                      "100": "#ffffff",
+                                                      "20": "#383838",
+                                                      "30": "#515151",
+                                                      "40": "#6a6a6a",
+                                                      "50": "#838383",
+                                                      "60": "#9b9b9b",
+                                                      "70": "#b4b4b4",
+                                                      "80": "#cdcdcd",
+                                                      "90": "#e6e6e6",
+                                                    },
+                                                    "table": Object {
+                                                      "background": "#fafafa",
+                                                      "backgroundAlt": "#f0f0f0",
+                                                      "backgroundHover": "#f5f5f5",
+                                                      "variant": Object {
+                                                        "active": "#e6e6e6",
+                                                        "danger": "#eddddd",
+                                                        "info": "#dde2f0",
+                                                        "primary": "#e4dee7",
+                                                        "success": "#ddeddf",
+                                                        "warning": "#fff5dd",
+                                                      },
+                                                      "variantHover": Object {
+                                                        "active": "#d0d0d0",
+                                                        "danger": "#debdbd",
+                                                        "info": "#bdc8e4",
+                                                        "primary": "#cbbfd1",
+                                                        "success": "#bddec2",
+                                                        "warning": "#ffecbd",
+                                                      },
+                                                    },
+                                                    "variant": Object {
+                                                      "danger": "#ad0707",
+                                                      "dark": Object {
+                                                        "danger": "#990606",
+                                                        "default": "#737373",
+                                                        "info": "#0057a8",
+                                                        "primary": "#632275",
+                                                        "success": "#009a3a",
+                                                        "warning": "#e1b900",
+                                                      },
+                                                      "darker": Object {
+                                                        "danger": "#740505",
+                                                        "default": "#575757",
+                                                        "info": "#00427f",
+                                                        "primary": "#4b1a59",
+                                                        "success": "#00752c",
+                                                        "warning": "#ab8d00",
+                                                      },
+                                                      "darkest": Object {
+                                                        "danger": "#3c0202",
+                                                        "default": "#2d2d2d",
+                                                        "info": "#002242",
+                                                        "primary": "#270e2e",
+                                                        "success": "#003c17",
+                                                        "warning": "#584900",
+                                                      },
+                                                      "default": "#828282",
+                                                      "info": "#0063be",
+                                                      "light": Object {
+                                                        "danger": "#c27878",
+                                                        "default": "#a6a6a6",
+                                                        "info": "#7894ce",
+                                                        "primary": "#9b7ca8",
+                                                        "success": "#78c385",
+                                                        "warning": "#ffdd78",
+                                                      },
+                                                      "lighter": Object {
+                                                        "danger": "#debdbd",
+                                                        "default": "#d0d0d0",
+                                                        "info": "#bdc8e4",
+                                                        "primary": "#cbbfd1",
+                                                        "success": "#bddec2",
+                                                        "warning": "#ffecbd",
+                                                      },
+                                                      "lightest": Object {
+                                                        "danger": "#f7efef",
+                                                        "default": "#f3f3f3",
+                                                        "info": "#eff2f8",
+                                                        "primary": "#f2f0f4",
+                                                        "success": "#eff7f0",
+                                                        "warning": "#fffaef",
+                                                      },
+                                                      "primary": "#702785",
+                                                      "success": "#00ae42",
+                                                      "warning": "#ffd200",
+                                                    },
+                                                  },
+                                                  "components": Object {
+                                                    "button": Array [
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                      Array [
+                                                        [Function],
+                                                      ],
+                                                    ],
+                                                  },
+                                                  "fonts": Object {
+                                                    "family": Object {
+                                                      "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                                      "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                                    },
+                                                    "size": Object {
+                                                      "body": "1rem",
+                                                      "h1": "1.802rem",
+                                                      "h2": "1.602rem",
+                                                      "h3": "1.424rem",
+                                                      "h4": "1.266rem",
+                                                      "h5": "1.125rem",
+                                                      "h6": "1rem",
+                                                      "huge": "2.027rem",
+                                                      "large": "1.125rem",
+                                                      "root": "87.5%",
+                                                      "small": "0.889rem",
+                                                      "tiny": "0.79rem",
+                                                    },
+                                                  },
+                                                  "mode": "teinte",
+                                                  "updateThemeMode": [Function],
+                                                  "utils": Object {
+                                                    "colorLevel": [Function],
+                                                    "contrastingColor": [Function],
+                                                    "opacify": [Function],
+                                                    "readableColor": [Function],
+                                                  },
+                                                }
+                                              }
+>>>>>>> 12d5225973... snapshots
                                               value="timestamp"
                                             >
                                               <Select
@@ -19215,6 +20533,7 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                         },
                                       },
                                       "mode": "teinte",
+                                      "updateThemeMode": [Function],
                                       "utils": Object {
                                         "colorLevel": [Function],
                                         "contrastingColor": [Function],
@@ -21826,6 +23145,72 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                             "closeMenuOnScroll": false,
                                             "closeMenuOnSelect": true,
                                             "components": Object {
+<<<<<<< HEAD
+=======
+                                              "button": Array [
+                                                Array [
+                                                  [Function],
+                                                ],
+                                                Array [
+                                                  [Function],
+                                                ],
+                                                Array [
+                                                  [Function],
+                                                ],
+                                                Array [
+                                                  [Function],
+                                                ],
+                                                Array [
+                                                  [Function],
+                                                ],
+                                                Array [
+                                                  [Function],
+                                                ],
+                                                Array [
+                                                  [Function],
+                                                ],
+                                              ],
+                                            },
+                                            "fonts": Object {
+                                              "family": Object {
+                                                "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                                "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                              },
+                                              "size": Object {
+                                                "body": "1rem",
+                                                "h1": "1.802rem",
+                                                "h2": "1.602rem",
+                                                "h3": "1.424rem",
+                                                "h4": "1.266rem",
+                                                "h5": "1.125rem",
+                                                "h6": "1rem",
+                                                "huge": "2.027rem",
+                                                "large": "1.125rem",
+                                                "root": "87.5%",
+                                                "small": "0.889rem",
+                                                "tiny": "0.79rem",
+                                              },
+                                            },
+                                            "mode": "teinte",
+                                            "updateThemeMode": [Function],
+                                            "utils": Object {
+                                              "colorLevel": [Function],
+                                              "contrastingColor": [Function],
+                                              "opacify": [Function],
+                                              "readableColor": [Function],
+                                            },
+                                          }
+                                        }
+                                        value="&&"
+                                        valueKey="value"
+                                      >
+                                        <StateManager
+                                          allowCreate={false}
+                                          autoFocus={false}
+                                          className="boolean-operator"
+                                          components={
+                                            Object {
+>>>>>>> 12d5225973... snapshots
                                               "DropdownIndicator": [Function],
                                               "IndicatorSeparator": [Function],
                                               "MultiValueRemove": [Function],
@@ -23584,6 +24969,7 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                                               },
                                                             },
                                                             "mode": "teinte",
+                                                            "updateThemeMode": [Function],
                                                             "utils": Object {
                                                               "colorLevel": [Function],
                                                               "contrastingColor": [Function],
@@ -25056,6 +26442,7 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                                               },
                                                             },
                                                             "mode": "teinte",
+                                                            "updateThemeMode": [Function],
                                                             "utils": Object {
                                                               "colorLevel": [Function],
                                                               "contrastingColor": [Function],
@@ -26961,6 +28348,7 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                             size="normal"
                                             styles={
                                               Object {
+<<<<<<< HEAD
                                                 "clearIndicator": [Function],
                                                 "control": [Function],
                                                 "dropdownIndicator": [Function],
@@ -26971,6 +28359,180 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                                 "placeholder": [Function],
                                                 "singleValue": [Function],
                                                 "valueContainer": [Function],
+=======
+                                                "breakpoints": Object {
+                                                  "max": Object {
+                                                    "lg": "1199px",
+                                                    "md": "991px",
+                                                    "sm": "767px",
+                                                    "xs": "479px",
+                                                  },
+                                                  "min": Object {
+                                                    "lg": "1200px",
+                                                    "md": "992px",
+                                                    "sm": "768px",
+                                                    "xs": "480px",
+                                                  },
+                                                },
+                                                "colors": Object {
+                                                  "brand": Object {
+                                                    "primary": "#ff3633",
+                                                    "secondary": "#fff",
+                                                    "tertiary": "#1f1f1f",
+                                                  },
+                                                  "global": Object {
+                                                    "background": "#e8e8e8",
+                                                    "contentBackground": "#fff",
+                                                    "inputBackground": "#fff",
+                                                    "link": "#702785",
+                                                    "linkHover": "#410057",
+                                                    "textAlt": "#fff",
+                                                    "textDefault": "#1f1f1f",
+                                                  },
+                                                  "gray": Object {
+                                                    "10": "#1f1f1f",
+                                                    "100": "#ffffff",
+                                                    "20": "#383838",
+                                                    "30": "#515151",
+                                                    "40": "#6a6a6a",
+                                                    "50": "#838383",
+                                                    "60": "#9b9b9b",
+                                                    "70": "#b4b4b4",
+                                                    "80": "#cdcdcd",
+                                                    "90": "#e6e6e6",
+                                                  },
+                                                  "table": Object {
+                                                    "background": "#fafafa",
+                                                    "backgroundAlt": "#f0f0f0",
+                                                    "backgroundHover": "#f5f5f5",
+                                                    "variant": Object {
+                                                      "active": "#e6e6e6",
+                                                      "danger": "#eddddd",
+                                                      "info": "#dde2f0",
+                                                      "primary": "#e4dee7",
+                                                      "success": "#ddeddf",
+                                                      "warning": "#fff5dd",
+                                                    },
+                                                    "variantHover": Object {
+                                                      "active": "#d0d0d0",
+                                                      "danger": "#debdbd",
+                                                      "info": "#bdc8e4",
+                                                      "primary": "#cbbfd1",
+                                                      "success": "#bddec2",
+                                                      "warning": "#ffecbd",
+                                                    },
+                                                  },
+                                                  "variant": Object {
+                                                    "danger": "#ad0707",
+                                                    "dark": Object {
+                                                      "danger": "#990606",
+                                                      "default": "#737373",
+                                                      "info": "#0057a8",
+                                                      "primary": "#632275",
+                                                      "success": "#009a3a",
+                                                      "warning": "#e1b900",
+                                                    },
+                                                    "darker": Object {
+                                                      "danger": "#740505",
+                                                      "default": "#575757",
+                                                      "info": "#00427f",
+                                                      "primary": "#4b1a59",
+                                                      "success": "#00752c",
+                                                      "warning": "#ab8d00",
+                                                    },
+                                                    "darkest": Object {
+                                                      "danger": "#3c0202",
+                                                      "default": "#2d2d2d",
+                                                      "info": "#002242",
+                                                      "primary": "#270e2e",
+                                                      "success": "#003c17",
+                                                      "warning": "#584900",
+                                                    },
+                                                    "default": "#828282",
+                                                    "info": "#0063be",
+                                                    "light": Object {
+                                                      "danger": "#c27878",
+                                                      "default": "#a6a6a6",
+                                                      "info": "#7894ce",
+                                                      "primary": "#9b7ca8",
+                                                      "success": "#78c385",
+                                                      "warning": "#ffdd78",
+                                                    },
+                                                    "lighter": Object {
+                                                      "danger": "#debdbd",
+                                                      "default": "#d0d0d0",
+                                                      "info": "#bdc8e4",
+                                                      "primary": "#cbbfd1",
+                                                      "success": "#bddec2",
+                                                      "warning": "#ffecbd",
+                                                    },
+                                                    "lightest": Object {
+                                                      "danger": "#f7efef",
+                                                      "default": "#f3f3f3",
+                                                      "info": "#eff2f8",
+                                                      "primary": "#f2f0f4",
+                                                      "success": "#eff7f0",
+                                                      "warning": "#fffaef",
+                                                    },
+                                                    "primary": "#702785",
+                                                    "success": "#00ae42",
+                                                    "warning": "#ffd200",
+                                                  },
+                                                },
+                                                "components": Object {
+                                                  "button": Array [
+                                                    Array [
+                                                      [Function],
+                                                    ],
+                                                    Array [
+                                                      [Function],
+                                                    ],
+                                                    Array [
+                                                      [Function],
+                                                    ],
+                                                    Array [
+                                                      [Function],
+                                                    ],
+                                                    Array [
+                                                      [Function],
+                                                    ],
+                                                    Array [
+                                                      [Function],
+                                                    ],
+                                                    Array [
+                                                      [Function],
+                                                    ],
+                                                  ],
+                                                },
+                                                "fonts": Object {
+                                                  "family": Object {
+                                                    "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                                    "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                                  },
+                                                  "size": Object {
+                                                    "body": "1rem",
+                                                    "h1": "1.802rem",
+                                                    "h2": "1.602rem",
+                                                    "h3": "1.424rem",
+                                                    "h4": "1.266rem",
+                                                    "h5": "1.125rem",
+                                                    "h6": "1rem",
+                                                    "huge": "2.027rem",
+                                                    "large": "1.125rem",
+                                                    "root": "87.5%",
+                                                    "small": "0.889rem",
+                                                    "tiny": "0.79rem",
+                                                  },
+                                                },
+                                                "mode": "teinte",
+                                                "updateThemeMode": [Function],
+                                                "utils": Object {
+                                                  "colorLevel": [Function],
+                                                  "contrastingColor": [Function],
+                                                  "opacify": [Function],
+                                                  "readableColor": [Function],
+                                                },
+>>>>>>> 12d5225973... snapshots
                                               }
                                             }
                                             theme={[Function]}
@@ -29439,6 +31001,72 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                         "closeMenuOnScroll": false,
                                         "closeMenuOnSelect": true,
                                         "components": Object {
+<<<<<<< HEAD
+=======
+                                          "button": Array [
+                                            Array [
+                                              [Function],
+                                            ],
+                                            Array [
+                                              [Function],
+                                            ],
+                                            Array [
+                                              [Function],
+                                            ],
+                                            Array [
+                                              [Function],
+                                            ],
+                                            Array [
+                                              [Function],
+                                            ],
+                                            Array [
+                                              [Function],
+                                            ],
+                                            Array [
+                                              [Function],
+                                            ],
+                                          ],
+                                        },
+                                        "fonts": Object {
+                                          "family": Object {
+                                            "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                            "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                          },
+                                          "size": Object {
+                                            "body": "1rem",
+                                            "h1": "1.802rem",
+                                            "h2": "1.602rem",
+                                            "h3": "1.424rem",
+                                            "h4": "1.266rem",
+                                            "h5": "1.125rem",
+                                            "h6": "1rem",
+                                            "huge": "2.027rem",
+                                            "large": "1.125rem",
+                                            "root": "87.5%",
+                                            "small": "0.889rem",
+                                            "tiny": "0.79rem",
+                                          },
+                                        },
+                                        "mode": "teinte",
+                                        "updateThemeMode": [Function],
+                                        "utils": Object {
+                                          "colorLevel": [Function],
+                                          "contrastingColor": [Function],
+                                          "opacify": [Function],
+                                          "readableColor": [Function],
+                                        },
+                                      }
+                                    }
+                                    value="&&"
+                                    valueKey="value"
+                                  >
+                                    <StateManager
+                                      allowCreate={false}
+                                      autoFocus={false}
+                                      className="boolean-operator"
+                                      components={
+                                        Object {
+>>>>>>> 12d5225973... snapshots
                                           "DropdownIndicator": [Function],
                                           "IndicatorSeparator": [Function],
                                           "MultiValueRemove": [Function],
@@ -31211,6 +32839,7 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                                           },
                                                         },
                                                         "mode": "teinte",
+                                                        "updateThemeMode": [Function],
                                                         "utils": Object {
                                                           "colorLevel": [Function],
                                                           "contrastingColor": [Function],
@@ -32683,6 +34312,7 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                                           },
                                                         },
                                                         "mode": "teinte",
+                                                        "updateThemeMode": [Function],
                                                         "utils": Object {
                                                           "colorLevel": [Function],
                                                           "contrastingColor": [Function],
@@ -34602,6 +36232,7 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                         size="normal"
                                         styles={
                                           Object {
+<<<<<<< HEAD
                                             "clearIndicator": [Function],
                                             "control": [Function],
                                             "dropdownIndicator": [Function],
@@ -34612,6 +36243,180 @@ exports[`AggregationConditionExpression rendering conditions should render a gro
                                             "placeholder": [Function],
                                             "singleValue": [Function],
                                             "valueContainer": [Function],
+=======
+                                            "breakpoints": Object {
+                                              "max": Object {
+                                                "lg": "1199px",
+                                                "md": "991px",
+                                                "sm": "767px",
+                                                "xs": "479px",
+                                              },
+                                              "min": Object {
+                                                "lg": "1200px",
+                                                "md": "992px",
+                                                "sm": "768px",
+                                                "xs": "480px",
+                                              },
+                                            },
+                                            "colors": Object {
+                                              "brand": Object {
+                                                "primary": "#ff3633",
+                                                "secondary": "#fff",
+                                                "tertiary": "#1f1f1f",
+                                              },
+                                              "global": Object {
+                                                "background": "#e8e8e8",
+                                                "contentBackground": "#fff",
+                                                "inputBackground": "#fff",
+                                                "link": "#702785",
+                                                "linkHover": "#410057",
+                                                "textAlt": "#fff",
+                                                "textDefault": "#1f1f1f",
+                                              },
+                                              "gray": Object {
+                                                "10": "#1f1f1f",
+                                                "100": "#ffffff",
+                                                "20": "#383838",
+                                                "30": "#515151",
+                                                "40": "#6a6a6a",
+                                                "50": "#838383",
+                                                "60": "#9b9b9b",
+                                                "70": "#b4b4b4",
+                                                "80": "#cdcdcd",
+                                                "90": "#e6e6e6",
+                                              },
+                                              "table": Object {
+                                                "background": "#fafafa",
+                                                "backgroundAlt": "#f0f0f0",
+                                                "backgroundHover": "#f5f5f5",
+                                                "variant": Object {
+                                                  "active": "#e6e6e6",
+                                                  "danger": "#eddddd",
+                                                  "info": "#dde2f0",
+                                                  "primary": "#e4dee7",
+                                                  "success": "#ddeddf",
+                                                  "warning": "#fff5dd",
+                                                },
+                                                "variantHover": Object {
+                                                  "active": "#d0d0d0",
+                                                  "danger": "#debdbd",
+                                                  "info": "#bdc8e4",
+                                                  "primary": "#cbbfd1",
+                                                  "success": "#bddec2",
+                                                  "warning": "#ffecbd",
+                                                },
+                                              },
+                                              "variant": Object {
+                                                "danger": "#ad0707",
+                                                "dark": Object {
+                                                  "danger": "#990606",
+                                                  "default": "#737373",
+                                                  "info": "#0057a8",
+                                                  "primary": "#632275",
+                                                  "success": "#009a3a",
+                                                  "warning": "#e1b900",
+                                                },
+                                                "darker": Object {
+                                                  "danger": "#740505",
+                                                  "default": "#575757",
+                                                  "info": "#00427f",
+                                                  "primary": "#4b1a59",
+                                                  "success": "#00752c",
+                                                  "warning": "#ab8d00",
+                                                },
+                                                "darkest": Object {
+                                                  "danger": "#3c0202",
+                                                  "default": "#2d2d2d",
+                                                  "info": "#002242",
+                                                  "primary": "#270e2e",
+                                                  "success": "#003c17",
+                                                  "warning": "#584900",
+                                                },
+                                                "default": "#828282",
+                                                "info": "#0063be",
+                                                "light": Object {
+                                                  "danger": "#c27878",
+                                                  "default": "#a6a6a6",
+                                                  "info": "#7894ce",
+                                                  "primary": "#9b7ca8",
+                                                  "success": "#78c385",
+                                                  "warning": "#ffdd78",
+                                                },
+                                                "lighter": Object {
+                                                  "danger": "#debdbd",
+                                                  "default": "#d0d0d0",
+                                                  "info": "#bdc8e4",
+                                                  "primary": "#cbbfd1",
+                                                  "success": "#bddec2",
+                                                  "warning": "#ffecbd",
+                                                },
+                                                "lightest": Object {
+                                                  "danger": "#f7efef",
+                                                  "default": "#f3f3f3",
+                                                  "info": "#eff2f8",
+                                                  "primary": "#f2f0f4",
+                                                  "success": "#eff7f0",
+                                                  "warning": "#fffaef",
+                                                },
+                                                "primary": "#702785",
+                                                "success": "#00ae42",
+                                                "warning": "#ffd200",
+                                              },
+                                            },
+                                            "components": Object {
+                                              "button": Array [
+                                                Array [
+                                                  [Function],
+                                                ],
+                                                Array [
+                                                  [Function],
+                                                ],
+                                                Array [
+                                                  [Function],
+                                                ],
+                                                Array [
+                                                  [Function],
+                                                ],
+                                                Array [
+                                                  [Function],
+                                                ],
+                                                Array [
+                                                  [Function],
+                                                ],
+                                                Array [
+                                                  [Function],
+                                                ],
+                                              ],
+                                            },
+                                            "fonts": Object {
+                                              "family": Object {
+                                                "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                                "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                              },
+                                              "size": Object {
+                                                "body": "1rem",
+                                                "h1": "1.802rem",
+                                                "h2": "1.602rem",
+                                                "h3": "1.424rem",
+                                                "h4": "1.266rem",
+                                                "h5": "1.125rem",
+                                                "h6": "1rem",
+                                                "huge": "2.027rem",
+                                                "large": "1.125rem",
+                                                "root": "87.5%",
+                                                "small": "0.889rem",
+                                                "tiny": "0.79rem",
+                                              },
+                                            },
+                                            "mode": "teinte",
+                                            "updateThemeMode": [Function],
+                                            "utils": Object {
+                                              "colorLevel": [Function],
+                                              "contrastingColor": [Function],
+                                              "opacify": [Function],
+                                              "readableColor": [Function],
+                                            },
+>>>>>>> 12d5225973... snapshots
                                           }
                                         }
                                         theme={[Function]}
@@ -37070,6 +38875,72 @@ exports[`AggregationConditionExpression rendering conditions should render empty
                                       "closeMenuOnScroll": false,
                                       "closeMenuOnSelect": true,
                                       "components": Object {
+<<<<<<< HEAD
+=======
+                                        "button": Array [
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                        ],
+                                      },
+                                      "fonts": Object {
+                                        "family": Object {
+                                          "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                          "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                        },
+                                        "size": Object {
+                                          "body": "1rem",
+                                          "h1": "1.802rem",
+                                          "h2": "1.602rem",
+                                          "h3": "1.424rem",
+                                          "h4": "1.266rem",
+                                          "h5": "1.125rem",
+                                          "h6": "1rem",
+                                          "huge": "2.027rem",
+                                          "large": "1.125rem",
+                                          "root": "87.5%",
+                                          "small": "0.889rem",
+                                          "tiny": "0.79rem",
+                                        },
+                                      },
+                                      "mode": "teinte",
+                                      "updateThemeMode": [Function],
+                                      "utils": Object {
+                                        "colorLevel": [Function],
+                                        "contrastingColor": [Function],
+                                        "opacify": [Function],
+                                        "readableColor": [Function],
+                                      },
+                                    }
+                                  }
+                                  value="&&"
+                                  valueKey="value"
+                                >
+                                  <StateManager
+                                    allowCreate={false}
+                                    autoFocus={false}
+                                    className="boolean-operator"
+                                    components={
+                                      Object {
+>>>>>>> 12d5225973... snapshots
                                         "DropdownIndicator": [Function],
                                         "IndicatorSeparator": [Function],
                                         "MultiValueRemove": [Function],
@@ -38570,6 +40441,187 @@ exports[`AggregationConditionExpression rendering conditions should render empty
                                           onChange={[Function]}
                                           options={Array []}
                                           placeholder="Select Function"
+<<<<<<< HEAD
+=======
+                                          size="normal"
+                                          theme={
+                                            Object {
+                                              "breakpoints": Object {
+                                                "max": Object {
+                                                  "lg": "1199px",
+                                                  "md": "991px",
+                                                  "sm": "767px",
+                                                  "xs": "479px",
+                                                },
+                                                "min": Object {
+                                                  "lg": "1200px",
+                                                  "md": "992px",
+                                                  "sm": "768px",
+                                                  "xs": "480px",
+                                                },
+                                              },
+                                              "colors": Object {
+                                                "brand": Object {
+                                                  "primary": "#ff3633",
+                                                  "secondary": "#fff",
+                                                  "tertiary": "#1f1f1f",
+                                                },
+                                                "global": Object {
+                                                  "background": "#e8e8e8",
+                                                  "contentBackground": "#fff",
+                                                  "inputBackground": "#fff",
+                                                  "link": "#702785",
+                                                  "linkHover": "#410057",
+                                                  "textAlt": "#fff",
+                                                  "textDefault": "#1f1f1f",
+                                                },
+                                                "gray": Object {
+                                                  "10": "#1f1f1f",
+                                                  "100": "#ffffff",
+                                                  "20": "#383838",
+                                                  "30": "#515151",
+                                                  "40": "#6a6a6a",
+                                                  "50": "#838383",
+                                                  "60": "#9b9b9b",
+                                                  "70": "#b4b4b4",
+                                                  "80": "#cdcdcd",
+                                                  "90": "#e6e6e6",
+                                                },
+                                                "table": Object {
+                                                  "background": "#fafafa",
+                                                  "backgroundAlt": "#f0f0f0",
+                                                  "backgroundHover": "#f5f5f5",
+                                                  "variant": Object {
+                                                    "active": "#e6e6e6",
+                                                    "danger": "#eddddd",
+                                                    "info": "#dde2f0",
+                                                    "primary": "#e4dee7",
+                                                    "success": "#ddeddf",
+                                                    "warning": "#fff5dd",
+                                                  },
+                                                  "variantHover": Object {
+                                                    "active": "#d0d0d0",
+                                                    "danger": "#debdbd",
+                                                    "info": "#bdc8e4",
+                                                    "primary": "#cbbfd1",
+                                                    "success": "#bddec2",
+                                                    "warning": "#ffecbd",
+                                                  },
+                                                },
+                                                "variant": Object {
+                                                  "danger": "#ad0707",
+                                                  "dark": Object {
+                                                    "danger": "#990606",
+                                                    "default": "#737373",
+                                                    "info": "#0057a8",
+                                                    "primary": "#632275",
+                                                    "success": "#009a3a",
+                                                    "warning": "#e1b900",
+                                                  },
+                                                  "darker": Object {
+                                                    "danger": "#740505",
+                                                    "default": "#575757",
+                                                    "info": "#00427f",
+                                                    "primary": "#4b1a59",
+                                                    "success": "#00752c",
+                                                    "warning": "#ab8d00",
+                                                  },
+                                                  "darkest": Object {
+                                                    "danger": "#3c0202",
+                                                    "default": "#2d2d2d",
+                                                    "info": "#002242",
+                                                    "primary": "#270e2e",
+                                                    "success": "#003c17",
+                                                    "warning": "#584900",
+                                                  },
+                                                  "default": "#828282",
+                                                  "info": "#0063be",
+                                                  "light": Object {
+                                                    "danger": "#c27878",
+                                                    "default": "#a6a6a6",
+                                                    "info": "#7894ce",
+                                                    "primary": "#9b7ca8",
+                                                    "success": "#78c385",
+                                                    "warning": "#ffdd78",
+                                                  },
+                                                  "lighter": Object {
+                                                    "danger": "#debdbd",
+                                                    "default": "#d0d0d0",
+                                                    "info": "#bdc8e4",
+                                                    "primary": "#cbbfd1",
+                                                    "success": "#bddec2",
+                                                    "warning": "#ffecbd",
+                                                  },
+                                                  "lightest": Object {
+                                                    "danger": "#f7efef",
+                                                    "default": "#f3f3f3",
+                                                    "info": "#eff2f8",
+                                                    "primary": "#f2f0f4",
+                                                    "success": "#eff7f0",
+                                                    "warning": "#fffaef",
+                                                  },
+                                                  "primary": "#702785",
+                                                  "success": "#00ae42",
+                                                  "warning": "#ffd200",
+                                                },
+                                              },
+                                              "components": Object {
+                                                "button": Array [
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                ],
+                                              },
+                                              "fonts": Object {
+                                                "family": Object {
+                                                  "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                                  "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                                },
+                                                "size": Object {
+                                                  "body": "1rem",
+                                                  "h1": "1.802rem",
+                                                  "h2": "1.602rem",
+                                                  "h3": "1.424rem",
+                                                  "h4": "1.266rem",
+                                                  "h5": "1.125rem",
+                                                  "h6": "1rem",
+                                                  "huge": "2.027rem",
+                                                  "large": "1.125rem",
+                                                  "root": "87.5%",
+                                                  "small": "0.889rem",
+                                                  "tiny": "0.79rem",
+                                                },
+                                              },
+                                              "mode": "teinte",
+                                              "updateThemeMode": [Function],
+                                              "utils": Object {
+                                                "colorLevel": [Function],
+                                                "contrastingColor": [Function],
+                                                "opacify": [Function],
+                                                "readableColor": [Function],
+                                              },
+                                            }
+                                          }
+                                          valueKey="value"
+>>>>>>> 12d5225973... snapshots
                                         >
                                           <Select
                                             allowCreate={false}
@@ -40230,6 +42282,62 @@ exports[`AggregationConditionExpression rendering conditions should render empty
                                                   "opacify": [Function],
                                                   "readableColor": [Function],
                                                 },
+<<<<<<< HEAD
+=======
+                                              },
+                                              "mode": "teinte",
+                                              "updateThemeMode": [Function],
+                                              "utils": Object {
+                                                "colorLevel": [Function],
+                                                "contrastingColor": [Function],
+                                                "opacify": [Function],
+                                                "readableColor": [Function],
+                                              },
+                                            }
+                                          }
+                                          valueKey="value"
+                                        >
+                                          <StateManager
+                                            allowCreate={true}
+                                            autoFocus={false}
+                                            className="aggregation-function-field"
+                                            components={
+                                              Object {
+                                                "DropdownIndicator": [Function],
+                                                "IndicatorSeparator": [Function],
+                                                "MultiValueRemove": [Function],
+                                              }
+                                            }
+                                            defaultInputValue=""
+                                            defaultMenuIsOpen={false}
+                                            defaultValue={null}
+                                            delimiter=","
+                                            displayKey="label"
+                                            filterOption={[Function]}
+                                            getOptionLabel={[Function]}
+                                            getOptionValue={[Function]}
+                                            ignoreAccents={false}
+                                            isClearable={true}
+                                            isDisabled={false}
+                                            isMulti={false}
+                                            isOptionDisabled={[Function]}
+                                            onChange={[Function]}
+                                            options={Array []}
+                                            placeholder="Select Field (Optional)"
+                                            size="normal"
+                                            styles={
+                                              Object {
+                                                "clearIndicator": [Function],
+                                                "control": [Function],
+                                                "dropdownIndicator": [Function],
+                                                "menu": [Function],
+                                                "multiValue": [Function],
+                                                "multiValueLabel": [Function],
+                                                "multiValueRemove": [Function],
+                                                "placeholder": [Function],
+                                                "singleValue": [Function],
+                                                "valueContainer": [Function],
+>>>>>>> 12d5225973... snapshots
                                               }
                                             }
                                             valueKey="value"
@@ -41884,6 +43992,7 @@ exports[`AggregationConditionExpression rendering conditions should render empty
                                     },
                                   },
                                   "mode": "teinte",
+                                  "updateThemeMode": [Function],
                                   "utils": Object {
                                     "colorLevel": [Function],
                                     "contrastingColor": [Function],
@@ -44405,6 +46514,72 @@ exports[`AggregationConditionExpression rendering conditions should render simpl
                                       "closeMenuOnScroll": false,
                                       "closeMenuOnSelect": true,
                                       "components": Object {
+<<<<<<< HEAD
+=======
+                                        "button": Array [
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                          Array [
+                                            [Function],
+                                          ],
+                                        ],
+                                      },
+                                      "fonts": Object {
+                                        "family": Object {
+                                          "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                          "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                        },
+                                        "size": Object {
+                                          "body": "1rem",
+                                          "h1": "1.802rem",
+                                          "h2": "1.602rem",
+                                          "h3": "1.424rem",
+                                          "h4": "1.266rem",
+                                          "h5": "1.125rem",
+                                          "h6": "1rem",
+                                          "huge": "2.027rem",
+                                          "large": "1.125rem",
+                                          "root": "87.5%",
+                                          "small": "0.889rem",
+                                          "tiny": "0.79rem",
+                                        },
+                                      },
+                                      "mode": "teinte",
+                                      "updateThemeMode": [Function],
+                                      "utils": Object {
+                                        "colorLevel": [Function],
+                                        "contrastingColor": [Function],
+                                        "opacify": [Function],
+                                        "readableColor": [Function],
+                                      },
+                                    }
+                                  }
+                                  value="&&"
+                                  valueKey="value"
+                                >
+                                  <StateManager
+                                    allowCreate={false}
+                                    autoFocus={false}
+                                    className="boolean-operator"
+                                    components={
+                                      Object {
+>>>>>>> 12d5225973... snapshots
                                         "DropdownIndicator": [Function],
                                         "IndicatorSeparator": [Function],
                                         "MultiValueRemove": [Function],
@@ -45766,6 +47941,7 @@ exports[`AggregationConditionExpression rendering conditions should render simpl
         className="col-md-10"
       >
         <Row
+<<<<<<< HEAD
           className="row-sm"
         >
           <Row
@@ -45777,6 +47953,57 @@ exports[`AggregationConditionExpression rendering conditions should render simpl
               className="Row-sc-3iisrt-0 gPzTHl row-sm row"
             >
               <AggregationConditionExpression
+=======
+          bsClass="row"
+          className="row-sm"
+          componentClass="div"
+        >
+          <div
+            className="row-sm row"
+          >
+            <AggregationConditionExpression
+              aggregationFunctions={Array []}
+              eventDefinition={
+                Object {
+                  "config": Object {
+                    "series": Array [
+                      Object {
+                        "field": "timestamp",
+                        "function": "count",
+                        "id": "1234",
+                      },
+                    ],
+                  },
+                }
+              }
+              expression={
+                Object {
+                  "expr": "number-ref",
+                  "ref": "1234",
+                }
+              }
+              formattedFields={Array []}
+              level={1}
+              onChange={[Function]}
+              onChildChange={[Function]}
+              parent={
+                Object {
+                  "expr": "<",
+                  "left": Object {
+                    "expr": "number-ref",
+                    "ref": "1234",
+                  },
+                  "right": Object {
+                    "expr": "number",
+                    "value": 12,
+                  },
+                }
+              }
+              renderLabel={true}
+              validation={Object {}}
+            >
+              <NumberRefExpression
+>>>>>>> 12d5225973... snapshots
                 aggregationFunctions={Array []}
                 eventDefinition={
                   Object {
@@ -45817,6 +48044,7 @@ exports[`AggregationConditionExpression rendering conditions should render simpl
                 renderLabel={true}
                 validation={Object {}}
               >
+<<<<<<< HEAD
                 <NumberRefExpression
                   aggregationFunctions={Array []}
                   eventDefinition={
@@ -45872,15 +48100,67 @@ exports[`AggregationConditionExpression rendering conditions should render simpl
                       >
                         <FormGroup__StyledFormGroup
                           controlId="aggregation-function"
+=======
+                <Col
+                  bsClass="col"
+                  componentClass="div"
+                  md={6}
+                >
+                  <div
+                    className="col-md-6"
+                  >
+                    <Component
+                      controlId="aggregation-function"
+                      validationState={null}
+                    >
+                      <FormGroup__StyledFormGroup
+                        controlId="aggregation-function"
+                        validationState={null}
+                      >
+                        <StyledComponent
+                          controlId="aggregation-function"
+                          forwardedComponent={
+                            Object {
+                              "$$typeof": Symbol(react.forward_ref),
+                              "SIZES": Array [
+                                "large",
+                                "small",
+                              ],
+                              "attrs": Array [],
+                              "componentStyle": ComponentStyle {
+                                "componentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
+                                "isStatic": false,
+                                "lastClassName": "gcTkZc",
+                                "rules": Array [
+                                  [Function],
+                                ],
+                              },
+                              "displayName": "FormGroup__StyledFormGroup",
+                              "foldedComponentIds": Array [],
+                              "render": [Function],
+                              "styledComponentId": "FormGroup__StyledFormGroup-sc-1wv4cm9-0",
+                              "target": [Function],
+                              "toString": [Function],
+                              "warnTooManyClasses": [Function],
+                              "withComponent": [Function],
+                            }
+                          }
+                          forwardedRef={null}
+>>>>>>> 12d5225973... snapshots
                           validationState={null}
                         >
                           <FormGroup
                             bsClass="form-group"
+<<<<<<< HEAD
                             className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+=======
+                            className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc"
+>>>>>>> 12d5225973... snapshots
                             controlId="aggregation-function"
                             validationState={null}
                           >
                             <div
+<<<<<<< HEAD
                               className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
                             >
                               <ControlLabel>
@@ -45923,6 +48203,267 @@ exports[`AggregationConditionExpression rendering conditions should render simpl
                                           onChange={[Function]}
                                           options={Array []}
                                           placeholder="Select Function"
+=======
+                              className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 gcTkZc form-group"
+                            >
+                              <ControlLabel>
+                                <StyledComponent
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "ControlLabel-sc-1edmum5-0",
+                                        "isStatic": false,
+                                        "lastClassName": "hCskeX",
+                                        "rules": Array [
+                                          [Function],
+                                        ],
+                                      },
+                                      "displayName": "ControlLabel",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "ControlLabel-sc-1edmum5-0",
+                                      "target": [Function],
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                >
+                                  <ControlLabel
+                                    bsClass="control-label"
+                                    className="ControlLabel-sc-1edmum5-0 hCskeX"
+                                    srOnly={false}
+                                  >
+                                    <label
+                                      className="ControlLabel-sc-1edmum5-0 hCskeX control-label"
+                                      htmlFor="aggregation-function"
+                                    >
+                                      If
+                                    </label>
+                                  </ControlLabel>
+                                </StyledComponent>
+                              </ControlLabel>
+                              <Row
+                                bsClass="row"
+                                className="row-sm"
+                                componentClass="div"
+                              >
+                                <div
+                                  className="row-sm row"
+                                >
+                                  <Col
+                                    bsClass="col"
+                                    componentClass="div"
+                                    md={6}
+                                  >
+                                    <div
+                                      className="col-md-6"
+                                    >
+                                      <WithTheme(Select)
+                                        className="aggregation-function"
+                                        clearable={false}
+                                        matchProp="label"
+                                        onChange={[Function]}
+                                        options={Array []}
+                                        placeholder="Select Function"
+                                        value="count"
+                                      >
+                                        <Select
+                                          allowCreate={false}
+                                          autoFocus={false}
+                                          className="aggregation-function"
+                                          clearable={false}
+                                          components={null}
+                                          delimiter=","
+                                          disabled={false}
+                                          displayKey="label"
+                                          ignoreAccents={true}
+                                          matchProp="label"
+                                          multi={false}
+                                          onChange={[Function]}
+                                          options={Array []}
+                                          placeholder="Select Function"
+                                          size="normal"
+                                          theme={
+                                            Object {
+                                              "breakpoints": Object {
+                                                "max": Object {
+                                                  "lg": "1199px",
+                                                  "md": "991px",
+                                                  "sm": "767px",
+                                                  "xs": "479px",
+                                                },
+                                                "min": Object {
+                                                  "lg": "1200px",
+                                                  "md": "992px",
+                                                  "sm": "768px",
+                                                  "xs": "480px",
+                                                },
+                                              },
+                                              "colors": Object {
+                                                "brand": Object {
+                                                  "primary": "#ff3633",
+                                                  "secondary": "#fff",
+                                                  "tertiary": "#1f1f1f",
+                                                },
+                                                "global": Object {
+                                                  "background": "#e8e8e8",
+                                                  "contentBackground": "#fff",
+                                                  "inputBackground": "#fff",
+                                                  "link": "#702785",
+                                                  "linkHover": "#410057",
+                                                  "textAlt": "#fff",
+                                                  "textDefault": "#1f1f1f",
+                                                },
+                                                "gray": Object {
+                                                  "10": "#1f1f1f",
+                                                  "100": "#ffffff",
+                                                  "20": "#383838",
+                                                  "30": "#515151",
+                                                  "40": "#6a6a6a",
+                                                  "50": "#838383",
+                                                  "60": "#9b9b9b",
+                                                  "70": "#b4b4b4",
+                                                  "80": "#cdcdcd",
+                                                  "90": "#e6e6e6",
+                                                },
+                                                "table": Object {
+                                                  "background": "#fafafa",
+                                                  "backgroundAlt": "#f0f0f0",
+                                                  "backgroundHover": "#f5f5f5",
+                                                  "variant": Object {
+                                                    "active": "#e6e6e6",
+                                                    "danger": "#eddddd",
+                                                    "info": "#dde2f0",
+                                                    "primary": "#e4dee7",
+                                                    "success": "#ddeddf",
+                                                    "warning": "#fff5dd",
+                                                  },
+                                                  "variantHover": Object {
+                                                    "active": "#d0d0d0",
+                                                    "danger": "#debdbd",
+                                                    "info": "#bdc8e4",
+                                                    "primary": "#cbbfd1",
+                                                    "success": "#bddec2",
+                                                    "warning": "#ffecbd",
+                                                  },
+                                                },
+                                                "variant": Object {
+                                                  "danger": "#ad0707",
+                                                  "dark": Object {
+                                                    "danger": "#990606",
+                                                    "default": "#737373",
+                                                    "info": "#0057a8",
+                                                    "primary": "#632275",
+                                                    "success": "#009a3a",
+                                                    "warning": "#e1b900",
+                                                  },
+                                                  "darker": Object {
+                                                    "danger": "#740505",
+                                                    "default": "#575757",
+                                                    "info": "#00427f",
+                                                    "primary": "#4b1a59",
+                                                    "success": "#00752c",
+                                                    "warning": "#ab8d00",
+                                                  },
+                                                  "darkest": Object {
+                                                    "danger": "#3c0202",
+                                                    "default": "#2d2d2d",
+                                                    "info": "#002242",
+                                                    "primary": "#270e2e",
+                                                    "success": "#003c17",
+                                                    "warning": "#584900",
+                                                  },
+                                                  "default": "#828282",
+                                                  "info": "#0063be",
+                                                  "light": Object {
+                                                    "danger": "#c27878",
+                                                    "default": "#a6a6a6",
+                                                    "info": "#7894ce",
+                                                    "primary": "#9b7ca8",
+                                                    "success": "#78c385",
+                                                    "warning": "#ffdd78",
+                                                  },
+                                                  "lighter": Object {
+                                                    "danger": "#debdbd",
+                                                    "default": "#d0d0d0",
+                                                    "info": "#bdc8e4",
+                                                    "primary": "#cbbfd1",
+                                                    "success": "#bddec2",
+                                                    "warning": "#ffecbd",
+                                                  },
+                                                  "lightest": Object {
+                                                    "danger": "#f7efef",
+                                                    "default": "#f3f3f3",
+                                                    "info": "#eff2f8",
+                                                    "primary": "#f2f0f4",
+                                                    "success": "#eff7f0",
+                                                    "warning": "#fffaef",
+                                                  },
+                                                  "primary": "#702785",
+                                                  "success": "#00ae42",
+                                                  "warning": "#ffd200",
+                                                },
+                                              },
+                                              "components": Object {
+                                                "button": Array [
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                ],
+                                              },
+                                              "fonts": Object {
+                                                "family": Object {
+                                                  "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                                  "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                                },
+                                                "size": Object {
+                                                  "body": "1rem",
+                                                  "h1": "1.802rem",
+                                                  "h2": "1.602rem",
+                                                  "h3": "1.424rem",
+                                                  "h4": "1.266rem",
+                                                  "h5": "1.125rem",
+                                                  "h6": "1rem",
+                                                  "huge": "2.027rem",
+                                                  "large": "1.125rem",
+                                                  "root": "87.5%",
+                                                  "small": "0.889rem",
+                                                  "tiny": "0.79rem",
+                                                },
+                                              },
+                                              "mode": "teinte",
+                                              "updateThemeMode": [Function],
+                                              "utils": Object {
+                                                "colorLevel": [Function],
+                                                "contrastingColor": [Function],
+                                                "opacify": [Function],
+                                                "readableColor": [Function],
+                                              },
+                                            }
+                                          }
+>>>>>>> 12d5225973... snapshots
                                           value="count"
                                         >
                                           <Select
@@ -47395,6 +49936,186 @@ exports[`AggregationConditionExpression rendering conditions should render simpl
                                           onChange={[Function]}
                                           options={Array []}
                                           placeholder="Select Field (Optional)"
+<<<<<<< HEAD
+=======
+                                          size="normal"
+                                          theme={
+                                            Object {
+                                              "breakpoints": Object {
+                                                "max": Object {
+                                                  "lg": "1199px",
+                                                  "md": "991px",
+                                                  "sm": "767px",
+                                                  "xs": "479px",
+                                                },
+                                                "min": Object {
+                                                  "lg": "1200px",
+                                                  "md": "992px",
+                                                  "sm": "768px",
+                                                  "xs": "480px",
+                                                },
+                                              },
+                                              "colors": Object {
+                                                "brand": Object {
+                                                  "primary": "#ff3633",
+                                                  "secondary": "#fff",
+                                                  "tertiary": "#1f1f1f",
+                                                },
+                                                "global": Object {
+                                                  "background": "#e8e8e8",
+                                                  "contentBackground": "#fff",
+                                                  "inputBackground": "#fff",
+                                                  "link": "#702785",
+                                                  "linkHover": "#410057",
+                                                  "textAlt": "#fff",
+                                                  "textDefault": "#1f1f1f",
+                                                },
+                                                "gray": Object {
+                                                  "10": "#1f1f1f",
+                                                  "100": "#ffffff",
+                                                  "20": "#383838",
+                                                  "30": "#515151",
+                                                  "40": "#6a6a6a",
+                                                  "50": "#838383",
+                                                  "60": "#9b9b9b",
+                                                  "70": "#b4b4b4",
+                                                  "80": "#cdcdcd",
+                                                  "90": "#e6e6e6",
+                                                },
+                                                "table": Object {
+                                                  "background": "#fafafa",
+                                                  "backgroundAlt": "#f0f0f0",
+                                                  "backgroundHover": "#f5f5f5",
+                                                  "variant": Object {
+                                                    "active": "#e6e6e6",
+                                                    "danger": "#eddddd",
+                                                    "info": "#dde2f0",
+                                                    "primary": "#e4dee7",
+                                                    "success": "#ddeddf",
+                                                    "warning": "#fff5dd",
+                                                  },
+                                                  "variantHover": Object {
+                                                    "active": "#d0d0d0",
+                                                    "danger": "#debdbd",
+                                                    "info": "#bdc8e4",
+                                                    "primary": "#cbbfd1",
+                                                    "success": "#bddec2",
+                                                    "warning": "#ffecbd",
+                                                  },
+                                                },
+                                                "variant": Object {
+                                                  "danger": "#ad0707",
+                                                  "dark": Object {
+                                                    "danger": "#990606",
+                                                    "default": "#737373",
+                                                    "info": "#0057a8",
+                                                    "primary": "#632275",
+                                                    "success": "#009a3a",
+                                                    "warning": "#e1b900",
+                                                  },
+                                                  "darker": Object {
+                                                    "danger": "#740505",
+                                                    "default": "#575757",
+                                                    "info": "#00427f",
+                                                    "primary": "#4b1a59",
+                                                    "success": "#00752c",
+                                                    "warning": "#ab8d00",
+                                                  },
+                                                  "darkest": Object {
+                                                    "danger": "#3c0202",
+                                                    "default": "#2d2d2d",
+                                                    "info": "#002242",
+                                                    "primary": "#270e2e",
+                                                    "success": "#003c17",
+                                                    "warning": "#584900",
+                                                  },
+                                                  "default": "#828282",
+                                                  "info": "#0063be",
+                                                  "light": Object {
+                                                    "danger": "#c27878",
+                                                    "default": "#a6a6a6",
+                                                    "info": "#7894ce",
+                                                    "primary": "#9b7ca8",
+                                                    "success": "#78c385",
+                                                    "warning": "#ffdd78",
+                                                  },
+                                                  "lighter": Object {
+                                                    "danger": "#debdbd",
+                                                    "default": "#d0d0d0",
+                                                    "info": "#bdc8e4",
+                                                    "primary": "#cbbfd1",
+                                                    "success": "#bddec2",
+                                                    "warning": "#ffecbd",
+                                                  },
+                                                  "lightest": Object {
+                                                    "danger": "#f7efef",
+                                                    "default": "#f3f3f3",
+                                                    "info": "#eff2f8",
+                                                    "primary": "#f2f0f4",
+                                                    "success": "#eff7f0",
+                                                    "warning": "#fffaef",
+                                                  },
+                                                  "primary": "#702785",
+                                                  "success": "#00ae42",
+                                                  "warning": "#ffd200",
+                                                },
+                                              },
+                                              "components": Object {
+                                                "button": Array [
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                  Array [
+                                                    [Function],
+                                                  ],
+                                                ],
+                                              },
+                                              "fonts": Object {
+                                                "family": Object {
+                                                  "body": "\\"Open Sans\\", \\"Helvetica Neue\\", Helvetica, Arial, sans-serif",
+                                                  "monospace": "\\"Roboto Mono\\", Menlo, Monaco, Consolas, \\"Courier New\\", monospace",
+                                                },
+                                                "size": Object {
+                                                  "body": "1rem",
+                                                  "h1": "1.802rem",
+                                                  "h2": "1.602rem",
+                                                  "h3": "1.424rem",
+                                                  "h4": "1.266rem",
+                                                  "h5": "1.125rem",
+                                                  "h6": "1rem",
+                                                  "huge": "2.027rem",
+                                                  "large": "1.125rem",
+                                                  "root": "87.5%",
+                                                  "small": "0.889rem",
+                                                  "tiny": "0.79rem",
+                                                },
+                                              },
+                                              "mode": "teinte",
+                                              "updateThemeMode": [Function],
+                                              "utils": Object {
+                                                "colorLevel": [Function],
+                                                "contrastingColor": [Function],
+                                                "opacify": [Function],
+                                                "readableColor": [Function],
+                                              },
+                                            }
+                                          }
+>>>>>>> 12d5225973... snapshots
                                           value="timestamp"
                                         >
                                           <Select
@@ -49437,6 +52158,7 @@ exports[`AggregationConditionExpression rendering conditions should render simpl
                                     },
                                   },
                                   "mode": "teinte",
+                                  "updateThemeMode": [Function],
                                   "utils": Object {
                                     "colorLevel": [Function],
                                     "contrastingColor": [Function],
