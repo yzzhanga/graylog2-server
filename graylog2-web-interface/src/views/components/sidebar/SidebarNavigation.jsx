@@ -16,12 +16,13 @@ type Props = {
 };
 
 const Container: StyledComponent<{}, ThemeInterface, HTMLDivElement> = styled.div(({ theme }) => css`
-  background: ${theme.colors.gray[10]};
-  color: ${theme.colors.gray[80]};
-  box-shadow: 3px 0 3px rgba(0, 0, 0, 0.25);
+  background: ${theme.colors.global.contentBackground};
+  color: ${theme.colors.global.textDefault};
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.25);
   width: 50px;
   height: 100%;
   position:relative;
+  z-index: 1031; /* higher than Navbar */
 
   ::before {
     content: '';
