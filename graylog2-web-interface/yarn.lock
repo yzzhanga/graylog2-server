@@ -8109,7 +8109,7 @@ graceful-fs@^4.1.6, graceful-fs@^4.1.9, graceful-fs@^4.2.0, graceful-fs@^4.2.2, 
   dependencies:
     "@babel/preset-env" "7.10.4"
     babel-eslint "9.0.0"
-    eslint-config-graylog "file:../../../../../../Library/Caches/Yarn/v6/npm-graylog-web-plugin-4.0.0-SNAPSHOT-76578ccf-1e05-4ba5-a3d3-48497b300f0f-1594324128185/node_modules/eslint-config-graylog"
+    eslint-config-graylog "file:../../../../../../Library/Caches/Yarn/v6/npm-graylog-web-plugin-4.0.0-SNAPSHOT-ecde95ec-8ec7-4a23-8e0a-7ee2fd6811db-1594325550672/node_modules/eslint-config-graylog"
     html-webpack-plugin "^4.2.0"
     javascript-natural-sort "0.7.1"
     jquery "3.5.1"
@@ -8124,7 +8124,6 @@ graceful-fs@^4.1.6, graceful-fs@^4.1.9, graceful-fs@^4.2.0, graceful-fs@^4.2.2, 
     react-router-bootstrap "0.23.2"
     reflux "0.2.13"
     styled-components "5.1.1"
-    styled-theming "2.2.0"
     webpack "4.43.0"
     webpack-cleanup-plugin "0.5.1"
     webpack-cli "3.3.12"
@@ -15343,11 +15342,6 @@ styled-components@5.1.1:
     hoist-non-react-statics "^3.0.0"
     shallowequal "^1.1.0"
     supports-color "^5.5.0"
-
-styled-theming@2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/styled-theming/-/styled-theming-2.2.0.tgz#3084e43d40eaab4bc11ebafd3de04e3622fee37e"
-  integrity sha1-MITkPUDqq0vBHrr9PeBONiL+434=
 
 stylelint-config-recommended@^3.0.0:
   version "3.0.0"
