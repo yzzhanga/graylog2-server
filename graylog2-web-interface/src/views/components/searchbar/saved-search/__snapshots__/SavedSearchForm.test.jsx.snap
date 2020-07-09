@@ -54,7 +54,6 @@ exports[`SavedSearchForm render the SavedSearchForm should render create new 1`]
                       "global": Object {
                         "background": "#e8e8e8",
                         "contentBackground": "#fff",
-                        "inputBackground": "#fff",
                         "link": "#702785",
                         "linkHover": "#410057",
                         "textAlt": "#fff",
@@ -71,6 +70,16 @@ exports[`SavedSearchForm render the SavedSearchForm should render create new 1`]
                         "70": "#b4b4b4",
                         "80": "#cdcdcd",
                         "90": "#e6e6e6",
+                      },
+                      "input": Object {
+                        "background": "#fff",
+                        "backgroundDisabled": "#dddddd",
+                        "border": "#a6a6a6",
+                        "borderFocus": "#7894ce",
+                        "boxShadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(120,148,206,0.4)",
+                        "color": "#1f1f1f",
+                        "colorDisabled": "#9b9b9b",
+                        "placeholder": "#9b9b9b",
                       },
                       "table": Object {
                         "background": "#fafafa",
@@ -297,6 +306,7 @@ exports[`SavedSearchForm render the SavedSearchForm should render create new 1`]
                                         placeholder="Enter title"
                                         type="text"
                                         value="new Title"
+<<<<<<< HEAD
                                       />
                                     </FormControl>
                                   </FormControl>
@@ -312,6 +322,69 @@ exports[`SavedSearchForm render the SavedSearchForm should render create new 1`]
                             type="submit"
                           >
                             <Button__StyledButton
+=======
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "Feedback": [Function],
+                                              "SIZES": Array [
+                                                "small",
+                                                "large",
+                                              ],
+                                              "Static": [Function],
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "FormControl-sc-1amoaox-0",
+                                                "isStatic": false,
+                                                "lastClassName": "hBmgnF",
+                                                "rules": Array [
+                                                  [Function],
+                                                ],
+                                              },
+                                              "displayName": "FormControl",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "FormControl-sc-1amoaox-0",
+                                              "target": [Function],
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          onChange={[Function]}
+                                          placeholder="Enter title"
+                                          type="text"
+                                          value="new Title"
+                                        >
+                                          <FormControl
+                                            bsClass="form-control"
+                                            className="FormControl-sc-1amoaox-0 hBmgnF"
+                                            componentClass="input"
+                                            onChange={[Function]}
+                                            placeholder="Enter title"
+                                            type="text"
+                                            value="new Title"
+                                          >
+                                            <input
+                                              className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+                                              onChange={[Function]}
+                                              placeholder="Enter title"
+                                              type="text"
+                                              value="new Title"
+                                            />
+                                          </FormControl>
+                                        </StyledComponent>
+                                      </FormControl>
+                                    </div>
+                                  </FormGroup>
+                                </StyledComponent>
+                              </FormGroup__StyledFormGroup>
+                            </Component>
+                            <ForwardRef
+>>>>>>> 46caba27d0... snapshots
                               bsStyle="info"
                               className="button"
                               disabled={false}
@@ -436,7 +509,6 @@ exports[`SavedSearchForm render the SavedSearchForm should render disabled creat
                       "global": Object {
                         "background": "#e8e8e8",
                         "contentBackground": "#fff",
-                        "inputBackground": "#fff",
                         "link": "#702785",
                         "linkHover": "#410057",
                         "textAlt": "#fff",
@@ -453,6 +525,16 @@ exports[`SavedSearchForm render the SavedSearchForm should render disabled creat
                         "70": "#b4b4b4",
                         "80": "#cdcdcd",
                         "90": "#e6e6e6",
+                      },
+                      "input": Object {
+                        "background": "#fff",
+                        "backgroundDisabled": "#dddddd",
+                        "border": "#a6a6a6",
+                        "borderFocus": "#7894ce",
+                        "boxShadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(120,148,206,0.4)",
+                        "color": "#1f1f1f",
+                        "colorDisabled": "#9b9b9b",
+                        "placeholder": "#9b9b9b",
                       },
                       "table": Object {
                         "background": "#fafafa",
@@ -679,6 +761,7 @@ exports[`SavedSearchForm render the SavedSearchForm should render disabled creat
                                         placeholder="Enter title"
                                         type="text"
                                         value="new Title"
+<<<<<<< HEAD
                                       />
                                     </FormControl>
                                   </FormControl>
@@ -693,6 +776,69 @@ exports[`SavedSearchForm render the SavedSearchForm should render disabled creat
                             type="submit"
                           >
                             <Button__StyledButton
+=======
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "Feedback": [Function],
+                                              "SIZES": Array [
+                                                "small",
+                                                "large",
+                                              ],
+                                              "Static": [Function],
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "FormControl-sc-1amoaox-0",
+                                                "isStatic": false,
+                                                "lastClassName": "hBmgnF",
+                                                "rules": Array [
+                                                  [Function],
+                                                ],
+                                              },
+                                              "displayName": "FormControl",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "FormControl-sc-1amoaox-0",
+                                              "target": [Function],
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          onChange={[Function]}
+                                          placeholder="Enter title"
+                                          type="text"
+                                          value="new Title"
+                                        >
+                                          <FormControl
+                                            bsClass="form-control"
+                                            className="FormControl-sc-1amoaox-0 hBmgnF"
+                                            componentClass="input"
+                                            onChange={[Function]}
+                                            placeholder="Enter title"
+                                            type="text"
+                                            value="new Title"
+                                          >
+                                            <input
+                                              className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+                                              onChange={[Function]}
+                                              placeholder="Enter title"
+                                              type="text"
+                                              value="new Title"
+                                            />
+                                          </FormControl>
+                                        </StyledComponent>
+                                      </FormControl>
+                                    </div>
+                                  </FormGroup>
+                                </StyledComponent>
+                              </FormGroup__StyledFormGroup>
+                            </Component>
+                            <ForwardRef
+>>>>>>> 46caba27d0... snapshots
                               bsStyle="primary"
                               className="button"
                               onClick={[Function]}
@@ -851,7 +997,6 @@ exports[`SavedSearchForm render the SavedSearchForm should render save 1`] = `
                       "global": Object {
                         "background": "#e8e8e8",
                         "contentBackground": "#fff",
-                        "inputBackground": "#fff",
                         "link": "#702785",
                         "linkHover": "#410057",
                         "textAlt": "#fff",
@@ -868,6 +1013,16 @@ exports[`SavedSearchForm render the SavedSearchForm should render save 1`] = `
                         "70": "#b4b4b4",
                         "80": "#cdcdcd",
                         "90": "#e6e6e6",
+                      },
+                      "input": Object {
+                        "background": "#fff",
+                        "backgroundDisabled": "#dddddd",
+                        "border": "#a6a6a6",
+                        "borderFocus": "#7894ce",
+                        "boxShadow": "inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(120,148,206,0.4)",
+                        "color": "#1f1f1f",
+                        "colorDisabled": "#9b9b9b",
+                        "placeholder": "#9b9b9b",
                       },
                       "table": Object {
                         "background": "#fafafa",
@@ -1094,6 +1249,7 @@ exports[`SavedSearchForm render the SavedSearchForm should render save 1`] = `
                                         placeholder="Enter title"
                                         type="text"
                                         value="new Title"
+<<<<<<< HEAD
                                       />
                                     </FormControl>
                                   </FormControl>
@@ -1108,6 +1264,69 @@ exports[`SavedSearchForm render the SavedSearchForm should render save 1`] = `
                             type="submit"
                           >
                             <Button__StyledButton
+=======
+                                      >
+                                        <StyledComponent
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "Feedback": [Function],
+                                              "SIZES": Array [
+                                                "small",
+                                                "large",
+                                              ],
+                                              "Static": [Function],
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "FormControl-sc-1amoaox-0",
+                                                "isStatic": false,
+                                                "lastClassName": "hBmgnF",
+                                                "rules": Array [
+                                                  [Function],
+                                                ],
+                                              },
+                                              "displayName": "FormControl",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "FormControl-sc-1amoaox-0",
+                                              "target": [Function],
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          onChange={[Function]}
+                                          placeholder="Enter title"
+                                          type="text"
+                                          value="new Title"
+                                        >
+                                          <FormControl
+                                            bsClass="form-control"
+                                            className="FormControl-sc-1amoaox-0 hBmgnF"
+                                            componentClass="input"
+                                            onChange={[Function]}
+                                            placeholder="Enter title"
+                                            type="text"
+                                            value="new Title"
+                                          >
+                                            <input
+                                              className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+                                              onChange={[Function]}
+                                              placeholder="Enter title"
+                                              type="text"
+                                              value="new Title"
+                                            />
+                                          </FormControl>
+                                        </StyledComponent>
+                                      </FormControl>
+                                    </div>
+                                  </FormGroup>
+                                </StyledComponent>
+                              </FormGroup__StyledFormGroup>
+                            </Component>
+                            <ForwardRef
+>>>>>>> 46caba27d0... snapshots
                               bsStyle="primary"
                               className="button"
                               onClick={[Function]}

@@ -56,7 +56,40 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                 <div
                   className="col-sm-4"
                 >
+<<<<<<< HEAD
                   <FormControl
+=======
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "Feedback": [Function],
+                        "SIZES": Array [
+                          "small",
+                          "large",
+                        ],
+                        "Static": [Function],
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "FormControl-sc-1amoaox-0",
+                          "isStatic": false,
+                          "lastClassName": "hBmgnF",
+                          "rules": Array [
+                            [Function],
+                          ],
+                        },
+                        "displayName": "FormControl",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "FormControl-sc-1amoaox-0",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                     id="create-token-input"
                     onChange={[Function]}
                     placeholder="e.g ServiceName"
@@ -65,7 +98,11 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                   >
                     <FormControl
                       bsClass="form-control"
+<<<<<<< HEAD
                       className="FormControl-sc-1amoaox-0 kmJcge"
+=======
+                      className="FormControl-sc-1amoaox-0 hBmgnF"
+>>>>>>> 46caba27d0... snapshots
                       componentClass="input"
                       id="create-token-input"
                       onChange={[Function]}
@@ -74,7 +111,11 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                       value=""
                     >
                       <input
+<<<<<<< HEAD
                         className="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                        className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> 46caba27d0... snapshots
                         id="create-token-input"
                         onChange={[Function]}
                         placeholder="e.g ServiceName"
@@ -266,21 +307,75 @@ exports[`<TokenList /> should render with empty tokens 1`] = `
                                             bsClass="form-control"
                                             className="FormControl-sc-1amoaox-0 kmJcge"
                                             componentClass="input"
+<<<<<<< HEAD
+=======
+                                            forwardedComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "Feedback": [Function],
+                                                "SIZES": Array [
+                                                  "small",
+                                                  "large",
+                                                ],
+                                                "Static": [Function],
+                                                "attrs": Array [],
+                                                "componentStyle": ComponentStyle {
+                                                  "componentId": "FormControl-sc-1amoaox-0",
+                                                  "isStatic": false,
+                                                  "lastClassName": "hBmgnF",
+                                                  "rules": Array [
+                                                    [Function],
+                                                  ],
+                                                },
+                                                "displayName": "FormControl",
+                                                "foldedComponentIds": Array [],
+                                                "render": [Function],
+                                                "styledComponentId": "FormControl-sc-1amoaox-0",
+                                                "target": [Function],
+                                                "toString": [Function],
+                                                "warnTooManyClasses": [Function],
+                                                "withComponent": [Function],
+                                              }
+                                            }
+                                            forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                                             inputRef={[Function]}
                                             label="Filter"
                                             name="filter-data-filter"
                                             placeholder=""
                                             type="text"
                                           >
+<<<<<<< HEAD
                                             <input
                                               className="FormControl-sc-1amoaox-0 kmJcge form-control"
                                               id="filter-data-filter"
+=======
+                                            <FormControl
+                                              bsClass="form-control"
+                                              className="FormControl-sc-1amoaox-0 hBmgnF"
+                                              componentClass="input"
+                                              inputRef={[Function]}
+>>>>>>> 46caba27d0... snapshots
                                               label="Filter"
                                               name="filter-data-filter"
                                               placeholder=""
                                               type="text"
+<<<<<<< HEAD
                                             />
                                           </FormControl>
+=======
+                                            >
+                                              <input
+                                                className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+                                                id="filter-data-filter"
+                                                label="Filter"
+                                                name="filter-data-filter"
+                                                placeholder=""
+                                                type="text"
+                                              />
+                                            </FormControl>
+                                          </StyledComponent>
+>>>>>>> 46caba27d0... snapshots
                                         </FormControl>
                                       </div>
                                     </InputWrapper>
@@ -558,7 +653,40 @@ exports[`<TokenList /> should render with tokens 1`] = `
                 <div
                   className="col-sm-4"
                 >
+<<<<<<< HEAD
                   <FormControl
+=======
+                  <StyledComponent
+                    forwardedComponent={
+                      Object {
+                        "$$typeof": Symbol(react.forward_ref),
+                        "Feedback": [Function],
+                        "SIZES": Array [
+                          "small",
+                          "large",
+                        ],
+                        "Static": [Function],
+                        "attrs": Array [],
+                        "componentStyle": ComponentStyle {
+                          "componentId": "FormControl-sc-1amoaox-0",
+                          "isStatic": false,
+                          "lastClassName": "hBmgnF",
+                          "rules": Array [
+                            [Function],
+                          ],
+                        },
+                        "displayName": "FormControl",
+                        "foldedComponentIds": Array [],
+                        "render": [Function],
+                        "styledComponentId": "FormControl-sc-1amoaox-0",
+                        "target": [Function],
+                        "toString": [Function],
+                        "warnTooManyClasses": [Function],
+                        "withComponent": [Function],
+                      }
+                    }
+                    forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                     id="create-token-input"
                     onChange={[Function]}
                     placeholder="e.g ServiceName"
@@ -567,7 +695,11 @@ exports[`<TokenList /> should render with tokens 1`] = `
                   >
                     <FormControl
                       bsClass="form-control"
+<<<<<<< HEAD
                       className="FormControl-sc-1amoaox-0 kmJcge"
+=======
+                      className="FormControl-sc-1amoaox-0 hBmgnF"
+>>>>>>> 46caba27d0... snapshots
                       componentClass="input"
                       id="create-token-input"
                       onChange={[Function]}
@@ -576,7 +708,11 @@ exports[`<TokenList /> should render with tokens 1`] = `
                       value=""
                     >
                       <input
+<<<<<<< HEAD
                         className="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                        className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> 46caba27d0... snapshots
                         id="create-token-input"
                         onChange={[Function]}
                         placeholder="e.g ServiceName"
@@ -794,21 +930,75 @@ exports[`<TokenList /> should render with tokens 1`] = `
                                             bsClass="form-control"
                                             className="FormControl-sc-1amoaox-0 kmJcge"
                                             componentClass="input"
+<<<<<<< HEAD
+=======
+                                            forwardedComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "Feedback": [Function],
+                                                "SIZES": Array [
+                                                  "small",
+                                                  "large",
+                                                ],
+                                                "Static": [Function],
+                                                "attrs": Array [],
+                                                "componentStyle": ComponentStyle {
+                                                  "componentId": "FormControl-sc-1amoaox-0",
+                                                  "isStatic": false,
+                                                  "lastClassName": "hBmgnF",
+                                                  "rules": Array [
+                                                    [Function],
+                                                  ],
+                                                },
+                                                "displayName": "FormControl",
+                                                "foldedComponentIds": Array [],
+                                                "render": [Function],
+                                                "styledComponentId": "FormControl-sc-1amoaox-0",
+                                                "target": [Function],
+                                                "toString": [Function],
+                                                "warnTooManyClasses": [Function],
+                                                "withComponent": [Function],
+                                              }
+                                            }
+                                            forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                                             inputRef={[Function]}
                                             label="Filter"
                                             name="filter-data-filter"
                                             placeholder=""
                                             type="text"
                                           >
+<<<<<<< HEAD
                                             <input
                                               className="FormControl-sc-1amoaox-0 kmJcge form-control"
                                               id="filter-data-filter"
+=======
+                                            <FormControl
+                                              bsClass="form-control"
+                                              className="FormControl-sc-1amoaox-0 hBmgnF"
+                                              componentClass="input"
+                                              inputRef={[Function]}
+>>>>>>> 46caba27d0... snapshots
                                               label="Filter"
                                               name="filter-data-filter"
                                               placeholder=""
                                               type="text"
+<<<<<<< HEAD
                                             />
                                           </FormControl>
+=======
+                                            >
+                                              <input
+                                                className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+                                                id="filter-data-filter"
+                                                label="Filter"
+                                                name="filter-data-filter"
+                                                placeholder=""
+                                                type="text"
+                                              />
+                                            </FormControl>
+                                          </StyledComponent>
+>>>>>>> 46caba27d0... snapshots
                                         </FormControl>
                                       </div>
                                     </InputWrapper>

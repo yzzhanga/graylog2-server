@@ -489,6 +489,38 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                               <span>
                                                 <FormControl
                                                   componentClass="input"
+<<<<<<< HEAD
+=======
+                                                  forwardedComponent={
+                                                    Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "Feedback": [Function],
+                                                      "SIZES": Array [
+                                                        "small",
+                                                        "large",
+                                                      ],
+                                                      "Static": [Function],
+                                                      "attrs": Array [],
+                                                      "componentStyle": ComponentStyle {
+                                                        "componentId": "FormControl-sc-1amoaox-0",
+                                                        "isStatic": false,
+                                                        "lastClassName": "hBmgnF",
+                                                        "rules": Array [
+                                                          [Function],
+                                                        ],
+                                                      },
+                                                      "displayName": "FormControl",
+                                                      "foldedComponentIds": Array [],
+                                                      "render": [Function],
+                                                      "styledComponentId": "FormControl-sc-1amoaox-0",
+                                                      "target": [Function],
+                                                      "toString": [Function],
+                                                      "warnTooManyClasses": [Function],
+                                                      "withComponent": [Function],
+                                                    }
+                                                  }
+                                                  forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
                                                   label="Name"
                                                   maxLength={250}
@@ -501,7 +533,11 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
+<<<<<<< HEAD
                                                     className="FormControl-sc-1amoaox-0 kmJcge"
+=======
+                                                    className="FormControl-sc-1amoaox-0 hBmgnF"
+>>>>>>> 46caba27d0... snapshots
                                                     componentClass="input"
                                                     inputRef={[Function]}
                                                     label="Name"
@@ -514,7 +550,11 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                     value=""
                                                   >
                                                     <input
+<<<<<<< HEAD
                                                       className="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                                                      className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> 46caba27d0... snapshots
                                                       id="name"
                                                       label="Name"
                                                       maxLength={250}
@@ -596,6 +636,38 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                               <span>
                                                 <FormControl
                                                   componentClass="input"
+<<<<<<< HEAD
+=======
+                                                  forwardedComponent={
+                                                    Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "Feedback": [Function],
+                                                      "SIZES": Array [
+                                                        "small",
+                                                        "large",
+                                                      ],
+                                                      "Static": [Function],
+                                                      "attrs": Array [],
+                                                      "componentStyle": ComponentStyle {
+                                                        "componentId": "FormControl-sc-1amoaox-0",
+                                                        "isStatic": false,
+                                                        "lastClassName": "hBmgnF",
+                                                        "rules": Array [
+                                                          [Function],
+                                                        ],
+                                                      },
+                                                      "displayName": "FormControl",
+                                                      "foldedComponentIds": Array [],
+                                                      "render": [Function],
+                                                      "styledComponentId": "FormControl-sc-1amoaox-0",
+                                                      "target": [Function],
+                                                      "toString": [Function],
+                                                      "warnTooManyClasses": [Function],
+                                                      "withComponent": [Function],
+                                                    }
+                                                  }
+                                                  forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
                                                   label="Summary"
                                                   maxLength={250}
@@ -608,7 +680,11 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
+<<<<<<< HEAD
                                                     className="FormControl-sc-1amoaox-0 kmJcge"
+=======
+                                                    className="FormControl-sc-1amoaox-0 hBmgnF"
+>>>>>>> 46caba27d0... snapshots
                                                     componentClass="input"
                                                     inputRef={[Function]}
                                                     label="Summary"
@@ -621,7 +697,11 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                     value=""
                                                   >
                                                     <input
+<<<<<<< HEAD
                                                       className="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                                                      className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> 46caba27d0... snapshots
                                                       id="summary"
                                                       label="Summary"
                                                       maxLength={250}
@@ -702,6 +782,38 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                               <span>
                                                 <FormControl
                                                   componentClass="textarea"
+<<<<<<< HEAD
+=======
+                                                  forwardedComponent={
+                                                    Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "Feedback": [Function],
+                                                      "SIZES": Array [
+                                                        "small",
+                                                        "large",
+                                                      ],
+                                                      "Static": [Function],
+                                                      "attrs": Array [],
+                                                      "componentStyle": ComponentStyle {
+                                                        "componentId": "FormControl-sc-1amoaox-0",
+                                                        "isStatic": false,
+                                                        "lastClassName": "hBmgnF",
+                                                        "rules": Array [
+                                                          [Function],
+                                                        ],
+                                                      },
+                                                      "displayName": "FormControl",
+                                                      "foldedComponentIds": Array [],
+                                                      "render": [Function],
+                                                      "styledComponentId": "FormControl-sc-1amoaox-0",
+                                                      "target": [Function],
+                                                      "toString": [Function],
+                                                      "warnTooManyClasses": [Function],
+                                                      "withComponent": [Function],
+                                                    }
+                                                  }
+                                                  forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
                                                   label="Description"
                                                   name="description"
@@ -713,7 +825,11 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
+<<<<<<< HEAD
                                                     className="FormControl-sc-1amoaox-0 kmJcge"
+=======
+                                                    className="FormControl-sc-1amoaox-0 hBmgnF"
+>>>>>>> 46caba27d0... snapshots
                                                     componentClass="textarea"
                                                     inputRef={[Function]}
                                                     label="Description"
@@ -725,7 +841,11 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                     value=""
                                                   >
                                                     <textarea
+<<<<<<< HEAD
                                                       className="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                                                      className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> 46caba27d0... snapshots
                                                       id="description"
                                                       label="Description"
                                                       name="description"
@@ -806,6 +926,38 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                               <span>
                                                 <FormControl
                                                   componentClass="input"
+<<<<<<< HEAD
+=======
+                                                  forwardedComponent={
+                                                    Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "Feedback": [Function],
+                                                      "SIZES": Array [
+                                                        "small",
+                                                        "large",
+                                                      ],
+                                                      "Static": [Function],
+                                                      "attrs": Array [],
+                                                      "componentStyle": ComponentStyle {
+                                                        "componentId": "FormControl-sc-1amoaox-0",
+                                                        "isStatic": false,
+                                                        "lastClassName": "hBmgnF",
+                                                        "rules": Array [
+                                                          [Function],
+                                                        ],
+                                                      },
+                                                      "displayName": "FormControl",
+                                                      "foldedComponentIds": Array [],
+                                                      "render": [Function],
+                                                      "styledComponentId": "FormControl-sc-1amoaox-0",
+                                                      "target": [Function],
+                                                      "toString": [Function],
+                                                      "warnTooManyClasses": [Function],
+                                                      "withComponent": [Function],
+                                                    }
+                                                  }
+                                                  forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
                                                   label="Vendor"
                                                   maxLength={250}
@@ -818,7 +970,11 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
+<<<<<<< HEAD
                                                     className="FormControl-sc-1amoaox-0 kmJcge"
+=======
+                                                    className="FormControl-sc-1amoaox-0 hBmgnF"
+>>>>>>> 46caba27d0... snapshots
                                                     componentClass="input"
                                                     inputRef={[Function]}
                                                     label="Vendor"
@@ -831,7 +987,11 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                     value=""
                                                   >
                                                     <input
+<<<<<<< HEAD
                                                       className="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                                                      className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> 46caba27d0... snapshots
                                                       id="vendor"
                                                       label="Vendor"
                                                       maxLength={250}
@@ -912,6 +1072,38 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                               <span>
                                                 <FormControl
                                                   componentClass="input"
+<<<<<<< HEAD
+=======
+                                                  forwardedComponent={
+                                                    Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "Feedback": [Function],
+                                                      "SIZES": Array [
+                                                        "small",
+                                                        "large",
+                                                      ],
+                                                      "Static": [Function],
+                                                      "attrs": Array [],
+                                                      "componentStyle": ComponentStyle {
+                                                        "componentId": "FormControl-sc-1amoaox-0",
+                                                        "isStatic": false,
+                                                        "lastClassName": "hBmgnF",
+                                                        "rules": Array [
+                                                          [Function],
+                                                        ],
+                                                      },
+                                                      "displayName": "FormControl",
+                                                      "foldedComponentIds": Array [],
+                                                      "render": [Function],
+                                                      "styledComponentId": "FormControl-sc-1amoaox-0",
+                                                      "target": [Function],
+                                                      "toString": [Function],
+                                                      "warnTooManyClasses": [Function],
+                                                      "withComponent": [Function],
+                                                    }
+                                                  }
+                                                  forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
                                                   label="URL"
                                                   maxLength={250}
@@ -923,7 +1115,11 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
+<<<<<<< HEAD
                                                     className="FormControl-sc-1amoaox-0 kmJcge"
+=======
+                                                    className="FormControl-sc-1amoaox-0 hBmgnF"
+>>>>>>> 46caba27d0... snapshots
                                                     componentClass="input"
                                                     inputRef={[Function]}
                                                     label="URL"
@@ -935,7 +1131,11 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                     value=""
                                                   >
                                                     <input
+<<<<<<< HEAD
                                                       className="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                                                      className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> 46caba27d0... snapshots
                                                       id="url"
                                                       label="URL"
                                                       maxLength={250}
@@ -2039,6 +2239,38 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                               <span>
                                                 <FormControl
                                                   componentClass="input"
+<<<<<<< HEAD
+=======
+                                                  forwardedComponent={
+                                                    Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "Feedback": [Function],
+                                                      "SIZES": Array [
+                                                        "small",
+                                                        "large",
+                                                      ],
+                                                      "Static": [Function],
+                                                      "attrs": Array [],
+                                                      "componentStyle": ComponentStyle {
+                                                        "componentId": "FormControl-sc-1amoaox-0",
+                                                        "isStatic": false,
+                                                        "lastClassName": "hBmgnF",
+                                                        "rules": Array [
+                                                          [Function],
+                                                        ],
+                                                      },
+                                                      "displayName": "FormControl",
+                                                      "foldedComponentIds": Array [],
+                                                      "render": [Function],
+                                                      "styledComponentId": "FormControl-sc-1amoaox-0",
+                                                      "target": [Function],
+                                                      "toString": [Function],
+                                                      "warnTooManyClasses": [Function],
+                                                      "withComponent": [Function],
+                                                    }
+                                                  }
+                                                  forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
                                                   label="Name"
                                                   maxLength={250}
@@ -2051,7 +2283,11 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
+<<<<<<< HEAD
                                                     className="FormControl-sc-1amoaox-0 kmJcge"
+=======
+                                                    className="FormControl-sc-1amoaox-0 hBmgnF"
+>>>>>>> 46caba27d0... snapshots
                                                     componentClass="input"
                                                     inputRef={[Function]}
                                                     label="Name"
@@ -2064,7 +2300,11 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                     value="Content Pack the movie"
                                                   >
                                                     <input
+<<<<<<< HEAD
                                                       className="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                                                      className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> 46caba27d0... snapshots
                                                       id="name"
                                                       label="Name"
                                                       maxLength={250}
@@ -2146,6 +2386,38 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                               <span>
                                                 <FormControl
                                                   componentClass="input"
+<<<<<<< HEAD
+=======
+                                                  forwardedComponent={
+                                                    Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "Feedback": [Function],
+                                                      "SIZES": Array [
+                                                        "small",
+                                                        "large",
+                                                      ],
+                                                      "Static": [Function],
+                                                      "attrs": Array [],
+                                                      "componentStyle": ComponentStyle {
+                                                        "componentId": "FormControl-sc-1amoaox-0",
+                                                        "isStatic": false,
+                                                        "lastClassName": "hBmgnF",
+                                                        "rules": Array [
+                                                          [Function],
+                                                        ],
+                                                      },
+                                                      "displayName": "FormControl",
+                                                      "foldedComponentIds": Array [],
+                                                      "render": [Function],
+                                                      "styledComponentId": "FormControl-sc-1amoaox-0",
+                                                      "target": [Function],
+                                                      "toString": [Function],
+                                                      "warnTooManyClasses": [Function],
+                                                      "withComponent": [Function],
+                                                    }
+                                                  }
+                                                  forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
                                                   label="Summary"
                                                   maxLength={250}
@@ -2158,7 +2430,11 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
+<<<<<<< HEAD
                                                     className="FormControl-sc-1amoaox-0 kmJcge"
+=======
+                                                    className="FormControl-sc-1amoaox-0 hBmgnF"
+>>>>>>> 46caba27d0... snapshots
                                                     componentClass="input"
                                                     inputRef={[Function]}
                                                     label="Summary"
@@ -2171,7 +2447,11 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                     value="A old content pack"
                                                   >
                                                     <input
+<<<<<<< HEAD
                                                       className="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                                                      className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> 46caba27d0... snapshots
                                                       id="summary"
                                                       label="Summary"
                                                       maxLength={250}
@@ -2252,6 +2532,38 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                               <span>
                                                 <FormControl
                                                   componentClass="textarea"
+<<<<<<< HEAD
+=======
+                                                  forwardedComponent={
+                                                    Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "Feedback": [Function],
+                                                      "SIZES": Array [
+                                                        "small",
+                                                        "large",
+                                                      ],
+                                                      "Static": [Function],
+                                                      "attrs": Array [],
+                                                      "componentStyle": ComponentStyle {
+                                                        "componentId": "FormControl-sc-1amoaox-0",
+                                                        "isStatic": false,
+                                                        "lastClassName": "hBmgnF",
+                                                        "rules": Array [
+                                                          [Function],
+                                                        ],
+                                                      },
+                                                      "displayName": "FormControl",
+                                                      "foldedComponentIds": Array [],
+                                                      "render": [Function],
+                                                      "styledComponentId": "FormControl-sc-1amoaox-0",
+                                                      "target": [Function],
+                                                      "toString": [Function],
+                                                      "warnTooManyClasses": [Function],
+                                                      "withComponent": [Function],
+                                                    }
+                                                  }
+                                                  forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
                                                   label="Description"
                                                   name="description"
@@ -2263,7 +2575,11 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
+<<<<<<< HEAD
                                                     className="FormControl-sc-1amoaox-0 kmJcge"
+=======
+                                                    className="FormControl-sc-1amoaox-0 hBmgnF"
+>>>>>>> 46caba27d0... snapshots
                                                     componentClass="textarea"
                                                     inputRef={[Function]}
                                                     label="Description"
@@ -2275,7 +2591,11 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                     value="## No one dares"
                                                   >
                                                     <textarea
+<<<<<<< HEAD
                                                       className="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                                                      className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> 46caba27d0... snapshots
                                                       id="description"
                                                       label="Description"
                                                       name="description"
@@ -2356,6 +2676,38 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                               <span>
                                                 <FormControl
                                                   componentClass="input"
+<<<<<<< HEAD
+=======
+                                                  forwardedComponent={
+                                                    Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "Feedback": [Function],
+                                                      "SIZES": Array [
+                                                        "small",
+                                                        "large",
+                                                      ],
+                                                      "Static": [Function],
+                                                      "attrs": Array [],
+                                                      "componentStyle": ComponentStyle {
+                                                        "componentId": "FormControl-sc-1amoaox-0",
+                                                        "isStatic": false,
+                                                        "lastClassName": "hBmgnF",
+                                                        "rules": Array [
+                                                          [Function],
+                                                        ],
+                                                      },
+                                                      "displayName": "FormControl",
+                                                      "foldedComponentIds": Array [],
+                                                      "render": [Function],
+                                                      "styledComponentId": "FormControl-sc-1amoaox-0",
+                                                      "target": [Function],
+                                                      "toString": [Function],
+                                                      "warnTooManyClasses": [Function],
+                                                      "withComponent": [Function],
+                                                    }
+                                                  }
+                                                  forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
                                                   label="Vendor"
                                                   maxLength={250}
@@ -2368,7 +2720,11 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
+<<<<<<< HEAD
                                                     className="FormControl-sc-1amoaox-0 kmJcge"
+=======
+                                                    className="FormControl-sc-1amoaox-0 hBmgnF"
+>>>>>>> 46caba27d0... snapshots
                                                     componentClass="input"
                                                     inputRef={[Function]}
                                                     label="Vendor"
@@ -2381,7 +2737,11 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                     value="Beinstein"
                                                   >
                                                     <input
+<<<<<<< HEAD
                                                       className="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                                                      className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> 46caba27d0... snapshots
                                                       id="vendor"
                                                       label="Vendor"
                                                       maxLength={250}
@@ -2462,6 +2822,38 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                               <span>
                                                 <FormControl
                                                   componentClass="input"
+<<<<<<< HEAD
+=======
+                                                  forwardedComponent={
+                                                    Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "Feedback": [Function],
+                                                      "SIZES": Array [
+                                                        "small",
+                                                        "large",
+                                                      ],
+                                                      "Static": [Function],
+                                                      "attrs": Array [],
+                                                      "componentStyle": ComponentStyle {
+                                                        "componentId": "FormControl-sc-1amoaox-0",
+                                                        "isStatic": false,
+                                                        "lastClassName": "hBmgnF",
+                                                        "rules": Array [
+                                                          [Function],
+                                                        ],
+                                                      },
+                                                      "displayName": "FormControl",
+                                                      "foldedComponentIds": Array [],
+                                                      "render": [Function],
+                                                      "styledComponentId": "FormControl-sc-1amoaox-0",
+                                                      "target": [Function],
+                                                      "toString": [Function],
+                                                      "warnTooManyClasses": [Function],
+                                                      "withComponent": [Function],
+                                                    }
+                                                  }
+                                                  forwardedRef={null}
+>>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
                                                   label="URL"
                                                   maxLength={250}
@@ -2473,7 +2865,11 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
+<<<<<<< HEAD
                                                     className="FormControl-sc-1amoaox-0 kmJcge"
+=======
+                                                    className="FormControl-sc-1amoaox-0 hBmgnF"
+>>>>>>> 46caba27d0... snapshots
                                                     componentClass="input"
                                                     inputRef={[Function]}
                                                     label="URL"
@@ -2485,7 +2881,11 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                     value="http://beinstein.com"
                                                   >
                                                     <input
+<<<<<<< HEAD
                                                       className="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                                                      className="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> 46caba27d0... snapshots
                                                       id="url"
                                                       label="URL"
                                                       maxLength={250}
