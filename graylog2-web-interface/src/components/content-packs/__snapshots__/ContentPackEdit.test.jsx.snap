@@ -147,6 +147,7 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
           <div
             className="Row-sc-3iisrt-0 gPzTHl content row"
           >
+<<<<<<< HEAD
             <Wizard__SubnavigationCol
               md={2}
             >
@@ -365,17 +366,189 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                             className="col-xs-6"
                           >
                             <ForwardRef
+=======
+            <Col
+              bsClass="col"
+              className="Wizard__SubnavigationCol-sc-1jnediy-0 fUiXsj"
+              componentClass="div"
+              md={2}
+            >
+              <div
+                className="Wizard__SubnavigationCol-sc-1jnediy-0 fUiXsj col-md-2"
+              >
+                <Nav
+                  activeKey="selection"
+                  bsStyle="pills"
+                  justified={false}
+                  onSelect={[Function]}
+                  stacked={true}
+                >
+                  <Nav
+                    activeKey="selection"
+                    bsClass="nav"
+                    bsStyle="pills"
+                    className="Nav-dzawzr-0 cLvAaF"
+                    justified={false}
+                    onSelect={[Function]}
+                    pullLeft={false}
+                    pullRight={false}
+                    stacked={true}
+                  >
+                    <ul
+                      className="Nav-dzawzr-0 cLvAaF nav nav-pills nav-stacked"
+                      role={null}
+                    >
+                      <NavItem
+                        active={true}
+                        activeKey="selection"
+                        disabled={false}
+                        eventKey="selection"
+                        key=".$selection"
+                        onSelect={[Function]}
+                      >
+                        <li
+                          className="active"
+                          role="presentation"
+                        >
+                          <SafeAnchor
+                            componentClass="a"
+                            disabled={false}
+                            onClick={[Function]}
+                          >
+                            <a
+                              href="#"
+                              onClick={[Function]}
+                              onKeyDown={[Function]}
+                              role="button"
+                            >
+                              Content Selection
+                            </a>
+                          </SafeAnchor>
+                        </li>
+                      </NavItem>
+                      <NavItem
+                        active={false}
+                        activeKey="selection"
+                        disabled={true}
+                        eventKey="parameters"
+                        key=".$parameters"
+                        onSelect={[Function]}
+                      >
+                        <li
+                          className="disabled"
+                          role="presentation"
+                        >
+                          <SafeAnchor
+                            componentClass="a"
+                            disabled={true}
+                            onClick={[Function]}
+                          >
+                            <a
+                              href="#"
+                              onClick={[Function]}
+                              onKeyDown={[Function]}
+                              role="button"
+                              style={
+                                Object {
+                                  "pointerEvents": "none",
+                                }
+                              }
+                              tabIndex={-1}
+                            >
+                              Parameters
+                            </a>
+                          </SafeAnchor>
+                        </li>
+                      </NavItem>
+                      <NavItem
+                        active={false}
+                        activeKey="selection"
+                        disabled={true}
+                        eventKey="preview"
+                        key=".$preview"
+                        onSelect={[Function]}
+                      >
+                        <li
+                          className="disabled"
+                          role="presentation"
+                        >
+                          <SafeAnchor
+                            componentClass="a"
+                            disabled={true}
+                            onClick={[Function]}
+                          >
+                            <a
+                              href="#"
+                              onClick={[Function]}
+                              onKeyDown={[Function]}
+                              role="button"
+                              style={
+                                Object {
+                                  "pointerEvents": "none",
+                                }
+                              }
+                              tabIndex={-1}
+                            >
+                              Preview
+                            </a>
+                          </SafeAnchor>
+                        </li>
+                      </NavItem>
+                    </ul>
+                  </Nav>
+                </Nav>
+                <br />
+                <Row
+                  bsClass="row"
+                  componentClass="div"
+                >
+                  <div
+                    className="row"
+                  >
+                    <Col
+                      bsClass="col"
+                      componentClass="div"
+                      xs={6}
+                    >
+                      <div
+                        className="col-xs-6"
+                      >
+                        <ForwardRef
+                          bsSize="small"
+                          bsStyle="info"
+                          disabled={true}
+                          onClick={[Function]}
+                        >
+                          <Button__StyledButton
+                            bsSize="small"
+                            bsStyle="info"
+                            disabled={true}
+                            onClick={[Function]}
+                          >
+                            <Button
+                              active={false}
+                              block={false}
+                              bsClass="btn"
+>>>>>>> 99f5c1286e... snapshots
                               bsSize="small"
                               bsStyle="info"
+                              className="Button__StyledButton-c9cbmb-0 laZUlH"
                               disabled={true}
                               onClick={[Function]}
                             >
+<<<<<<< HEAD
                               <Button__StyledButton
                                 bsSize="small"
                                 bsStyle="info"
+=======
+                              <button
+                                className="Button__StyledButton-c9cbmb-0 laZUlH btn btn-sm btn-info"
+>>>>>>> 99f5c1286e... snapshots
                                 disabled={true}
                                 onClick={[Function]}
+                                type="button"
                               >
+<<<<<<< HEAD
                                 <Button
                                   active={false}
                                   block={false}
@@ -618,17 +791,59 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                             className="text-right col-xs-6"
                           >
                             <ForwardRef
+=======
+                                Previous
+                              </button>
+                            </Button>
+                          </Button__StyledButton>
+                        </ForwardRef>
+                      </div>
+                    </Col>
+                    <Col
+                      bsClass="col"
+                      className="text-right"
+                      componentClass="div"
+                      xs={6}
+                    >
+                      <div
+                        className="text-right col-xs-6"
+                      >
+                        <ForwardRef
+                          bsSize="small"
+                          bsStyle="info"
+                          disabled={true}
+                          onClick={[Function]}
+                        >
+                          <Button__StyledButton
+                            bsSize="small"
+                            bsStyle="info"
+                            disabled={true}
+                            onClick={[Function]}
+                          >
+                            <Button
+                              active={false}
+                              block={false}
+                              bsClass="btn"
+>>>>>>> 99f5c1286e... snapshots
                               bsSize="small"
                               bsStyle="info"
+                              className="Button__StyledButton-c9cbmb-0 laZUlH"
                               disabled={true}
                               onClick={[Function]}
                             >
+<<<<<<< HEAD
                               <Button__StyledButton
                                 bsSize="small"
                                 bsStyle="info"
+=======
+                              <button
+                                className="Button__StyledButton-c9cbmb-0 laZUlH btn btn-sm btn-info"
+>>>>>>> 99f5c1286e... snapshots
                                 disabled={true}
                                 onClick={[Function]}
+                                type="button"
                               >
+<<<<<<< HEAD
                                 <Button
                                   active={false}
                                   block={false}
@@ -749,6 +964,27 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
               bsClass="col"
               componentClass="div"
               md={7}
+=======
+                                Next
+                              </button>
+                            </Button>
+                          </Button__StyledButton>
+                        </ForwardRef>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+              </div>
+            </Col>
+          </Wizard__SubnavigationCol>
+          <Col
+            bsClass="col"
+            componentClass="div"
+            md={7}
+          >
+            <div
+              className="col-md-7"
+>>>>>>> 99f5c1286e... snapshots
             >
               <div
                 className="col-md-7"
@@ -817,6 +1053,7 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                     type="text"
                                     value=""
                                   >
+<<<<<<< HEAD
                                     <Component
                                       controlId="name"
                                       validationState={null}
@@ -885,6 +1122,62 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                   forwardedRef={null}
 >>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
+=======
+                                    <FormGroup
+                                      bsClass="form-group"
+                                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                      controlId="name"
+                                      validationState={null}
+                                    >
+                                      <div
+                                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                      >
+                                        <ControlLabel>
+                                          <ControlLabel
+                                            bsClass="control-label"
+                                            className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                            srOnly={false}
+                                          >
+                                            <label
+                                              className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                              htmlFor="name"
+                                            >
+                                              Name
+                                            </label>
+                                          </ControlLabel>
+                                        </ControlLabel>
+                                        <InputWrapper>
+                                          <span>
+                                            <FormControl
+                                              componentClass="input"
+                                              inputRef={[Function]}
+                                              label="Name"
+                                              maxLength={250}
+                                              name="name"
+                                              onChange={[Function]}
+                                              placeholder=""
+                                              required={true}
+                                              type="text"
+                                              value=""
+                                            >
+                                              <FormControl
+                                                bsClass="form-control"
+                                                className="FormControl-sc-1amoaox-0 kmJcge"
+                                                componentClass="input"
+                                                inputRef={[Function]}
+                                                label="Name"
+                                                maxLength={250}
+                                                name="name"
+                                                onChange={[Function]}
+                                                placeholder=""
+                                                required={true}
+                                                type="text"
+                                                value=""
+                                              >
+                                                <input
+                                                  className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                  id="name"
+>>>>>>> 99f5c1286e... snapshots
                                                   label="Name"
                                                   maxLength={250}
                                                   name="name"
@@ -893,6 +1186,7 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                   required={true}
                                                   type="text"
                                                   value=""
+<<<<<<< HEAD
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
@@ -1089,6 +1383,44 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                 componentClass="div"
                                 lg={8}
                                 smOffset={1}
+=======
+                                                />
+                                              </FormControl>
+                                            </FormControl>
+                                            <HelpBlock>
+                                              <HelpBlock
+                                                bsClass="help-block"
+                                                className="HelpBlock-i8is92-0 fSaklp"
+                                              >
+                                                <span
+                                                  className="HelpBlock-i8is92-0 fSaklp help-block"
+                                                >
+                                                  Required. Give a descriptive name for this content pack.
+                                                </span>
+                                              </HelpBlock>
+                                            </HelpBlock>
+                                          </span>
+                                        </InputWrapper>
+                                      </div>
+                                    </FormGroup>
+                                  </FormGroup__StyledFormGroup>
+                                </Component>
+                              </Input>
+                              <Input
+                                addonAfter={null}
+                                bsStyle={null}
+                                buttonAfter={null}
+                                help="Required. Give a short summary of the content pack."
+                                id="summary"
+                                label="Summary"
+                                maxLength={250}
+                                name="summary"
+                                onChange={[Function]}
+                                placeholder=""
+                                required={true}
+                                type="text"
+                                value=""
+>>>>>>> 99f5c1286e... snapshots
                               >
                                 <div
                                   className="col-lg-8 col-sm-offset-1"
@@ -1102,6 +1434,7 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                     id="content-selection-form"
                                     onSubmit={[Function]}
                                   >
+<<<<<<< HEAD
                                     <fieldset>
                                       <Input
                                         addonAfter={null}
@@ -1423,6 +1756,62 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                   forwardedRef={null}
 >>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
+=======
+                                    <FormGroup
+                                      bsClass="form-group"
+                                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                      controlId="summary"
+                                      validationState={null}
+                                    >
+                                      <div
+                                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                      >
+                                        <ControlLabel>
+                                          <ControlLabel
+                                            bsClass="control-label"
+                                            className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                            srOnly={false}
+                                          >
+                                            <label
+                                              className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                              htmlFor="summary"
+                                            >
+                                              Summary
+                                            </label>
+                                          </ControlLabel>
+                                        </ControlLabel>
+                                        <InputWrapper>
+                                          <span>
+                                            <FormControl
+                                              componentClass="input"
+                                              inputRef={[Function]}
+                                              label="Summary"
+                                              maxLength={250}
+                                              name="summary"
+                                              onChange={[Function]}
+                                              placeholder=""
+                                              required={true}
+                                              type="text"
+                                              value=""
+                                            >
+                                              <FormControl
+                                                bsClass="form-control"
+                                                className="FormControl-sc-1amoaox-0 kmJcge"
+                                                componentClass="input"
+                                                inputRef={[Function]}
+                                                label="Summary"
+                                                maxLength={250}
+                                                name="summary"
+                                                onChange={[Function]}
+                                                placeholder=""
+                                                required={true}
+                                                type="text"
+                                                value=""
+                                              >
+                                                <input
+                                                  className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                  id="summary"
+>>>>>>> 99f5c1286e... snapshots
                                                   label="Summary"
                                                   maxLength={250}
                                                   name="summary"
@@ -1431,6 +1820,7 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                   required={true}
                                                   type="text"
                                                   value=""
+<<<<<<< HEAD
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
@@ -1802,6 +2192,104 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                   forwardedRef={null}
 >>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
+=======
+                                                />
+                                              </FormControl>
+                                            </FormControl>
+                                            <HelpBlock>
+                                              <HelpBlock
+                                                bsClass="help-block"
+                                                className="HelpBlock-i8is92-0 fSaklp"
+                                              >
+                                                <span
+                                                  className="HelpBlock-i8is92-0 fSaklp help-block"
+                                                >
+                                                  Required. Give a short summary of the content pack.
+                                                </span>
+                                              </HelpBlock>
+                                            </HelpBlock>
+                                          </span>
+                                        </InputWrapper>
+                                      </div>
+                                    </FormGroup>
+                                  </FormGroup__StyledFormGroup>
+                                </Component>
+                              </Input>
+                              <Input
+                                addonAfter={null}
+                                bsStyle={null}
+                                buttonAfter={null}
+                                help="Give a long description of the content pack in markdown."
+                                id="description"
+                                label="Description"
+                                name="description"
+                                onChange={[Function]}
+                                placeholder=""
+                                rows={6}
+                                type="textarea"
+                                value=""
+                              >
+                                <Component
+                                  controlId="description"
+                                  validationState={null}
+                                >
+                                  <FormGroup__StyledFormGroup
+                                    controlId="description"
+                                    validationState={null}
+                                  >
+                                    <FormGroup
+                                      bsClass="form-group"
+                                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                      controlId="description"
+                                      validationState={null}
+                                    >
+                                      <div
+                                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                      >
+                                        <ControlLabel>
+                                          <ControlLabel
+                                            bsClass="control-label"
+                                            className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                            srOnly={false}
+                                          >
+                                            <label
+                                              className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                              htmlFor="description"
+                                            >
+                                              Description
+                                            </label>
+                                          </ControlLabel>
+                                        </ControlLabel>
+                                        <InputWrapper>
+                                          <span>
+                                            <FormControl
+                                              componentClass="textarea"
+                                              inputRef={[Function]}
+                                              label="Description"
+                                              name="description"
+                                              onChange={[Function]}
+                                              placeholder=""
+                                              rows={6}
+                                              type="textarea"
+                                              value=""
+                                            >
+                                              <FormControl
+                                                bsClass="form-control"
+                                                className="FormControl-sc-1amoaox-0 kmJcge"
+                                                componentClass="textarea"
+                                                inputRef={[Function]}
+                                                label="Description"
+                                                name="description"
+                                                onChange={[Function]}
+                                                placeholder=""
+                                                rows={6}
+                                                type="textarea"
+                                                value=""
+                                              >
+                                                <textarea
+                                                  className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                  id="description"
+>>>>>>> 99f5c1286e... snapshots
                                                   label="Description"
                                                   name="description"
                                                   onChange={[Function]}
@@ -1809,6 +2297,7 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                   rows={6}
                                                   type="textarea"
                                                   value=""
+<<<<<<< HEAD
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
@@ -2174,6 +2663,107 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                   forwardedRef={null}
 >>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
+=======
+                                                />
+                                              </FormControl>
+                                            </FormControl>
+                                            <HelpBlock>
+                                              <HelpBlock
+                                                bsClass="help-block"
+                                                className="HelpBlock-i8is92-0 fSaklp"
+                                              >
+                                                <span
+                                                  className="HelpBlock-i8is92-0 fSaklp help-block"
+                                                >
+                                                  Give a long description of the content pack in markdown.
+                                                </span>
+                                              </HelpBlock>
+                                            </HelpBlock>
+                                          </span>
+                                        </InputWrapper>
+                                      </div>
+                                    </FormGroup>
+                                  </FormGroup__StyledFormGroup>
+                                </Component>
+                              </Input>
+                              <Input
+                                addonAfter={null}
+                                bsStyle={null}
+                                buttonAfter={null}
+                                help="Required. Who did this content pack and how can they be reached, e.g. Name and email."
+                                id="vendor"
+                                label="Vendor"
+                                maxLength={250}
+                                name="vendor"
+                                onChange={[Function]}
+                                placeholder=""
+                                required={true}
+                                type="text"
+                                value=""
+                              >
+                                <Component
+                                  controlId="vendor"
+                                  validationState={null}
+                                >
+                                  <FormGroup__StyledFormGroup
+                                    controlId="vendor"
+                                    validationState={null}
+                                  >
+                                    <FormGroup
+                                      bsClass="form-group"
+                                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                      controlId="vendor"
+                                      validationState={null}
+                                    >
+                                      <div
+                                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                      >
+                                        <ControlLabel>
+                                          <ControlLabel
+                                            bsClass="control-label"
+                                            className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                            srOnly={false}
+                                          >
+                                            <label
+                                              className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                              htmlFor="vendor"
+                                            >
+                                              Vendor
+                                            </label>
+                                          </ControlLabel>
+                                        </ControlLabel>
+                                        <InputWrapper>
+                                          <span>
+                                            <FormControl
+                                              componentClass="input"
+                                              inputRef={[Function]}
+                                              label="Vendor"
+                                              maxLength={250}
+                                              name="vendor"
+                                              onChange={[Function]}
+                                              placeholder=""
+                                              required={true}
+                                              type="text"
+                                              value=""
+                                            >
+                                              <FormControl
+                                                bsClass="form-control"
+                                                className="FormControl-sc-1amoaox-0 kmJcge"
+                                                componentClass="input"
+                                                inputRef={[Function]}
+                                                label="Vendor"
+                                                maxLength={250}
+                                                name="vendor"
+                                                onChange={[Function]}
+                                                placeholder=""
+                                                required={true}
+                                                type="text"
+                                                value=""
+                                              >
+                                                <input
+                                                  className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                  id="vendor"
+>>>>>>> 99f5c1286e... snapshots
                                                   label="Vendor"
                                                   maxLength={250}
                                                   name="vendor"
@@ -2182,6 +2772,7 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                   required={true}
                                                   type="text"
                                                   value=""
+<<<<<<< HEAD
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
@@ -2553,6 +3144,104 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                   forwardedRef={null}
 >>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
+=======
+                                                />
+                                              </FormControl>
+                                            </FormControl>
+                                            <HelpBlock>
+                                              <HelpBlock
+                                                bsClass="help-block"
+                                                className="HelpBlock-i8is92-0 fSaklp"
+                                              >
+                                                <span
+                                                  className="HelpBlock-i8is92-0 fSaklp help-block"
+                                                >
+                                                  Required. Who did this content pack and how can they be reached, e.g. Name and email.
+                                                </span>
+                                              </HelpBlock>
+                                            </HelpBlock>
+                                          </span>
+                                        </InputWrapper>
+                                      </div>
+                                    </FormGroup>
+                                  </FormGroup__StyledFormGroup>
+                                </Component>
+                              </Input>
+                              <Input
+                                addonAfter={null}
+                                bsStyle={null}
+                                buttonAfter={null}
+                                help="Where can I find the content pack. e.g. github url"
+                                id="url"
+                                label="URL"
+                                maxLength={250}
+                                name="url"
+                                onChange={[Function]}
+                                placeholder=""
+                                type="text"
+                                value=""
+                              >
+                                <Component
+                                  controlId="url"
+                                  validationState={null}
+                                >
+                                  <FormGroup__StyledFormGroup
+                                    controlId="url"
+                                    validationState={null}
+                                  >
+                                    <FormGroup
+                                      bsClass="form-group"
+                                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                      controlId="url"
+                                      validationState={null}
+                                    >
+                                      <div
+                                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                      >
+                                        <ControlLabel>
+                                          <ControlLabel
+                                            bsClass="control-label"
+                                            className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                            srOnly={false}
+                                          >
+                                            <label
+                                              className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                              htmlFor="url"
+                                            >
+                                              URL
+                                            </label>
+                                          </ControlLabel>
+                                        </ControlLabel>
+                                        <InputWrapper>
+                                          <span>
+                                            <FormControl
+                                              componentClass="input"
+                                              inputRef={[Function]}
+                                              label="URL"
+                                              maxLength={250}
+                                              name="url"
+                                              onChange={[Function]}
+                                              placeholder=""
+                                              type="text"
+                                              value=""
+                                            >
+                                              <FormControl
+                                                bsClass="form-control"
+                                                className="FormControl-sc-1amoaox-0 kmJcge"
+                                                componentClass="input"
+                                                inputRef={[Function]}
+                                                label="URL"
+                                                maxLength={250}
+                                                name="url"
+                                                onChange={[Function]}
+                                                placeholder=""
+                                                type="text"
+                                                value=""
+                                              >
+                                                <input
+                                                  className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                  id="url"
+>>>>>>> 99f5c1286e... snapshots
                                                   label="URL"
                                                   maxLength={250}
                                                   name="url"
@@ -2560,6 +3249,7 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                                   placeholder=""
                                                   type="text"
                                                   value=""
+<<<<<<< HEAD
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
@@ -2846,6 +3536,32 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                               </form>
                             </div>
                           </Col>
+=======
+                                                />
+                                              </FormControl>
+                                            </FormControl>
+                                            <HelpBlock>
+                                              <HelpBlock
+                                                bsClass="help-block"
+                                                className="HelpBlock-i8is92-0 fSaklp"
+                                              >
+                                                <span
+                                                  className="HelpBlock-i8is92-0 fSaklp help-block"
+                                                >
+                                                  Where can I find the content pack. e.g. github url
+                                                </span>
+                                              </HelpBlock>
+                                            </HelpBlock>
+                                          </span>
+                                        </InputWrapper>
+                                      </div>
+                                    </FormGroup>
+                                  </FormGroup__StyledFormGroup>
+                                </Component>
+                              </Input>
+                            </fieldset>
+                          </form>
+>>>>>>> 99f5c1286e... snapshots
                         </div>
                       </Row>
                     </Row>
@@ -2928,6 +3644,7 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                     <div
                                       className="form-group has-feedback"
                                     >
+<<<<<<< HEAD
                                       <input
                                         autoComplete="off"
                                         autoFocus={false}
@@ -2954,11 +3671,18 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                       }
                                     >
                                       <ForwardRef
+=======
+                                      <Button
+                                        active={false}
+                                        block={false}
+                                        bsClass="btn"
+>>>>>>> 99f5c1286e... snapshots
                                         bsStyle="default"
-                                        className="submit-button"
+                                        className="Button__StyledButton-c9cbmb-0 laZUlH submit-button"
                                         disabled={false}
                                         type="submit"
                                       >
+<<<<<<< HEAD
                                         <Button__StyledButton
                                           bsStyle="default"
                                           className="submit-button"
@@ -3026,6 +3750,58 @@ exports[`<ContentPackEdit /> should render empty content pack for create 1`] = `
                                       </ForwardRef>
                                     </div>
                                   </form>
+=======
+                                        <button
+                                          className="Button__StyledButton-c9cbmb-0 laZUlH submit-button btn btn-default"
+                                          disabled={false}
+                                          type="submit"
+                                        >
+                                          Filter
+                                        </button>
+                                      </Button>
+                                    </Button__StyledButton>
+                                  </ForwardRef>
+                                </div>
+                                <div
+                                  className="form-group"
+                                  style={
+                                    Object {
+                                      "marginLeft": 5,
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    className="reset-button"
+                                    onClick={[Function]}
+                                    type="reset"
+                                  >
+                                    <Button__StyledButton
+                                      className="reset-button"
+                                      onClick={[Function]}
+                                      type="reset"
+                                    >
+                                      <Button
+                                        active={false}
+                                        block={false}
+                                        bsClass="btn"
+                                        bsStyle="default"
+                                        className="Button__StyledButton-c9cbmb-0 laZUlH reset-button"
+                                        disabled={false}
+                                        onClick={[Function]}
+                                        type="reset"
+                                      >
+                                        <button
+                                          className="Button__StyledButton-c9cbmb-0 laZUlH reset-button btn btn-default"
+                                          disabled={false}
+                                          onClick={[Function]}
+                                          type="reset"
+                                        >
+                                          Reset
+                                        </button>
+                                      </Button>
+                                    </Button__StyledButton>
+                                  </ForwardRef>
+>>>>>>> 99f5c1286e... snapshots
                                 </div>
                               </SearchForm>
                             </div>
@@ -4115,6 +4891,7 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
           <div
             className="Row-sc-3iisrt-0 gPzTHl content row"
           >
+<<<<<<< HEAD
             <Wizard__SubnavigationCol
               md={2}
             >
@@ -4327,17 +5104,183 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                             className="col-xs-6"
                           >
                             <ForwardRef
+=======
+            <Col
+              bsClass="col"
+              className="Wizard__SubnavigationCol-sc-1jnediy-0 fUiXsj"
+              componentClass="div"
+              md={2}
+            >
+              <div
+                className="Wizard__SubnavigationCol-sc-1jnediy-0 fUiXsj col-md-2"
+              >
+                <Nav
+                  activeKey="selection"
+                  bsStyle="pills"
+                  justified={false}
+                  onSelect={[Function]}
+                  stacked={true}
+                >
+                  <Nav
+                    activeKey="selection"
+                    bsClass="nav"
+                    bsStyle="pills"
+                    className="Nav-dzawzr-0 cLvAaF"
+                    justified={false}
+                    onSelect={[Function]}
+                    pullLeft={false}
+                    pullRight={false}
+                    stacked={true}
+                  >
+                    <ul
+                      className="Nav-dzawzr-0 cLvAaF nav nav-pills nav-stacked"
+                      role={null}
+                    >
+                      <NavItem
+                        active={true}
+                        activeKey="selection"
+                        disabled={false}
+                        eventKey="selection"
+                        key=".$selection"
+                        onSelect={[Function]}
+                      >
+                        <li
+                          className="active"
+                          role="presentation"
+                        >
+                          <SafeAnchor
+                            componentClass="a"
+                            disabled={false}
+                            onClick={[Function]}
+                          >
+                            <a
+                              href="#"
+                              onClick={[Function]}
+                              onKeyDown={[Function]}
+                              role="button"
+                            >
+                              Content Selection
+                            </a>
+                          </SafeAnchor>
+                        </li>
+                      </NavItem>
+                      <NavItem
+                        active={false}
+                        activeKey="selection"
+                        disabled={false}
+                        eventKey="parameters"
+                        key=".$parameters"
+                        onSelect={[Function]}
+                      >
+                        <li
+                          className=""
+                          role="presentation"
+                        >
+                          <SafeAnchor
+                            componentClass="a"
+                            disabled={false}
+                            onClick={[Function]}
+                          >
+                            <a
+                              href="#"
+                              onClick={[Function]}
+                              onKeyDown={[Function]}
+                              role="button"
+                            >
+                              Parameters
+                            </a>
+                          </SafeAnchor>
+                        </li>
+                      </NavItem>
+                      <NavItem
+                        active={false}
+                        activeKey="selection"
+                        disabled={true}
+                        eventKey="preview"
+                        key=".$preview"
+                        onSelect={[Function]}
+                      >
+                        <li
+                          className="disabled"
+                          role="presentation"
+                        >
+                          <SafeAnchor
+                            componentClass="a"
+                            disabled={true}
+                            onClick={[Function]}
+                          >
+                            <a
+                              href="#"
+                              onClick={[Function]}
+                              onKeyDown={[Function]}
+                              role="button"
+                              style={
+                                Object {
+                                  "pointerEvents": "none",
+                                }
+                              }
+                              tabIndex={-1}
+                            >
+                              Preview
+                            </a>
+                          </SafeAnchor>
+                        </li>
+                      </NavItem>
+                    </ul>
+                  </Nav>
+                </Nav>
+                <br />
+                <Row
+                  bsClass="row"
+                  componentClass="div"
+                >
+                  <div
+                    className="row"
+                  >
+                    <Col
+                      bsClass="col"
+                      componentClass="div"
+                      xs={6}
+                    >
+                      <div
+                        className="col-xs-6"
+                      >
+                        <ForwardRef
+                          bsSize="small"
+                          bsStyle="info"
+                          disabled={true}
+                          onClick={[Function]}
+                        >
+                          <Button__StyledButton
+                            bsSize="small"
+                            bsStyle="info"
+                            disabled={true}
+                            onClick={[Function]}
+                          >
+                            <Button
+                              active={false}
+                              block={false}
+                              bsClass="btn"
+>>>>>>> 99f5c1286e... snapshots
                               bsSize="small"
                               bsStyle="info"
+                              className="Button__StyledButton-c9cbmb-0 laZUlH"
                               disabled={true}
                               onClick={[Function]}
                             >
+<<<<<<< HEAD
                               <Button__StyledButton
                                 bsSize="small"
                                 bsStyle="info"
+=======
+                              <button
+                                className="Button__StyledButton-c9cbmb-0 laZUlH btn btn-sm btn-info"
+>>>>>>> 99f5c1286e... snapshots
                                 disabled={true}
                                 onClick={[Function]}
+                                type="button"
                               >
+<<<<<<< HEAD
                                 <Button
                                   active={false}
                                   block={false}
@@ -4574,17 +5517,59 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                             className="text-right col-xs-6"
                           >
                             <ForwardRef
+=======
+                                Previous
+                              </button>
+                            </Button>
+                          </Button__StyledButton>
+                        </ForwardRef>
+                      </div>
+                    </Col>
+                    <Col
+                      bsClass="col"
+                      className="text-right"
+                      componentClass="div"
+                      xs={6}
+                    >
+                      <div
+                        className="text-right col-xs-6"
+                      >
+                        <ForwardRef
+                          bsSize="small"
+                          bsStyle="info"
+                          disabled={false}
+                          onClick={[Function]}
+                        >
+                          <Button__StyledButton
+                            bsSize="small"
+                            bsStyle="info"
+                            disabled={false}
+                            onClick={[Function]}
+                          >
+                            <Button
+                              active={false}
+                              block={false}
+                              bsClass="btn"
+>>>>>>> 99f5c1286e... snapshots
                               bsSize="small"
                               bsStyle="info"
+                              className="Button__StyledButton-c9cbmb-0 laZUlH"
                               disabled={false}
                               onClick={[Function]}
                             >
+<<<<<<< HEAD
                               <Button__StyledButton
                                 bsSize="small"
                                 bsStyle="info"
+=======
+                              <button
+                                className="Button__StyledButton-c9cbmb-0 laZUlH btn btn-sm btn-info"
+>>>>>>> 99f5c1286e... snapshots
                                 disabled={false}
                                 onClick={[Function]}
+                                type="button"
                               >
+<<<<<<< HEAD
                                 <Button
                                   active={false}
                                   block={false}
@@ -4705,6 +5690,27 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
               bsClass="col"
               componentClass="div"
               md={7}
+=======
+                                Next
+                              </button>
+                            </Button>
+                          </Button__StyledButton>
+                        </ForwardRef>
+                      </div>
+                    </Col>
+                  </div>
+                </Row>
+              </div>
+            </Col>
+          </Wizard__SubnavigationCol>
+          <Col
+            bsClass="col"
+            componentClass="div"
+            md={7}
+          >
+            <div
+              className="col-md-7"
+>>>>>>> 99f5c1286e... snapshots
             >
               <div
                 className="col-md-7"
@@ -4814,6 +5820,7 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                     type="text"
                                     value="Content Pack the movie"
                                   >
+<<<<<<< HEAD
                                     <Component
                                       controlId="name"
                                       validationState={null}
@@ -4882,6 +5889,62 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                   forwardedRef={null}
 >>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
+=======
+                                    <FormGroup
+                                      bsClass="form-group"
+                                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                      controlId="name"
+                                      validationState={null}
+                                    >
+                                      <div
+                                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                      >
+                                        <ControlLabel>
+                                          <ControlLabel
+                                            bsClass="control-label"
+                                            className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                            srOnly={false}
+                                          >
+                                            <label
+                                              className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                              htmlFor="name"
+                                            >
+                                              Name
+                                            </label>
+                                          </ControlLabel>
+                                        </ControlLabel>
+                                        <InputWrapper>
+                                          <span>
+                                            <FormControl
+                                              componentClass="input"
+                                              inputRef={[Function]}
+                                              label="Name"
+                                              maxLength={250}
+                                              name="name"
+                                              onChange={[Function]}
+                                              placeholder=""
+                                              required={true}
+                                              type="text"
+                                              value="Content Pack the movie"
+                                            >
+                                              <FormControl
+                                                bsClass="form-control"
+                                                className="FormControl-sc-1amoaox-0 kmJcge"
+                                                componentClass="input"
+                                                inputRef={[Function]}
+                                                label="Name"
+                                                maxLength={250}
+                                                name="name"
+                                                onChange={[Function]}
+                                                placeholder=""
+                                                required={true}
+                                                type="text"
+                                                value="Content Pack the movie"
+                                              >
+                                                <input
+                                                  className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                  id="name"
+>>>>>>> 99f5c1286e... snapshots
                                                   label="Name"
                                                   maxLength={250}
                                                   name="name"
@@ -4890,6 +5953,7 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                   required={true}
                                                   type="text"
                                                   value="Content Pack the movie"
+<<<<<<< HEAD
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
@@ -5274,6 +6338,44 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                 componentClass="div"
                                 lg={8}
                                 smOffset={1}
+=======
+                                                />
+                                              </FormControl>
+                                            </FormControl>
+                                            <HelpBlock>
+                                              <HelpBlock
+                                                bsClass="help-block"
+                                                className="HelpBlock-i8is92-0 fSaklp"
+                                              >
+                                                <span
+                                                  className="HelpBlock-i8is92-0 fSaklp help-block"
+                                                >
+                                                  Required. Give a descriptive name for this content pack.
+                                                </span>
+                                              </HelpBlock>
+                                            </HelpBlock>
+                                          </span>
+                                        </InputWrapper>
+                                      </div>
+                                    </FormGroup>
+                                  </FormGroup__StyledFormGroup>
+                                </Component>
+                              </Input>
+                              <Input
+                                addonAfter={null}
+                                bsStyle={null}
+                                buttonAfter={null}
+                                help="Required. Give a short summary of the content pack."
+                                id="summary"
+                                label="Summary"
+                                maxLength={250}
+                                name="summary"
+                                onChange={[Function]}
+                                placeholder=""
+                                required={true}
+                                type="text"
+                                value="A old content pack"
+>>>>>>> 99f5c1286e... snapshots
                               >
                                 <div
                                   className="col-lg-8 col-sm-offset-1"
@@ -5287,6 +6389,7 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                     id="content-selection-form"
                                     onSubmit={[Function]}
                                   >
+<<<<<<< HEAD
                                     <fieldset>
                                       <Input
                                         addonAfter={null}
@@ -5840,6 +6943,166 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                   forwardedRef={null}
 >>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
+=======
+                                    <FormGroup
+                                      bsClass="form-group"
+                                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                      controlId="summary"
+                                      validationState={null}
+                                    >
+                                      <div
+                                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                      >
+                                        <ControlLabel>
+                                          <ControlLabel
+                                            bsClass="control-label"
+                                            className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                            srOnly={false}
+                                          >
+                                            <label
+                                              className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                              htmlFor="summary"
+                                            >
+                                              Summary
+                                            </label>
+                                          </ControlLabel>
+                                        </ControlLabel>
+                                        <InputWrapper>
+                                          <span>
+                                            <FormControl
+                                              componentClass="input"
+                                              inputRef={[Function]}
+                                              label="Summary"
+                                              maxLength={250}
+                                              name="summary"
+                                              onChange={[Function]}
+                                              placeholder=""
+                                              required={true}
+                                              type="text"
+                                              value="A old content pack"
+                                            >
+                                              <FormControl
+                                                bsClass="form-control"
+                                                className="FormControl-sc-1amoaox-0 kmJcge"
+                                                componentClass="input"
+                                                inputRef={[Function]}
+                                                label="Summary"
+                                                maxLength={250}
+                                                name="summary"
+                                                onChange={[Function]}
+                                                placeholder=""
+                                                required={true}
+                                                type="text"
+                                                value="A old content pack"
+                                              >
+                                                <input
+                                                  className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                  id="summary"
+                                                  label="Summary"
+                                                  maxLength={250}
+                                                  name="summary"
+                                                  onChange={[Function]}
+                                                  placeholder=""
+                                                  required={true}
+                                                  type="text"
+                                                  value="A old content pack"
+                                                />
+                                              </FormControl>
+                                            </FormControl>
+                                            <HelpBlock>
+                                              <HelpBlock
+                                                bsClass="help-block"
+                                                className="HelpBlock-i8is92-0 fSaklp"
+                                              >
+                                                <span
+                                                  className="HelpBlock-i8is92-0 fSaklp help-block"
+                                                >
+                                                  Required. Give a short summary of the content pack.
+                                                </span>
+                                              </HelpBlock>
+                                            </HelpBlock>
+                                          </span>
+                                        </InputWrapper>
+                                      </div>
+                                    </FormGroup>
+                                  </FormGroup__StyledFormGroup>
+                                </Component>
+                              </Input>
+                              <Input
+                                addonAfter={null}
+                                bsStyle={null}
+                                buttonAfter={null}
+                                help="Give a long description of the content pack in markdown."
+                                id="description"
+                                label="Description"
+                                name="description"
+                                onChange={[Function]}
+                                placeholder=""
+                                rows={6}
+                                type="textarea"
+                                value="## No one dares"
+                              >
+                                <Component
+                                  controlId="description"
+                                  validationState={null}
+                                >
+                                  <FormGroup__StyledFormGroup
+                                    controlId="description"
+                                    validationState={null}
+                                  >
+                                    <FormGroup
+                                      bsClass="form-group"
+                                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                      controlId="description"
+                                      validationState={null}
+                                    >
+                                      <div
+                                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                      >
+                                        <ControlLabel>
+                                          <ControlLabel
+                                            bsClass="control-label"
+                                            className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                            srOnly={false}
+                                          >
+                                            <label
+                                              className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                              htmlFor="description"
+                                            >
+                                              Description
+                                            </label>
+                                          </ControlLabel>
+                                        </ControlLabel>
+                                        <InputWrapper>
+                                          <span>
+                                            <FormControl
+                                              componentClass="textarea"
+                                              inputRef={[Function]}
+                                              label="Description"
+                                              name="description"
+                                              onChange={[Function]}
+                                              placeholder=""
+                                              rows={6}
+                                              type="textarea"
+                                              value="## No one dares"
+                                            >
+                                              <FormControl
+                                                bsClass="form-control"
+                                                className="FormControl-sc-1amoaox-0 kmJcge"
+                                                componentClass="textarea"
+                                                inputRef={[Function]}
+                                                label="Description"
+                                                name="description"
+                                                onChange={[Function]}
+                                                placeholder=""
+                                                rows={6}
+                                                type="textarea"
+                                                value="## No one dares"
+                                              >
+                                                <textarea
+                                                  className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                  id="description"
+>>>>>>> 99f5c1286e... snapshots
                                                   label="Description"
                                                   name="description"
                                                   onChange={[Function]}
@@ -5847,6 +7110,7 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                   rows={6}
                                                   type="textarea"
                                                   value="## No one dares"
+<<<<<<< HEAD
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
@@ -6212,6 +7476,107 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                   forwardedRef={null}
 >>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
+=======
+                                                />
+                                              </FormControl>
+                                            </FormControl>
+                                            <HelpBlock>
+                                              <HelpBlock
+                                                bsClass="help-block"
+                                                className="HelpBlock-i8is92-0 fSaklp"
+                                              >
+                                                <span
+                                                  className="HelpBlock-i8is92-0 fSaklp help-block"
+                                                >
+                                                  Give a long description of the content pack in markdown.
+                                                </span>
+                                              </HelpBlock>
+                                            </HelpBlock>
+                                          </span>
+                                        </InputWrapper>
+                                      </div>
+                                    </FormGroup>
+                                  </FormGroup__StyledFormGroup>
+                                </Component>
+                              </Input>
+                              <Input
+                                addonAfter={null}
+                                bsStyle={null}
+                                buttonAfter={null}
+                                help="Required. Who did this content pack and how can they be reached, e.g. Name and email."
+                                id="vendor"
+                                label="Vendor"
+                                maxLength={250}
+                                name="vendor"
+                                onChange={[Function]}
+                                placeholder=""
+                                required={true}
+                                type="text"
+                                value="Beinstein"
+                              >
+                                <Component
+                                  controlId="vendor"
+                                  validationState={null}
+                                >
+                                  <FormGroup__StyledFormGroup
+                                    controlId="vendor"
+                                    validationState={null}
+                                  >
+                                    <FormGroup
+                                      bsClass="form-group"
+                                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                      controlId="vendor"
+                                      validationState={null}
+                                    >
+                                      <div
+                                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                      >
+                                        <ControlLabel>
+                                          <ControlLabel
+                                            bsClass="control-label"
+                                            className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                            srOnly={false}
+                                          >
+                                            <label
+                                              className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                              htmlFor="vendor"
+                                            >
+                                              Vendor
+                                            </label>
+                                          </ControlLabel>
+                                        </ControlLabel>
+                                        <InputWrapper>
+                                          <span>
+                                            <FormControl
+                                              componentClass="input"
+                                              inputRef={[Function]}
+                                              label="Vendor"
+                                              maxLength={250}
+                                              name="vendor"
+                                              onChange={[Function]}
+                                              placeholder=""
+                                              required={true}
+                                              type="text"
+                                              value="Beinstein"
+                                            >
+                                              <FormControl
+                                                bsClass="form-control"
+                                                className="FormControl-sc-1amoaox-0 kmJcge"
+                                                componentClass="input"
+                                                inputRef={[Function]}
+                                                label="Vendor"
+                                                maxLength={250}
+                                                name="vendor"
+                                                onChange={[Function]}
+                                                placeholder=""
+                                                required={true}
+                                                type="text"
+                                                value="Beinstein"
+                                              >
+                                                <input
+                                                  className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                  id="vendor"
+>>>>>>> 99f5c1286e... snapshots
                                                   label="Vendor"
                                                   maxLength={250}
                                                   name="vendor"
@@ -6220,6 +7585,7 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                   required={true}
                                                   type="text"
                                                   value="Beinstein"
+<<<<<<< HEAD
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
@@ -6591,6 +7957,104 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                   forwardedRef={null}
 >>>>>>> 46caba27d0... snapshots
                                                   inputRef={[Function]}
+=======
+                                                />
+                                              </FormControl>
+                                            </FormControl>
+                                            <HelpBlock>
+                                              <HelpBlock
+                                                bsClass="help-block"
+                                                className="HelpBlock-i8is92-0 fSaklp"
+                                              >
+                                                <span
+                                                  className="HelpBlock-i8is92-0 fSaklp help-block"
+                                                >
+                                                  Required. Who did this content pack and how can they be reached, e.g. Name and email.
+                                                </span>
+                                              </HelpBlock>
+                                            </HelpBlock>
+                                          </span>
+                                        </InputWrapper>
+                                      </div>
+                                    </FormGroup>
+                                  </FormGroup__StyledFormGroup>
+                                </Component>
+                              </Input>
+                              <Input
+                                addonAfter={null}
+                                bsStyle={null}
+                                buttonAfter={null}
+                                help="Where can I find the content pack. e.g. github url"
+                                id="url"
+                                label="URL"
+                                maxLength={250}
+                                name="url"
+                                onChange={[Function]}
+                                placeholder=""
+                                type="text"
+                                value="http://beinstein.com"
+                              >
+                                <Component
+                                  controlId="url"
+                                  validationState={null}
+                                >
+                                  <FormGroup__StyledFormGroup
+                                    controlId="url"
+                                    validationState={null}
+                                  >
+                                    <FormGroup
+                                      bsClass="form-group"
+                                      className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy"
+                                      controlId="url"
+                                      validationState={null}
+                                    >
+                                      <div
+                                        className="FormGroup__StyledFormGroup-sc-1wv4cm9-0 giUuGy form-group"
+                                      >
+                                        <ControlLabel>
+                                          <ControlLabel
+                                            bsClass="control-label"
+                                            className="ControlLabel-sc-1edmum5-0 jKzIRX"
+                                            srOnly={false}
+                                          >
+                                            <label
+                                              className="ControlLabel-sc-1edmum5-0 jKzIRX control-label"
+                                              htmlFor="url"
+                                            >
+                                              URL
+                                            </label>
+                                          </ControlLabel>
+                                        </ControlLabel>
+                                        <InputWrapper>
+                                          <span>
+                                            <FormControl
+                                              componentClass="input"
+                                              inputRef={[Function]}
+                                              label="URL"
+                                              maxLength={250}
+                                              name="url"
+                                              onChange={[Function]}
+                                              placeholder=""
+                                              type="text"
+                                              value="http://beinstein.com"
+                                            >
+                                              <FormControl
+                                                bsClass="form-control"
+                                                className="FormControl-sc-1amoaox-0 kmJcge"
+                                                componentClass="input"
+                                                inputRef={[Function]}
+                                                label="URL"
+                                                maxLength={250}
+                                                name="url"
+                                                onChange={[Function]}
+                                                placeholder=""
+                                                type="text"
+                                                value="http://beinstein.com"
+                                              >
+                                                <input
+                                                  className="FormControl-sc-1amoaox-0 kmJcge form-control"
+                                                  id="url"
+>>>>>>> 99f5c1286e... snapshots
                                                   label="URL"
                                                   maxLength={250}
                                                   name="url"
@@ -6598,6 +8062,7 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                                   placeholder=""
                                                   type="text"
                                                   value="http://beinstein.com"
+<<<<<<< HEAD
                                                 >
                                                   <FormControl
                                                     bsClass="form-control"
@@ -6884,6 +8349,32 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                               </form>
                             </div>
                           </Col>
+=======
+                                                />
+                                              </FormControl>
+                                            </FormControl>
+                                            <HelpBlock>
+                                              <HelpBlock
+                                                bsClass="help-block"
+                                                className="HelpBlock-i8is92-0 fSaklp"
+                                              >
+                                                <span
+                                                  className="HelpBlock-i8is92-0 fSaklp help-block"
+                                                >
+                                                  Where can I find the content pack. e.g. github url
+                                                </span>
+                                              </HelpBlock>
+                                            </HelpBlock>
+                                          </span>
+                                        </InputWrapper>
+                                      </div>
+                                    </FormGroup>
+                                  </FormGroup__StyledFormGroup>
+                                </Component>
+                              </Input>
+                            </fieldset>
+                          </form>
+>>>>>>> 99f5c1286e... snapshots
                         </div>
                       </Row>
                     </Row>
@@ -6991,12 +8482,20 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                         }
                                       }
                                     >
+<<<<<<< HEAD
                                       <ForwardRef
+=======
+                                      <Button
+                                        active={false}
+                                        block={false}
+                                        bsClass="btn"
+>>>>>>> 99f5c1286e... snapshots
                                         bsStyle="default"
-                                        className="submit-button"
+                                        className="Button__StyledButton-c9cbmb-0 laZUlH submit-button"
                                         disabled={false}
                                         type="submit"
                                       >
+<<<<<<< HEAD
                                         <Button__StyledButton
                                           bsStyle="default"
                                           className="submit-button"
@@ -7064,6 +8563,58 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                       </ForwardRef>
                                     </div>
                                   </form>
+=======
+                                        <button
+                                          className="Button__StyledButton-c9cbmb-0 laZUlH submit-button btn btn-default"
+                                          disabled={false}
+                                          type="submit"
+                                        >
+                                          Filter
+                                        </button>
+                                      </Button>
+                                    </Button__StyledButton>
+                                  </ForwardRef>
+                                </div>
+                                <div
+                                  className="form-group"
+                                  style={
+                                    Object {
+                                      "marginLeft": 5,
+                                    }
+                                  }
+                                >
+                                  <ForwardRef
+                                    className="reset-button"
+                                    onClick={[Function]}
+                                    type="reset"
+                                  >
+                                    <Button__StyledButton
+                                      className="reset-button"
+                                      onClick={[Function]}
+                                      type="reset"
+                                    >
+                                      <Button
+                                        active={false}
+                                        block={false}
+                                        bsClass="btn"
+                                        bsStyle="default"
+                                        className="Button__StyledButton-c9cbmb-0 laZUlH reset-button"
+                                        disabled={false}
+                                        onClick={[Function]}
+                                        type="reset"
+                                      >
+                                        <button
+                                          className="Button__StyledButton-c9cbmb-0 laZUlH reset-button btn btn-default"
+                                          disabled={false}
+                                          onClick={[Function]}
+                                          type="reset"
+                                        >
+                                          Reset
+                                        </button>
+                                      </Button>
+                                    </Button__StyledButton>
+                                  </ForwardRef>
+>>>>>>> 99f5c1286e... snapshots
                                 </div>
                               </SearchForm>
                             </div>
@@ -7094,6 +8645,7 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                 <ul
                                   className="list"
                                 >
+<<<<<<< HEAD
                                   <ExpandableListItem
                                     checked={true}
                                     expandable={true}
@@ -7547,6 +9099,126 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                               </ExpandableList>
                             </div>
                           </Col>
+=======
+                                  <li
+                                    className="ExpandableListItem__ItemWrap-sc-10hsq3a-0 wLlKR"
+                                  >
+                                    <ExpandableListItem__Container>
+                                      <div
+                                        className="ExpandableListItem__Container-sc-10hsq3a-1 hYIMSn"
+                                      >
+                                        <Checkbox
+                                          bsClass="checkbox"
+                                          checked={true}
+                                          disabled={false}
+                                          inline={true}
+                                          inputRef={[Function]}
+                                          onChange={[Function]}
+                                          title=""
+                                        >
+                                          <label
+                                            className="checkbox-inline"
+                                            title=""
+                                          >
+                                            <input
+                                              checked={true}
+                                              disabled={false}
+                                              onChange={[Function]}
+                                              type="checkbox"
+                                            />
+                                          </label>
+                                        </Checkbox>
+                                        <ExpandableListItem__Toggle>
+                                          <div
+                                            className="ExpandableListItem__Toggle-sc-10hsq3a-2 xBomU"
+                                          >
+                                            <ExpandableListItem__IconStack
+                                              className="fa-stack"
+                                              onClick={[Function]}
+                                              tabIndex={0}
+                                            >
+                                              <div
+                                                className="ExpandableListItem__IconStack-sc-10hsq3a-3 dEjoPz fa-stack"
+                                                onClick={[Function]}
+                                                tabIndex={0}
+                                              >
+                                                <Icon
+                                                  className="fa-stack-1x"
+                                                  name="circle"
+                                                  type="solid"
+                                                >
+                                                  <FontAwesomeIcon
+                                                    className="fa-stack-1x"
+                                                    icon={
+                                                      Object {
+                                                        "iconName": "circle",
+                                                        "prefix": "fas",
+                                                      }
+                                                    }
+                                                  >
+                                                    <svg
+                                                      className="svg-inline--fa fa-circle"
+                                                    />
+                                                  </FontAwesomeIcon>
+                                                </Icon>
+                                                <Icon
+                                                  className="fa-stack-1x"
+                                                  name="angle-up"
+                                                  type="solid"
+                                                >
+                                                  <FontAwesomeIcon
+                                                    className="fa-stack-1x"
+                                                    icon={
+                                                      Object {
+                                                        "iconName": "angle-up",
+                                                        "prefix": "fas",
+                                                      }
+                                                    }
+                                                  >
+                                                    <svg
+                                                      className="svg-inline--fa fa-angle-up"
+                                                    />
+                                                  </FontAwesomeIcon>
+                                                </Icon>
+                                              </div>
+                                            </ExpandableListItem__IconStack>
+                                          </div>
+                                        </ExpandableListItem__Toggle>
+                                        <ExpandableListItem__HeaderWrap
+                                          className="header"
+                                        >
+                                          <span
+                                            className="ExpandableListItem__HeaderWrap-sc-10hsq3a-4 tDeuS header"
+                                          >
+                                            <ExpandableListItem__Header
+                                              onClick={[Function]}
+                                              tabIndex={0}
+                                              type="button"
+                                            >
+                                              <button
+                                                className="ExpandableListItem__Header-sc-10hsq3a-5 cAgeBx"
+                                                onClick={[Function]}
+                                                tabIndex={0}
+                                                type="button"
+                                              >
+                                                Dashboard
+                                              </button>
+                                            </ExpandableListItem__Header>
+                                          </span>
+                                        </ExpandableListItem__HeaderWrap>
+                                      </div>
+                                    </ExpandableListItem__Container>
+                                    <ExpandableListItem__ExpandableContent>
+                                      <div
+                                        className="ExpandableListItem__ExpandableContent-sc-10hsq3a-7 hICkaB"
+                                      />
+                                    </ExpandableListItem__ExpandableContent>
+                                  </li>
+                                </ExpandableListItem__ItemWrap>
+                              </ExpandableListItem>
+                            </ul>
+                          </ExpandableList>
+>>>>>>> 99f5c1286e... snapshots
                         </div>
                       </Row>
                     </Row>
@@ -7692,6 +9364,7 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                       <dl
                                         className="deflist"
                                       >
+<<<<<<< HEAD
                                         <dt>
                                           Version:
                                         </dt>
@@ -8131,6 +9804,67 @@ exports[`<ContentPackEdit /> should render with content pack for edit 1`] = `
                                     </ul>
                                   </ExpandableList>
 >>>>>>> 1634bb410f... snapshots
+=======
+                                        http://beinstein.com
+                                      </a>
+                                       
+                                    </dd>
+                                    <span>
+                                      <dt>
+                                        ID:
+                                      </dt>
+                                       
+                                      <dd>
+                                        <code>
+                                          9950ba5a-0887-40a9-2b8f-8b50292cc7fb
+                                        </code>
+                                      </dd>
+                                    </span>
+                                    <span>
+                                      <dt>
+                                        Parameters:
+                                      </dt>
+                                       
+                                      <dd>
+                                        1
+                                      </dd>
+                                    </span>
+                                    <span>
+                                      <dt>
+                                        Entities:
+                                      </dt>
+                                       
+                                      <dd>
+                                        1
+                                      </dd>
+                                    </span>
+                                  </dl>
+                                </div>
+                                <div>
+                                  <h2>
+                                    Description
+                                  </h2>
+                                  <br />
+                                  <Well>
+                                    <Well
+                                      bsClass="well"
+                                      className="Well-sc-19gs1oc-0 YXCuT"
+                                    >
+                                      <div
+                                        className="Well-sc-19gs1oc-0 YXCuT well"
+                                      >
+                                        <div
+                                          dangerouslySetInnerHTML={
+                                            Object {
+                                              "__html": "<h2 id=\\"no-one-dares\\">No one dares</h2>
+",
+                                            }
+                                          }
+                                        />
+                                      </div>
+                                    </Well>
+                                  </Well>
+>>>>>>> 99f5c1286e... snapshots
                                 </div>
                               </Col>
                             </div>

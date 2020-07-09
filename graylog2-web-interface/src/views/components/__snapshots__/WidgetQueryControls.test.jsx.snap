@@ -7,10 +7,14 @@ exports[`WidgetQueryControls should do something 1`] = `
   >
     <div
 <<<<<<< HEAD
+<<<<<<< HEAD
       class="Row-sc-3iisrt-0 TopRow-sc-1ysyhyx-0 gtbECE row"
 =======
       class="Row-sc-3iisrt-0 TopRow-sc-1ysyhyx-0 igHNcM row"
 >>>>>>> 1634bb410f... snapshots
+=======
+      class="TopRow-sc-1ysyhyx-0 efBeLI row"
+>>>>>>> 99f5c1286e... snapshots
     >
       <div
         class="col-md-4"
@@ -93,10 +97,14 @@ exports[`WidgetQueryControls should do something 1`] = `
             <span>
               <select
 <<<<<<< HEAD
+<<<<<<< HEAD
                 class="FormControl-sc-1amoaox-0 kmJcge relative form-control"
 =======
                 class="FormControl-sc-1amoaox-0 hBmgnF relative form-control"
 >>>>>>> 46caba27d0... snapshots
+=======
+                class="FormControl-sc-1amoaox-0 kmJcge relative form-control"
+>>>>>>> 99f5c1286e... snapshots
                 id="relative-timerange-selector"
                 label=""
                 name="timerange.range"
