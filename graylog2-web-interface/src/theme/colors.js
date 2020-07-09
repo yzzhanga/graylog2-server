@@ -32,6 +32,7 @@ type Colors = {
     background: string,
     backgroundDisabled: string,
     border: string,
+    borderFocus: string,
     boxShadow: string,
     color: string,
     colorDisabled: string,
