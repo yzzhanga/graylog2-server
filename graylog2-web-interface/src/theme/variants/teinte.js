@@ -80,6 +80,8 @@ const table = {
 
 /* eslint-disable prefer-destructuring */
 global.inputBackground = global.contentBackground;
+global.navigationBackground = global.contentBackground;
+global.navigationBoxShadow = chroma(gray[10]).alpha(0.1).css();
 /* eslint-enable prefer-destructuring */
 
 const teinte = {
