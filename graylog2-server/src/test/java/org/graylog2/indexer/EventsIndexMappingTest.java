@@ -36,7 +36,6 @@ import org.mockito.Mock;
 import org.mockito.junit.MockitoJUnit;
 import org.mockito.junit.MockitoRule;
 
-import java.util.Collections;
 import java.util.EnumSet;
 import java.util.Map;
 import java.util.Set;
@@ -127,13 +126,13 @@ public class EventsIndexMappingTest {
         final IndexMappingTemplate mapping = IndexMappingFactory.eventsIndexMappingFor(Version.valueOf("5.0.0"));
 
         assertJsonPath(mapping.toTemplate(indexSetConfig, "test_*"), at -> {
-            at.jsonPathAsString("$.template").isEqualTo("test_*");
+            at.jsonPathAsString("$.index_patterns").isEqualTo("test_*");
             at.jsonPathAsInteger("$.order").isEqualTo(-1);
             assertStandardMappingValues(at);
         });
 
         assertJsonPath(mapping.toTemplate(indexSetConfig, "test_*", 23), at -> {
-            at.jsonPathAsString("$.template").isEqualTo("test_*");
+            at.jsonPathAsString("$.index_patterns").isEqualTo("test_*");
             at.jsonPathAsInteger("$.order").isEqualTo(23);
             assertStandardMappingValues(at);
         });
@@ -144,13 +143,13 @@ public class EventsIndexMappingTest {
         final IndexMappingTemplate mapping = IndexMappingFactory.eventsIndexMappingFor(Version.valueOf("6.0.0"));
 
         assertJsonPath(mapping.toTemplate(indexSetConfig, "test_*"), at -> {
-            at.jsonPathAsListOf("$.index_patterns", String.class).isEqualTo(Collections.singletonList("test_*"));
+            at.jsonPathAsString("$.index_patterns").isEqualTo("test_*");
             at.jsonPathAsInteger("$.order").isEqualTo(-1);
             assertStandardMappingValues(at);
         });
 
         assertJsonPath(mapping.toTemplate(indexSetConfig, "test_*", 42), at -> {
-            at.jsonPathAsListOf("$.index_patterns", String.class).isEqualTo(Collections.singletonList("test_*"));
+            at.jsonPathAsString("$.index_patterns").isEqualTo("test_*");
             at.jsonPathAsInteger("$.order").isEqualTo(42);
             assertStandardMappingValues(at);
         });
