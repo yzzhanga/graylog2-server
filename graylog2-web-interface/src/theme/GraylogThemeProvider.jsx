@@ -1,9 +1,10 @@
 /* eslint-disable camelcase */
-import React, { useContext, useEffect, useState } from 'react';
+import React, { useContext, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { ThemeProvider } from 'styled-components';
 
 import { breakpoints, fonts, utils } from 'theme';
+import colors from 'theme/colors';
 import buttonStyles from 'components/graylog/styles/buttonStyles';
 import CombinedProvider from 'injection/CombinedProvider';
 import CustomizationContext from 'contexts/CustomizationContext';
@@ -13,45 +14,30 @@ import { CUSTOMIZATION_THEME_MODE, THEME_MODE_LIGHT } from './constants';
 
 const { CustomizationsActions } = CombinedProvider.get('Customizations');
 
-const loadTheme = (mode) => (
-  import(`theme/variants/${mode}.js`)
-    .then((modeColors) => {
-      return modeColors.default;
-    })
-    .catch((error) => {
-      console.error('loading colors failed: ', error);
-    })
-);
-
 const GraylogThemeProvider = ({ children }) => {
   useEffect(() => {
     CustomizationsActions.get(CUSTOMIZATION_THEME_MODE);
   }, []);
 
-  const [colors, setColors] = useState(null);
   const themeMode = useContext(CustomizationContext)[CUSTOMIZATION_THEME_MODE];
   const mode = themeMode?.theme_mode || THEME_MODE_LIGHT;
 
-  loadTheme(mode).then((modeColor) => {
-    setColors(modeColor);
-  });
-
-  if (!colors) { return null; }
+  if (!colors[mode]) { return null; }
 
   return (
     <ThemeProvider theme={{
       mode,
       breakpoints,
-      colors,
+      colors: colors[mode],
       fonts,
       components: {
-        button: buttonStyles({ colors }),
-        aceEditor: aceEditorStyles({ colors }),
+        button: buttonStyles({ colors: colors[mode] }),
+        aceEditor: aceEditorStyles({ colors: colors[mode] }),
       },
       utils: {
         ...utils,
-        colorLevel: utils.colorLevel(colors),
-        readableColor: utils.readableColor(colors),
+        colorLevel: utils.colorLevel(colors[mode]),
+        readableColor: utils.readableColor(colors[mode]),
       },
     }}>
       {children}
