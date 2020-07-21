@@ -11,8 +11,11 @@ type Colors = {
   global: {
     background: string,
     contentBackground: string,
+    inputBackground: string,
     link: string,
     linkHover: string,
+    navigationBackground: string,
+    navigationBoxShadow: string,
     textAlt: string,
     textDefault: string,
   },

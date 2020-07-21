@@ -104,13 +104,45 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: fa
                     <ForwardRef
                       id="refresh-options-dropdown"
                     >
+<<<<<<< HEAD
                       <Uncontrolled(Dropdown)
+=======
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                              "isStatic": false,
+                              "lastClassName": "kgykxw",
+                              "rules": Array [
+                                [Function],
+                              ],
+                            },
+                            "displayName": "DropdownButton__StyledDropdownButton",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+>>>>>>> header_sidebar_teinte
                         id="refresh-options-dropdown"
                         innerRef={null}
                       >
+<<<<<<< HEAD
                         <Dropdown
                           bsClass="dropdown"
                           componentClass={[Function]}
+=======
+                        <DropdownButton
+                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+>>>>>>> header_sidebar_teinte
                           id="refresh-options-dropdown"
                           onToggle={[Function]}
                         >
@@ -193,22 +225,54 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: fa
                                     className="dropdown-menu"
                                     role="menu"
                                   >
+<<<<<<< HEAD
                                     <MenuItem
                                       bsClass="dropdown"
                                       disabled={false}
                                       divider={false}
                                       header={false}
                                       key=".$RefreshControls-1 Second"
+=======
+                                    <DropdownToggle
+                                      bsClass="dropdown-toggle"
+                                      bsRole="toggle"
+                                      className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+                                      id="refresh-options-dropdown"
+                                      key=".0"
+>>>>>>> header_sidebar_teinte
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                       onSelect={[Function]}
                                     >
+<<<<<<< HEAD
                                       <li
                                         className=""
                                         role="presentation"
                                       >
                                         <SafeAnchor
                                           componentClass="a"
+=======
+                                      <Button
+                                        active={false}
+                                        aria-expanded={false}
+                                        aria-haspopup={true}
+                                        block={false}
+                                        bsClass="btn"
+                                        bsStyle="default"
+                                        className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle"
+                                        disabled={false}
+                                        id="refresh-options-dropdown"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        role="button"
+                                      >
+                                        <button
+                                          aria-expanded={false}
+                                          aria-haspopup={true}
+                                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle btn btn-default"
+                                          disabled={false}
+                                          id="refresh-options-dropdown"
+>>>>>>> header_sidebar_teinte
                                           onClick={[Function]}
                                           onKeyDown={[Function]}
                                           role="menuitem"
@@ -548,13 +612,45 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: fa
                     <ForwardRef
                       id="refresh-options-dropdown"
                     >
+<<<<<<< HEAD
                       <Uncontrolled(Dropdown)
+=======
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                              "isStatic": false,
+                              "lastClassName": "kgykxw",
+                              "rules": Array [
+                                [Function],
+                              ],
+                            },
+                            "displayName": "DropdownButton__StyledDropdownButton",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+>>>>>>> header_sidebar_teinte
                         id="refresh-options-dropdown"
                         innerRef={null}
                       >
+<<<<<<< HEAD
                         <Dropdown
                           bsClass="dropdown"
                           componentClass={[Function]}
+=======
+                        <DropdownButton
+                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+>>>>>>> header_sidebar_teinte
                           id="refresh-options-dropdown"
                           onToggle={[Function]}
                         >
@@ -637,22 +733,54 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: fa
                                     className="dropdown-menu"
                                     role="menu"
                                   >
+<<<<<<< HEAD
                                     <MenuItem
                                       bsClass="dropdown"
                                       disabled={false}
                                       divider={false}
                                       header={false}
                                       key=".$RefreshControls-1 Second"
+=======
+                                    <DropdownToggle
+                                      bsClass="dropdown-toggle"
+                                      bsRole="toggle"
+                                      className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+                                      id="refresh-options-dropdown"
+                                      key=".0"
+>>>>>>> header_sidebar_teinte
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                       onSelect={[Function]}
                                     >
+<<<<<<< HEAD
                                       <li
                                         className=""
                                         role="presentation"
                                       >
                                         <SafeAnchor
                                           componentClass="a"
+=======
+                                      <Button
+                                        active={false}
+                                        aria-expanded={false}
+                                        aria-haspopup={true}
+                                        block={false}
+                                        bsClass="btn"
+                                        bsStyle="default"
+                                        className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle"
+                                        disabled={false}
+                                        id="refresh-options-dropdown"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        role="button"
+                                      >
+                                        <button
+                                          aria-expanded={false}
+                                          aria-haspopup={true}
+                                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle btn btn-default"
+                                          disabled={false}
+                                          id="refresh-options-dropdown"
+>>>>>>> header_sidebar_teinte
                                           onClick={[Function]}
                                           onKeyDown={[Function]}
                                           role="menuitem"
@@ -1025,13 +1153,45 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                     <ForwardRef
                       id="refresh-options-dropdown"
                     >
+<<<<<<< HEAD
                       <Uncontrolled(Dropdown)
+=======
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                              "isStatic": false,
+                              "lastClassName": "kgykxw",
+                              "rules": Array [
+                                [Function],
+                              ],
+                            },
+                            "displayName": "DropdownButton__StyledDropdownButton",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+>>>>>>> header_sidebar_teinte
                         id="refresh-options-dropdown"
                         innerRef={null}
                       >
+<<<<<<< HEAD
                         <Dropdown
                           bsClass="dropdown"
                           componentClass={[Function]}
+=======
+                        <DropdownButton
+                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+>>>>>>> header_sidebar_teinte
                           id="refresh-options-dropdown"
                           onToggle={[Function]}
                         >
@@ -1127,22 +1287,54 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                                     className="dropdown-menu"
                                     role="menu"
                                   >
+<<<<<<< HEAD
                                     <MenuItem
                                       bsClass="dropdown"
                                       disabled={false}
                                       divider={false}
                                       header={false}
                                       key=".$RefreshControls-1 Second"
+=======
+                                    <DropdownToggle
+                                      bsClass="dropdown-toggle"
+                                      bsRole="toggle"
+                                      className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+                                      id="refresh-options-dropdown"
+                                      key=".0"
+>>>>>>> header_sidebar_teinte
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                       onSelect={[Function]}
                                     >
+<<<<<<< HEAD
                                       <li
                                         className=""
                                         role="presentation"
                                       >
                                         <SafeAnchor
                                           componentClass="a"
+=======
+                                      <Button
+                                        active={false}
+                                        aria-expanded={false}
+                                        aria-haspopup={true}
+                                        block={false}
+                                        bsClass="btn"
+                                        bsStyle="default"
+                                        className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle"
+                                        disabled={false}
+                                        id="refresh-options-dropdown"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        role="button"
+                                      >
+                                        <button
+                                          aria-expanded={false}
+                                          aria-haspopup={true}
+                                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle btn btn-default"
+                                          disabled={false}
+                                          id="refresh-options-dropdown"
+>>>>>>> header_sidebar_teinte
                                           onClick={[Function]}
                                           onKeyDown={[Function]}
                                           role="menuitem"
@@ -1515,13 +1707,45 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                     <ForwardRef
                       id="refresh-options-dropdown"
                     >
+<<<<<<< HEAD
                       <Uncontrolled(Dropdown)
+=======
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                              "isStatic": false,
+                              "lastClassName": "kgykxw",
+                              "rules": Array [
+                                [Function],
+                              ],
+                            },
+                            "displayName": "DropdownButton__StyledDropdownButton",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+>>>>>>> header_sidebar_teinte
                         id="refresh-options-dropdown"
                         innerRef={null}
                       >
+<<<<<<< HEAD
                         <Dropdown
                           bsClass="dropdown"
                           componentClass={[Function]}
+=======
+                        <DropdownButton
+                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+>>>>>>> header_sidebar_teinte
                           id="refresh-options-dropdown"
                           onToggle={[Function]}
                         >
@@ -1617,22 +1841,54 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                                     className="dropdown-menu"
                                     role="menu"
                                   >
+<<<<<<< HEAD
                                     <MenuItem
                                       bsClass="dropdown"
                                       disabled={false}
                                       divider={false}
                                       header={false}
                                       key=".$RefreshControls-1 Second"
+=======
+                                    <DropdownToggle
+                                      bsClass="dropdown-toggle"
+                                      bsRole="toggle"
+                                      className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+                                      id="refresh-options-dropdown"
+                                      key=".0"
+>>>>>>> header_sidebar_teinte
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                       onSelect={[Function]}
                                     >
+<<<<<<< HEAD
                                       <li
                                         className=""
                                         role="presentation"
                                       >
                                         <SafeAnchor
                                           componentClass="a"
+=======
+                                      <Button
+                                        active={false}
+                                        aria-expanded={false}
+                                        aria-haspopup={true}
+                                        block={false}
+                                        bsClass="btn"
+                                        bsStyle="default"
+                                        className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle"
+                                        disabled={false}
+                                        id="refresh-options-dropdown"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        role="button"
+                                      >
+                                        <button
+                                          aria-expanded={false}
+                                          aria-haspopup={true}
+                                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle btn btn-default"
+                                          disabled={false}
+                                          id="refresh-options-dropdown"
+>>>>>>> header_sidebar_teinte
                                           onClick={[Function]}
                                           onKeyDown={[Function]}
                                           role="menuitem"
@@ -2005,13 +2261,45 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                     <ForwardRef
                       id="refresh-options-dropdown"
                     >
+<<<<<<< HEAD
                       <Uncontrolled(Dropdown)
+=======
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                              "isStatic": false,
+                              "lastClassName": "kgykxw",
+                              "rules": Array [
+                                [Function],
+                              ],
+                            },
+                            "displayName": "DropdownButton__StyledDropdownButton",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+>>>>>>> header_sidebar_teinte
                         id="refresh-options-dropdown"
                         innerRef={null}
                       >
+<<<<<<< HEAD
                         <Dropdown
                           bsClass="dropdown"
                           componentClass={[Function]}
+=======
+                        <DropdownButton
+                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+>>>>>>> header_sidebar_teinte
                           id="refresh-options-dropdown"
                           onToggle={[Function]}
                         >
@@ -2107,22 +2395,54 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                                     className="dropdown-menu"
                                     role="menu"
                                   >
+<<<<<<< HEAD
                                     <MenuItem
                                       bsClass="dropdown"
                                       disabled={false}
                                       divider={false}
                                       header={false}
                                       key=".$RefreshControls-1 Second"
+=======
+                                    <DropdownToggle
+                                      bsClass="dropdown-toggle"
+                                      bsRole="toggle"
+                                      className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+                                      id="refresh-options-dropdown"
+                                      key=".0"
+>>>>>>> header_sidebar_teinte
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                       onSelect={[Function]}
                                     >
+<<<<<<< HEAD
                                       <li
                                         className=""
                                         role="presentation"
                                       >
                                         <SafeAnchor
                                           componentClass="a"
+=======
+                                      <Button
+                                        active={false}
+                                        aria-expanded={false}
+                                        aria-haspopup={true}
+                                        block={false}
+                                        bsClass="btn"
+                                        bsStyle="default"
+                                        className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle"
+                                        disabled={false}
+                                        id="refresh-options-dropdown"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        role="button"
+                                      >
+                                        <button
+                                          aria-expanded={false}
+                                          aria-haspopup={true}
+                                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle btn btn-default"
+                                          disabled={false}
+                                          id="refresh-options-dropdown"
+>>>>>>> header_sidebar_teinte
                                           onClick={[Function]}
                                           onKeyDown={[Function]}
                                           role="menuitem"
@@ -2495,13 +2815,45 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                     <ForwardRef
                       id="refresh-options-dropdown"
                     >
+<<<<<<< HEAD
                       <Uncontrolled(Dropdown)
+=======
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                              "isStatic": false,
+                              "lastClassName": "kgykxw",
+                              "rules": Array [
+                                [Function],
+                              ],
+                            },
+                            "displayName": "DropdownButton__StyledDropdownButton",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+>>>>>>> header_sidebar_teinte
                         id="refresh-options-dropdown"
                         innerRef={null}
                       >
+<<<<<<< HEAD
                         <Dropdown
                           bsClass="dropdown"
                           componentClass={[Function]}
+=======
+                        <DropdownButton
+                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+>>>>>>> header_sidebar_teinte
                           id="refresh-options-dropdown"
                           onToggle={[Function]}
                         >
@@ -2597,22 +2949,54 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                                     className="dropdown-menu"
                                     role="menu"
                                   >
+<<<<<<< HEAD
                                     <MenuItem
                                       bsClass="dropdown"
                                       disabled={false}
                                       divider={false}
                                       header={false}
                                       key=".$RefreshControls-1 Second"
+=======
+                                    <DropdownToggle
+                                      bsClass="dropdown-toggle"
+                                      bsRole="toggle"
+                                      className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+                                      id="refresh-options-dropdown"
+                                      key=".0"
+>>>>>>> header_sidebar_teinte
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                       onSelect={[Function]}
                                     >
+<<<<<<< HEAD
                                       <li
                                         className=""
                                         role="presentation"
                                       >
                                         <SafeAnchor
                                           componentClass="a"
+=======
+                                      <Button
+                                        active={false}
+                                        aria-expanded={false}
+                                        aria-haspopup={true}
+                                        block={false}
+                                        bsClass="btn"
+                                        bsStyle="default"
+                                        className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle"
+                                        disabled={false}
+                                        id="refresh-options-dropdown"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        role="button"
+                                      >
+                                        <button
+                                          aria-expanded={false}
+                                          aria-haspopup={true}
+                                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle btn btn-default"
+                                          disabled={false}
+                                          id="refresh-options-dropdown"
+>>>>>>> header_sidebar_teinte
                                           onClick={[Function]}
                                           onKeyDown={[Function]}
                                           role="menuitem"
@@ -2985,13 +3369,45 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                     <ForwardRef
                       id="refresh-options-dropdown"
                     >
+<<<<<<< HEAD
                       <Uncontrolled(Dropdown)
+=======
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                              "isStatic": false,
+                              "lastClassName": "kgykxw",
+                              "rules": Array [
+                                [Function],
+                              ],
+                            },
+                            "displayName": "DropdownButton__StyledDropdownButton",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+>>>>>>> header_sidebar_teinte
                         id="refresh-options-dropdown"
                         innerRef={null}
                       >
+<<<<<<< HEAD
                         <Dropdown
                           bsClass="dropdown"
                           componentClass={[Function]}
+=======
+                        <DropdownButton
+                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+>>>>>>> header_sidebar_teinte
                           id="refresh-options-dropdown"
                           onToggle={[Function]}
                         >
@@ -3087,22 +3503,54 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                                     className="dropdown-menu"
                                     role="menu"
                                   >
+<<<<<<< HEAD
                                     <MenuItem
                                       bsClass="dropdown"
                                       disabled={false}
                                       divider={false}
                                       header={false}
                                       key=".$RefreshControls-1 Second"
+=======
+                                    <DropdownToggle
+                                      bsClass="dropdown-toggle"
+                                      bsRole="toggle"
+                                      className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+                                      id="refresh-options-dropdown"
+                                      key=".0"
+>>>>>>> header_sidebar_teinte
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                       onSelect={[Function]}
                                     >
+<<<<<<< HEAD
                                       <li
                                         className=""
                                         role="presentation"
                                       >
                                         <SafeAnchor
                                           componentClass="a"
+=======
+                                      <Button
+                                        active={false}
+                                        aria-expanded={false}
+                                        aria-haspopup={true}
+                                        block={false}
+                                        bsClass="btn"
+                                        bsStyle="default"
+                                        className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle"
+                                        disabled={false}
+                                        id="refresh-options-dropdown"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        role="button"
+                                      >
+                                        <button
+                                          aria-expanded={false}
+                                          aria-haspopup={true}
+                                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle btn btn-default"
+                                          disabled={false}
+                                          id="refresh-options-dropdown"
+>>>>>>> header_sidebar_teinte
                                           onClick={[Function]}
                                           onKeyDown={[Function]}
                                           role="menuitem"
@@ -3475,13 +3923,45 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                     <ForwardRef
                       id="refresh-options-dropdown"
                     >
+<<<<<<< HEAD
                       <Uncontrolled(Dropdown)
+=======
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                              "isStatic": false,
+                              "lastClassName": "kgykxw",
+                              "rules": Array [
+                                [Function],
+                              ],
+                            },
+                            "displayName": "DropdownButton__StyledDropdownButton",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+>>>>>>> header_sidebar_teinte
                         id="refresh-options-dropdown"
                         innerRef={null}
                       >
+<<<<<<< HEAD
                         <Dropdown
                           bsClass="dropdown"
                           componentClass={[Function]}
+=======
+                        <DropdownButton
+                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+>>>>>>> header_sidebar_teinte
                           id="refresh-options-dropdown"
                           onToggle={[Function]}
                         >
@@ -3531,6 +4011,7 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                                     role="button"
                                     type="button"
                                   >
+<<<<<<< HEAD
                                     <RefreshControls__ButtonLabel>
                                       <div
                                         className="RefreshControls__ButtonLabel-sc-1pygk8n-2 eWVOVO"
@@ -3583,16 +4064,47 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                                       divider={false}
                                       header={false}
                                       key=".$RefreshControls-1 Second"
+=======
+                                    <DropdownToggle
+                                      bsClass="dropdown-toggle"
+                                      bsRole="toggle"
+                                      className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+                                      id="refresh-options-dropdown"
+                                      key=".0"
+>>>>>>> header_sidebar_teinte
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                       onSelect={[Function]}
                                     >
+<<<<<<< HEAD
                                       <li
                                         className=""
                                         role="presentation"
                                       >
                                         <SafeAnchor
                                           componentClass="a"
+=======
+                                      <Button
+                                        active={false}
+                                        aria-expanded={false}
+                                        aria-haspopup={true}
+                                        block={false}
+                                        bsClass="btn"
+                                        bsStyle="default"
+                                        className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle"
+                                        disabled={false}
+                                        id="refresh-options-dropdown"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        role="button"
+                                      >
+                                        <button
+                                          aria-expanded={false}
+                                          aria-haspopup={true}
+                                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle btn btn-default"
+                                          disabled={false}
+                                          id="refresh-options-dropdown"
+>>>>>>> header_sidebar_teinte
                                           onClick={[Function]}
                                           onKeyDown={[Function]}
                                           role="menuitem"
@@ -3965,13 +4477,45 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                     <ForwardRef
                       id="refresh-options-dropdown"
                     >
+<<<<<<< HEAD
                       <Uncontrolled(Dropdown)
+=======
+                      <StyledComponent
+                        forwardedComponent={
+                          Object {
+                            "$$typeof": Symbol(react.forward_ref),
+                            "attrs": Array [],
+                            "componentStyle": ComponentStyle {
+                              "componentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                              "isStatic": false,
+                              "lastClassName": "kgykxw",
+                              "rules": Array [
+                                [Function],
+                              ],
+                            },
+                            "displayName": "DropdownButton__StyledDropdownButton",
+                            "foldedComponentIds": Array [],
+                            "render": [Function],
+                            "styledComponentId": "DropdownButton__StyledDropdownButton-sc-1343dcx-0",
+                            "target": [Function],
+                            "toString": [Function],
+                            "warnTooManyClasses": [Function],
+                            "withComponent": [Function],
+                          }
+                        }
+                        forwardedRef={null}
+>>>>>>> header_sidebar_teinte
                         id="refresh-options-dropdown"
                         innerRef={null}
                       >
+<<<<<<< HEAD
                         <Dropdown
                           bsClass="dropdown"
                           componentClass={[Function]}
+=======
+                        <DropdownButton
+                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+>>>>>>> header_sidebar_teinte
                           id="refresh-options-dropdown"
                           onToggle={[Function]}
                         >
@@ -4067,22 +4611,54 @@ exports[`RefreshControls rendering it renders refresh controlls with enabled: tr
                                     className="dropdown-menu"
                                     role="menu"
                                   >
+<<<<<<< HEAD
                                     <MenuItem
                                       bsClass="dropdown"
                                       disabled={false}
                                       divider={false}
                                       header={false}
                                       key=".$RefreshControls-1 Second"
+=======
+                                    <DropdownToggle
+                                      bsClass="dropdown-toggle"
+                                      bsRole="toggle"
+                                      className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw"
+                                      id="refresh-options-dropdown"
+                                      key=".0"
+>>>>>>> header_sidebar_teinte
                                       onClick={[Function]}
                                       onKeyDown={[Function]}
                                       onSelect={[Function]}
                                     >
+<<<<<<< HEAD
                                       <li
                                         className=""
                                         role="presentation"
                                       >
                                         <SafeAnchor
                                           componentClass="a"
+=======
+                                      <Button
+                                        active={false}
+                                        aria-expanded={false}
+                                        aria-haspopup={true}
+                                        block={false}
+                                        bsClass="btn"
+                                        bsStyle="default"
+                                        className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle"
+                                        disabled={false}
+                                        id="refresh-options-dropdown"
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        role="button"
+                                      >
+                                        <button
+                                          aria-expanded={false}
+                                          aria-haspopup={true}
+                                          className="DropdownButton__StyledDropdownButton-sc-1343dcx-0 kgykxw dropdown-toggle btn btn-default"
+                                          disabled={false}
+                                          id="refresh-options-dropdown"
+>>>>>>> header_sidebar_teinte
                                           onClick={[Function]}
                                           onKeyDown={[Function]}
                                           role="menuitem"
