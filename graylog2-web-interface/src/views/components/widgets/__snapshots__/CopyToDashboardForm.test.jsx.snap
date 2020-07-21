@@ -93,6 +93,7 @@ exports[`CopyToDashboardForm should render the modal minimal 1`] = `
                   <select
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class="FormControl-sc-1amoaox-0 kmJcge form-control input-sm"
 =======
                     class="FormControl-sc-1amoaox-0 hBmgnF form-control input-sm"
@@ -100,6 +101,9 @@ exports[`CopyToDashboardForm should render the modal minimal 1`] = `
 =======
                     class="FormControl-sc-1amoaox-0 kmJcge form-control input-sm"
 >>>>>>> 99f5c1286e... snapshots
+=======
+                    class="FormControl-sc-1amoaox-0 hBmgnF form-control input-sm"
+>>>>>>> input_styles
                     id="page-size"
                     label="Show:"
                     name="page-size"
@@ -250,6 +254,7 @@ exports[`CopyToDashboardForm should render the modal with entries 1`] = `
                   <select
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class="FormControl-sc-1amoaox-0 kmJcge form-control input-sm"
 =======
                     class="FormControl-sc-1amoaox-0 hBmgnF form-control input-sm"
@@ -257,6 +262,9 @@ exports[`CopyToDashboardForm should render the modal with entries 1`] = `
 =======
                     class="FormControl-sc-1amoaox-0 kmJcge form-control input-sm"
 >>>>>>> 99f5c1286e... snapshots
+=======
+                    class="FormControl-sc-1amoaox-0 hBmgnF form-control input-sm"
+>>>>>>> input_styles
                     id="page-size"
                     label="Show:"
                     name="page-size"

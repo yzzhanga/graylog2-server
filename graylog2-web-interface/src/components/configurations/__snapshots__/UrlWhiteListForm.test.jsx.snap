@@ -1638,8 +1638,11 @@ exports[`UrlWhitelistForm render the UrlWhitelistForm component should create ne
                                               <div
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 className="css-1hio1c"
 =======
+=======
+>>>>>>> input_styles
                                                 className="css-ghr2vn-control"
                                                 onMouseDown={[Function]}
                                                 onTouchEnd={[Function]}
@@ -3913,8 +3916,11 @@ exports[`UrlWhitelistForm render the UrlWhitelistForm component should create ne
                                               <div
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 className="css-1wy0on6"
 =======
+=======
+>>>>>>> input_styles
                                                 className="css-ghr2vn-control"
                                                 onMouseDown={[Function]}
                                                 onTouchEnd={[Function]}
@@ -8874,8 +8880,11 @@ exports[`UrlWhitelistForm render the UrlWhitelistForm component should create ne
                                               <div
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                                                 className="css-1wy0on6"
 =======
+=======
+>>>>>>> input_styles
                                                 className="css-ghr2vn-control"
                                                 onMouseDown={[Function]}
                                                 onTouchEnd={[Function]}

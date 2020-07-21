@@ -198,6 +198,7 @@ exports[`SavedSearchList render the SavedSearchList should render with views 1`]
                   <select
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                     class="FormControl-sc-1amoaox-0 kmJcge form-control input-sm"
 =======
                     class="FormControl-sc-1amoaox-0 hBmgnF form-control input-sm"
@@ -205,6 +206,9 @@ exports[`SavedSearchList render the SavedSearchList should render with views 1`]
 =======
                     class="FormControl-sc-1amoaox-0 kmJcge form-control input-sm"
 >>>>>>> 99f5c1286e... snapshots
+=======
+                    class="FormControl-sc-1amoaox-0 hBmgnF form-control input-sm"
+>>>>>>> input_styles
                     id="page-size"
                     label="Show:"
                     name="page-size"

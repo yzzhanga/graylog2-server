@@ -80,7 +80,11 @@ Object {
                         </label>
                         <span>
                           <select
+<<<<<<< HEAD
                             class="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                            class="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> input_styles
                             data-testid="rule-type-selection"
                             id="Type"
                             label="Type"
@@ -144,7 +148,11 @@ Object {
                         </label>
                         <span>
                           <input
+<<<<<<< HEAD
                             class="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                            class="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> input_styles
                             id="Value"
                             label="Value"
                             name="value"
@@ -190,7 +198,11 @@ Object {
                         </label>
                         <span>
                           <textarea
+<<<<<<< HEAD
                             class="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                            class="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> input_styles
                             id="Description"
                             label="Description (optional)"
                             name="description"
@@ -415,7 +427,11 @@ Object {
                         </label>
                         <span>
                           <select
+<<<<<<< HEAD
                             class="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                            class="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> input_styles
                             data-testid="rule-type-selection"
                             id="Type"
                             label="Type"
@@ -479,7 +495,11 @@ Object {
                         </label>
                         <span>
                           <input
+<<<<<<< HEAD
                             class="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                            class="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> input_styles
                             id="Value"
                             label="Value"
                             name="value"
@@ -525,7 +545,11 @@ Object {
                         </label>
                         <span>
                           <textarea
+<<<<<<< HEAD
                             class="FormControl-sc-1amoaox-0 kmJcge form-control"
+=======
+                            class="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> input_styles
                             id="Description"
                             label="Description (optional)"
                             name="description"

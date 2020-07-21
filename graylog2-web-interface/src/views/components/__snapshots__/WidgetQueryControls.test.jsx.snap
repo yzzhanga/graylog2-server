@@ -98,6 +98,7 @@ exports[`WidgetQueryControls should do something 1`] = `
               <select
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                 class="FormControl-sc-1amoaox-0 kmJcge relative form-control"
 =======
                 class="FormControl-sc-1amoaox-0 hBmgnF relative form-control"
@@ -105,6 +106,9 @@ exports[`WidgetQueryControls should do something 1`] = `
 =======
                 class="FormControl-sc-1amoaox-0 kmJcge relative form-control"
 >>>>>>> 99f5c1286e... snapshots
+=======
+                class="FormControl-sc-1amoaox-0 hBmgnF relative form-control"
+>>>>>>> input_styles
                 id="relative-timerange-selector"
                 label=""
                 name="timerange.range"

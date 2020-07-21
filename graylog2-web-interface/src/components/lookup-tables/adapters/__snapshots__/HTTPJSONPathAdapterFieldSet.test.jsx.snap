@@ -18,6 +18,7 @@ exports[`HTTPJSONPathAdapterFieldSet should render the field set 1`] = `
         <input
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           class="FormControl-sc-1amoaox-0 kmJcge form-control"
 =======
           class="FormControl-sc-1amoaox-0 hBmgnF form-control"
@@ -25,6 +26,9 @@ exports[`HTTPJSONPathAdapterFieldSet should render the field set 1`] = `
 =======
           class="FormControl-sc-1amoaox-0 kmJcge form-control"
 >>>>>>> 99f5c1286e... snapshots
+=======
+          class="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> input_styles
           id="url"
           label="Lookup URL"
           name="url"
@@ -57,6 +61,7 @@ exports[`HTTPJSONPathAdapterFieldSet should render the field set 1`] = `
         <input
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           class="FormControl-sc-1amoaox-0 kmJcge form-control"
 =======
           class="FormControl-sc-1amoaox-0 hBmgnF form-control"
@@ -64,6 +69,9 @@ exports[`HTTPJSONPathAdapterFieldSet should render the field set 1`] = `
 =======
           class="FormControl-sc-1amoaox-0 kmJcge form-control"
 >>>>>>> 99f5c1286e... snapshots
+=======
+          class="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> input_styles
           id="single_value_jsonpath"
           label="Single value JSONPath"
           name="single_value_jsonpath"
@@ -90,6 +98,7 @@ exports[`HTTPJSONPathAdapterFieldSet should render the field set 1`] = `
         <input
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           class="FormControl-sc-1amoaox-0 kmJcge form-control"
 =======
           class="FormControl-sc-1amoaox-0 hBmgnF form-control"
@@ -97,6 +106,9 @@ exports[`HTTPJSONPathAdapterFieldSet should render the field set 1`] = `
 =======
           class="FormControl-sc-1amoaox-0 kmJcge form-control"
 >>>>>>> 99f5c1286e... snapshots
+=======
+          class="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> input_styles
           id="multi_value_jsonpath"
           label="Multi value JSONPath"
           name="multi_value_jsonpath"
@@ -122,6 +134,7 @@ exports[`HTTPJSONPathAdapterFieldSet should render the field set 1`] = `
         <input
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
           class="FormControl-sc-1amoaox-0 kmJcge form-control"
 =======
           class="FormControl-sc-1amoaox-0 hBmgnF form-control"
@@ -129,6 +142,9 @@ exports[`HTTPJSONPathAdapterFieldSet should render the field set 1`] = `
 =======
           class="FormControl-sc-1amoaox-0 kmJcge form-control"
 >>>>>>> 99f5c1286e... snapshots
+=======
+          class="FormControl-sc-1amoaox-0 hBmgnF form-control"
+>>>>>>> input_styles
           id="user_agent"
           label="HTTP User-Agent"
           name="user_agent"
@@ -207,6 +223,7 @@ exports[`HTTPJSONPathAdapterFieldSet should render the field set 1`] = `
                         <input
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                           class="FormControl-sc-1amoaox-0 kmJcge form-control input-sm"
 =======
                           class="FormControl-sc-1amoaox-0 hBmgnF form-control input-sm"
@@ -214,6 +231,9 @@ exports[`HTTPJSONPathAdapterFieldSet should render the field set 1`] = `
 =======
                           class="FormControl-sc-1amoaox-0 kmJcge form-control input-sm"
 >>>>>>> 99f5c1286e... snapshots
+=======
+                          class="FormControl-sc-1amoaox-0 hBmgnF form-control input-sm"
+>>>>>>> input_styles
                           data-testid="newKey"
                           id="newKey"
                           label=""
@@ -235,6 +255,7 @@ exports[`HTTPJSONPathAdapterFieldSet should render the field set 1`] = `
                         <input
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
                           class="FormControl-sc-1amoaox-0 kmJcge form-control input-sm"
 =======
                           class="FormControl-sc-1amoaox-0 hBmgnF form-control input-sm"
@@ -242,6 +263,9 @@ exports[`HTTPJSONPathAdapterFieldSet should render the field set 1`] = `
 =======
                           class="FormControl-sc-1amoaox-0 kmJcge form-control input-sm"
 >>>>>>> 99f5c1286e... snapshots
+=======
+                          class="FormControl-sc-1amoaox-0 hBmgnF form-control input-sm"
+>>>>>>> input_styles
                           data-testid="newValue"
                           id="newValue"
                           label=""
