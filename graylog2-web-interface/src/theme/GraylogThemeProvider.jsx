@@ -7,6 +7,7 @@ import { breakpoints, fonts, utils } from 'theme';
 import buttonStyles from 'components/graylog/styles/buttonStyles';
 import CombinedProvider from 'injection/CombinedProvider';
 import CustomizationContext from 'contexts/CustomizationContext';
+import aceEditorStyles from 'components/graylog/styles/aceEditorStyles';
 
 import { CUSTOMIZATION_THEME_MODE, THEME_MODE_LIGHT } from './constants';
 
@@ -45,6 +46,7 @@ const GraylogThemeProvider = ({ children }) => {
       fonts,
       components: {
         button: buttonStyles({ colors }),
+        aceEditor: aceEditorStyles({ colors }),
       },
       utils: {
         ...utils,
